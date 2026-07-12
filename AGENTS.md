@@ -1,6 +1,15 @@
 # Repository Instructions
 
-This repository is a personal IELTS Speaking second brain.
+This repository is a personal IELTS Speaking second brain. `PROJECT_PLAN.md` is the project-level direction document and should guide future structural changes.
+
+## Responsibility Boundaries
+
+- ChatGPT is the language mentor and knowledge architect. It understands, corrects, extracts, classifies, and creates knowledge nodes.
+- GitHub is the permanent memory system. It stores Markdown knowledge, history, and website source content.
+- GitHub Pages is the visualization layer. It displays search, review, timeline, cards, and dashboards.
+- Codex is the repository manager. It edits files, maintains structure, regenerates indexes and website data, commits, and pushes when allowed.
+
+Do not let automation replace the understanding step. Scripts should organize AI-created knowledge; they should not pretend to understand the conversation on their own.
 
 ## Core Principle
 
@@ -29,6 +38,7 @@ Do not treat sessions as isolated notes. Every useful item should become a reusa
 - Put reusable multi-sentence speaking responses in `Response_Bank/`.
 - Put reusable personal stories in `Personal_Stories/`.
 - Regenerate `indexes/` and `Review_System/due/` with scripts instead of editing them manually.
+- Keep `PROJECT_PLAN.md` updated when the long-term architecture changes.
 
 ## Automation Rules
 
@@ -38,6 +48,8 @@ Run these after adding a new session:
 python scripts/process_session.py inbox/<session-file>.md
 python scripts/build_indexes.py
 python scripts/build_review.py
+python scripts/build_dashboard.py
+python scripts/build_site.py
 ```
 
 Before committing, check that generated nodes contain:

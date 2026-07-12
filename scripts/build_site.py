@@ -175,7 +175,7 @@ def write_static_assets() -> None:
     <div>
       <p class="eyebrow">IELTS Speaking Second Brain</p>
       <h1>The Second Language Brain</h1>
-      <p class="lede">Review what is due, explore reusable responses, expressions, and topics, then grow your personal English ability tree.</p>
+      <p class="lede">An AI-assisted English growth system: ChatGPT creates knowledge, GitHub stores memory, Codex maintains structure, and this site visualizes review.</p>
     </div>
     <a class="github-link" href="https://github.com/baileykv75-netizen/The-second-language-brain">GitHub</a>
   </header>

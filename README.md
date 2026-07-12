@@ -5,6 +5,7 @@ A personal IELTS Speaking knowledge tree. Open this page like a learning app: re
 ## Start Here
 
 - Mobile app view: [GitHub Pages](https://baileykv75-netizen.github.io/The-second-language-brain/)
+- Project plan: [PROJECT_PLAN.md](PROJECT_PLAN.md)
 - Today's review: [2026-07-12](Review_System/due/2026-07-12.md)
 - Add a new structured session: [inbox/](inbox/)
 - Session template: [templates/session_template.md](templates/session_template.md)

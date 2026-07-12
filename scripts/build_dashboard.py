@@ -125,6 +125,7 @@ def build(root: Path = ROOT) -> None:
         "## Start Here",
         "",
         "- Mobile app view: [GitHub Pages](https://baileykv75-netizen.github.io/The-second-language-brain/)",
+        "- Project plan: [PROJECT_PLAN.md](PROJECT_PLAN.md)",
         f"- Today's review: [{Path(today_review).stem if due_file else 'Review folder'}]({today_review})",
         "- Add a new structured session: [inbox/](inbox/)",
         "- Session template: [templates/session_template.md](templates/session_template.md)",

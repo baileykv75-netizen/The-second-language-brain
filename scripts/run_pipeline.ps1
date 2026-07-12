@@ -33,7 +33,9 @@ if (-not $Python) {
 $ProcessScript = Join-Path $RepoRoot "scripts\process_session.py"
 $IndexScript = Join-Path $RepoRoot "scripts\build_indexes.py"
 $ReviewScript = Join-Path $RepoRoot "scripts\build_review.py"
+$DashboardScript = Join-Path $RepoRoot "scripts\build_dashboard.py"
 
 & $Python $ProcessScript $SessionFile
 & $Python $IndexScript
 & $Python $ReviewScript
+& $Python $DashboardScript

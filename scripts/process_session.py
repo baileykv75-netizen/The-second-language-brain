@@ -256,9 +256,11 @@ def process(input_path: Path) -> None:
 
     import build_indexes
     import build_review
+    import build_dashboard
 
     build_indexes.build(ROOT)
     build_review.build(ROOT, created)
+    build_dashboard.build(ROOT)
     print(f"Processed session: {session_path.relative_to(ROOT)}")
 
 
@@ -275,4 +277,3 @@ def main(argv: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv))
-

@@ -1,93 +1,98 @@
 # The Second Language Brain
 
-Personal IELTS Speaking knowledge tree for building a long-term English expression system.
+A personal IELTS Speaking knowledge tree. Open this page like a learning app: review first, then browse topics, skills, vocabulary, expressions, and sessions.
 
-This repository is not an answer bank. It turns every speaking practice session into connected knowledge nodes:
+## Start Here
 
-- high-scoring IELTS expressions
-- personal stories
-- vocabulary
-- grammar mistakes
-- pronunciation notes
-- topic links
-- speaking skill links
-- spaced review tasks
+- Today's review: [2026-07-12](Review_System/due/2026-07-12.md)
+- Add a new structured session: [inbox/](inbox/)
+- Session template: [templates/session_template.md](templates/session_template.md)
+- Full session history: [indexes/sessions.md](indexes/sessions.md)
 
-## Daily Workflow
+## Quick Stats
 
-1. Finish an IELTS Speaking practice session.
-2. Ask ChatGPT to produce a structured session summary.
-3. Save the summary in `inbox/`, for example:
+- Sessions: 1
+- Vocabulary nodes: 4
+- Grammar mistakes: 1
+- Expressions: 1
+- Personal stories: 1
 
-   ```text
-   inbox/2026-07-12_AI_Game_Ideas.md
-   ```
+## Main Entrances
 
-4. Process the session:
+| Area | Open |
+| --- | --- |
+| Review | [Due list](Review_System/due/2026-07-12.md) |
+| Topics | [Topic tree](IELTS_Topics/) |
+| Skills | [Skill tree](Skill_Tree/) |
+| Vocabulary | [Vocabulary index](indexes/vocabulary.md) |
+| Grammar mistakes | [Mistake log](indexes/mistakes.md) |
+| Expressions | [Expression bank](indexes/expressions.md) |
+| Personal stories | [Story bank](indexes/personal_stories.md) |
 
-   ```powershell
-   python scripts/process_session.py inbox/2026-07-12_AI_Game_Ideas.md
-   ```
+## Latest Sessions
 
-   On Windows, you can also use the helper script. It will use system Python if available, otherwise it will try the bundled Codex Python runtime:
+- [AI Game Ideas](Daily_Sessions/2026-07-12_ai_game_ideas.md)
 
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File .\scripts\run_pipeline.ps1 inbox\2026-07-12_AI_Game_Ideas.md
-   ```
+## Topic Tree
 
-5. Rebuild indexes and review lists if needed:
+- [Culture](indexes/topic_culture.md)
+- [Environment](indexes/topic_environment.md)
+- [Games](indexes/topic_games.md)
+- [Opinion Questions](indexes/topic_opinion_questions.md)
+- [People](indexes/topic_people.md)
+- [Philosophy](indexes/topic_philosophy.md)
+- [Places](indexes/topic_places.md)
+- [Society](indexes/topic_society.md)
+- [Technology](indexes/topic_technology.md)
+- [Travel](indexes/topic_travel.md)
+- [Unexpected Experience](indexes/topic_unexpected_experience.md)
 
-   ```powershell
-   python scripts/build_indexes.py
-python scripts/build_review.py
-```
+## Speaking Skill Tree
 
-6. Review the generated files under:
+- [Describe Systems](indexes/skill_describe_systems.md)
+- [Explain Reasons](indexes/skill_explain_reasons.md)
+- [Express Personal Opinions](indexes/skill_express_personal_opinions.md)
 
-   - `Daily_Sessions/`
-   - `Skill_Tree/`
-   - `Expression_Bank/`
-   - `Mistake_Log/`
-   - `Review_System/due/`
-   - `indexes/`
+## Recent Vocabulary
 
-7. Commit and push the changes to GitHub.
+- [Adapt](Skill_Tree/Vocabulary/adapt.md)
+- [Herbivore](Skill_Tree/Vocabulary/herbivore.md)
+- [Spawn](Skill_Tree/Vocabulary/spawn.md)
+- [Thrive](Skill_Tree/Vocabulary/thrive.md)
 
-## Content Policy
+## Recent Grammar Mistakes
 
-- English is used for model answers, examples, expressions, and speaking output.
-- Chinese is used for grammar explanations, review notes, and maintenance rules.
-- Scripts organize and link your material. They do not rewrite your ideas.
+- [The winner can get the resource and survive.](Mistake_Log/2026-07-12_grammar_1.md)
 
-## Knowledge Node Metadata
+## Expression Bank
 
-Every generated knowledge node uses YAML-like front matter:
+- [Two-sided system view](Expression_Bank/two_sided_system_view.md)
 
-```yaml
----
-id: vocab_spawn_20260712
-type: vocabulary
-title: spawn
-created: 2026-07-12
-source_session: session_20260712_ai_game_ideas
-topics: [Technology, Games, Environment]
-skills: [Explain Reasons, Describe Systems]
-related: [ecosystem, adapt, thrive]
-review:
-  status: new
-  next_due: 2026-07-13
-  interval_days: 1
----
-```
+## Personal Stories
 
-The metadata lets the repository behave like a knowledge graph, not just a folder of notes.
+- [Zhejiang travel experience](Personal_Stories/zhejiang_travel_experience.md)
 
-## Review System
+## How To Update This Brain
 
-The first version uses fixed spaced review intervals:
+For GPT/Codex web workflow, paste a structured IELTS session summary and ask Codex to update this repository:
 
 ```text
-1 day -> 3 days -> 7 days -> 14 days -> 30 days
+Use GitHub repo baileykv75-netizen/The-second-language-brain.
+Please add this IELTS session to the knowledge tree, run the pipeline, commit, and push to main.
+
+[paste structured session summary]
 ```
 
-Generated review files appear in `Review_System/due/`.
+For local Windows workflow:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\run_pipeline.ps1 inbox\2026-07-12_AI_Game_Ideas.md
+```
+
+## Content Rules
+
+- English is used for model answers, examples, expressions, and speaking output.
+- Chinese is used for grammar explanations, review notes, and learning guidance.
+- The scripts organize and link your material. They do not rewrite your personal ideas.
+
+_Dashboard last generated: 2026-07-12_

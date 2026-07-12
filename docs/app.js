@@ -30,7 +30,10 @@ function relativeLink(path) {
 
 function matchesFilter(node) {
   if (state.filter === "all") return true;
-  if (state.filter === "due") return state.data.due.some((item) => item.id === node.id);
+  if (state.filter === "due") {
+    const reviewIds = [...state.data.due, ...state.data.upcoming].map((item) => item.id);
+    return reviewIds.includes(node.id);
+  }
   return node.type === state.filter;
 }
 
@@ -74,10 +77,10 @@ function renderReview() {
   $("#review-count").textContent = `${due.length} due`;
   const rows = [...due, ...upcoming].slice(0, 8);
   $("#review-list").innerHTML = rows.length ? rows.map((node) => `
-    <a class="list-row" href="${relativeLink(node.path)}">
+    <button class="list-row" data-node-id="${escapeHtml(node.id)}">
       <b>${escapeHtml(node.title)}</b>
       <span>${escapeHtml(typeLabels[node.type] || node.type)} - due ${escapeHtml(node.due_date || node.review?.next_due || "")}</span>
-    </a>
+    </button>
   `).join("") : `<div class="empty">No review items yet.</div>`;
 }
 
@@ -97,7 +100,7 @@ function renderCards() {
   $("#cards").innerHTML = nodes.length ? nodes.map((node) => {
     const tags = [...(node.topics || []).slice(0, 2), ...(node.skills || []).slice(0, 1)];
     return `
-      <a class="node-card" href="${relativeLink(node.path)}">
+      <button class="node-card" data-node-id="${escapeHtml(node.id)}">
         <div>
           <span class="node-type">${escapeHtml(typeLabels[node.type] || node.type)}</span>
           <h3>${escapeHtml(node.title)}</h3>
@@ -106,7 +109,7 @@ function renderCards() {
         <div class="meta-row">
           ${tags.map((tag) => `<span class="pill">${escapeHtml(tag)}</span>`).join("")}
         </div>
-      </a>
+      </button>
     `;
   }).join("") : `<div class="empty">No matching nodes. Try another search.</div>`;
 }
@@ -120,6 +123,24 @@ function setFilter(filter) {
   renderCards();
 }
 
+function openNode(id) {
+  const node = state.data.nodes.find((item) => item.id === id) || state.data.upcoming.find((item) => item.id === id);
+  if (!node) return;
+  $("#detail-type").textContent = typeLabels[node.type] || node.type;
+  $("#detail-title").textContent = node.title;
+  $("#detail-meta").textContent = `${node.created || "No date"} - ${node.path}`;
+  const tags = [...(node.topics || []), ...(node.skills || [])].slice(0, 10);
+  $("#detail-tags").innerHTML = tags.map((tag) => `<span class="pill">${escapeHtml(tag)}</span>`).join("");
+  $("#detail-body").textContent = node.body || node.excerpt || "No detail available.";
+  $("#detail-panel").classList.add("open");
+  $("#detail-panel").setAttribute("aria-hidden", "false");
+}
+
+function closeDetail() {
+  $("#detail-panel").classList.remove("open");
+  $("#detail-panel").setAttribute("aria-hidden", "true");
+}
+
 function bindEvents() {
   $("#search").addEventListener("input", (event) => {
     state.query = event.target.value;
@@ -128,6 +149,9 @@ function bindEvents() {
   document.addEventListener("click", (event) => {
     const filterButton = event.target.closest("[data-filter]");
     if (filterButton) setFilter(filterButton.dataset.filter);
+    const nodeButton = event.target.closest("[data-node-id]");
+    if (nodeButton) openNode(nodeButton.dataset.nodeId);
+    if (event.target.closest("[data-close-detail]")) closeDetail();
     const topicButton = event.target.closest("[data-topic]");
     if (topicButton) {
       state.topic = topicButton.dataset.topic;
@@ -142,6 +166,9 @@ function bindEvents() {
       state.query = queryButton.dataset.query;
       renderCards();
     }
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeDetail();
   });
 }
 

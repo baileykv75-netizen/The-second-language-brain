@@ -59,6 +59,15 @@ def strip_markdown(text: str) -> str:
     return text.strip()
 
 
+def readable_body(text: str) -> str:
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    text = re.sub(r"^#+\s*", "", text, flags=re.M)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"[*_`>#]+", "", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
 def excerpt(text: str, limit: int = 180) -> str:
     value = strip_markdown(text)
     if len(value) <= limit:
@@ -95,6 +104,7 @@ def iter_nodes() -> list[dict]:
                 "review": review,
                 "path": rel(path),
                 "excerpt": excerpt(body),
+                "body": readable_body(body),
             }
         )
     return sorted(nodes, key=lambda item: str(item.get("created", "")), reverse=True)
@@ -233,6 +243,18 @@ def write_static_assets() -> None:
     <button data-filter="expression">Express</button>
     <button data-filter="all">All</button>
   </nav>
+
+  <aside class="detail-panel" id="detail-panel" aria-hidden="true">
+    <div class="detail-backdrop" data-close-detail></div>
+    <article class="detail-card" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <button class="detail-close" data-close-detail>Close</button>
+      <span class="node-type" id="detail-type"></span>
+      <h2 id="detail-title"></h2>
+      <p id="detail-meta"></p>
+      <div id="detail-tags" class="meta-row"></div>
+      <pre id="detail-body"></pre>
+    </article>
+  </aside>
 
   <script src="app.js"></script>
 </body>
@@ -441,10 +463,14 @@ main {
 .compact-list { display: grid; gap: 8px; }
 .list-row {
   display: block;
+  width: 100%;
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 11px 12px;
   background: #fff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
 }
 
 .list-row b { display: block; margin-bottom: 2px; }
@@ -465,6 +491,9 @@ main {
   border-radius: 15px;
   padding: 15px;
   background: #fff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
 }
 
 .node-card:hover { border-color: #a8c5b7; }
@@ -505,6 +534,62 @@ main {
   font-weight: 800;
 }
 
+.detail-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: none;
+}
+
+.detail-panel.open { display: block; }
+
+.detail-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 18, 14, 0.46);
+}
+
+.detail-card {
+  position: absolute;
+  top: 28px;
+  right: max(16px, calc((100vw - 860px) / 2));
+  bottom: 28px;
+  width: min(820px, calc(100vw - 32px));
+  overflow: auto;
+  border-radius: 18px;
+  padding: 22px;
+  background: #fff;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.28);
+}
+
+.detail-close {
+  float: right;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: #fff;
+  cursor: pointer;
+}
+
+#detail-meta {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+#detail-body {
+  margin-top: 18px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  background: #fbf8f0;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
 .empty {
   border: 1px dashed var(--line);
   border-radius: 14px;
@@ -520,6 +605,7 @@ main {
   .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .bottom-nav { display: grid; }
   .node-card { min-height: 185px; }
+  .detail-card { inset: auto 10px 10px; top: 22px; width: auto; border-radius: 16px; }
 }
 
 @media (max-width: 420px) {
@@ -564,7 +650,10 @@ function relativeLink(path) {
 
 function matchesFilter(node) {
   if (state.filter === "all") return true;
-  if (state.filter === "due") return state.data.due.some((item) => item.id === node.id);
+  if (state.filter === "due") {
+    const reviewIds = [...state.data.due, ...state.data.upcoming].map((item) => item.id);
+    return reviewIds.includes(node.id);
+  }
   return node.type === state.filter;
 }
 
@@ -608,10 +697,10 @@ function renderReview() {
   $("#review-count").textContent = `${due.length} due`;
   const rows = [...due, ...upcoming].slice(0, 8);
   $("#review-list").innerHTML = rows.length ? rows.map((node) => `
-    <a class="list-row" href="${relativeLink(node.path)}">
+    <button class="list-row" data-node-id="${escapeHtml(node.id)}">
       <b>${escapeHtml(node.title)}</b>
       <span>${escapeHtml(typeLabels[node.type] || node.type)} - due ${escapeHtml(node.due_date || node.review?.next_due || "")}</span>
-    </a>
+    </button>
   `).join("") : `<div class="empty">No review items yet.</div>`;
 }
 
@@ -631,7 +720,7 @@ function renderCards() {
   $("#cards").innerHTML = nodes.length ? nodes.map((node) => {
     const tags = [...(node.topics || []).slice(0, 2), ...(node.skills || []).slice(0, 1)];
     return `
-      <a class="node-card" href="${relativeLink(node.path)}">
+      <button class="node-card" data-node-id="${escapeHtml(node.id)}">
         <div>
           <span class="node-type">${escapeHtml(typeLabels[node.type] || node.type)}</span>
           <h3>${escapeHtml(node.title)}</h3>
@@ -640,7 +729,7 @@ function renderCards() {
         <div class="meta-row">
           ${tags.map((tag) => `<span class="pill">${escapeHtml(tag)}</span>`).join("")}
         </div>
-      </a>
+      </button>
     `;
   }).join("") : `<div class="empty">No matching nodes. Try another search.</div>`;
 }
@@ -654,6 +743,24 @@ function setFilter(filter) {
   renderCards();
 }
 
+function openNode(id) {
+  const node = state.data.nodes.find((item) => item.id === id) || state.data.upcoming.find((item) => item.id === id);
+  if (!node) return;
+  $("#detail-type").textContent = typeLabels[node.type] || node.type;
+  $("#detail-title").textContent = node.title;
+  $("#detail-meta").textContent = `${node.created || "No date"} - ${node.path}`;
+  const tags = [...(node.topics || []), ...(node.skills || [])].slice(0, 10);
+  $("#detail-tags").innerHTML = tags.map((tag) => `<span class="pill">${escapeHtml(tag)}</span>`).join("");
+  $("#detail-body").textContent = node.body || node.excerpt || "No detail available.";
+  $("#detail-panel").classList.add("open");
+  $("#detail-panel").setAttribute("aria-hidden", "false");
+}
+
+function closeDetail() {
+  $("#detail-panel").classList.remove("open");
+  $("#detail-panel").setAttribute("aria-hidden", "true");
+}
+
 function bindEvents() {
   $("#search").addEventListener("input", (event) => {
     state.query = event.target.value;
@@ -662,6 +769,9 @@ function bindEvents() {
   document.addEventListener("click", (event) => {
     const filterButton = event.target.closest("[data-filter]");
     if (filterButton) setFilter(filterButton.dataset.filter);
+    const nodeButton = event.target.closest("[data-node-id]");
+    if (nodeButton) openNode(nodeButton.dataset.nodeId);
+    if (event.target.closest("[data-close-detail]")) closeDetail();
     const topicButton = event.target.closest("[data-topic]");
     if (topicButton) {
       state.topic = topicButton.dataset.topic;
@@ -676,6 +786,9 @@ function bindEvents() {
       state.query = queryButton.dataset.query;
       renderCards();
     }
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeDetail();
   });
 }
 
@@ -731,4 +844,3 @@ def main(argv: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv))
-

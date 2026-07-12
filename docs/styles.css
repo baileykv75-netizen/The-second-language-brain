@@ -197,10 +197,14 @@ main {
 .compact-list { display: grid; gap: 8px; }
 .list-row {
   display: block;
+  width: 100%;
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 11px 12px;
   background: #fff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
 }
 
 .list-row b { display: block; margin-bottom: 2px; }
@@ -221,6 +225,9 @@ main {
   border-radius: 15px;
   padding: 15px;
   background: #fff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
 }
 
 .node-card:hover { border-color: #a8c5b7; }
@@ -261,6 +268,62 @@ main {
   font-weight: 800;
 }
 
+.detail-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: none;
+}
+
+.detail-panel.open { display: block; }
+
+.detail-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 18, 14, 0.46);
+}
+
+.detail-card {
+  position: absolute;
+  top: 28px;
+  right: max(16px, calc((100vw - 860px) / 2));
+  bottom: 28px;
+  width: min(820px, calc(100vw - 32px));
+  overflow: auto;
+  border-radius: 18px;
+  padding: 22px;
+  background: #fff;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.28);
+}
+
+.detail-close {
+  float: right;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: #fff;
+  cursor: pointer;
+}
+
+#detail-meta {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+#detail-body {
+  margin-top: 18px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+  background: #fbf8f0;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
 .empty {
   border: 1px dashed var(--line);
   border-radius: 14px;
@@ -276,6 +339,7 @@ main {
   .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .bottom-nav { display: grid; }
   .node-card { min-height: 185px; }
+  .detail-card { inset: auto 10px 10px; top: 22px; width: auto; border-radius: 16px; }
 }
 
 @media (max-width: 420px) {

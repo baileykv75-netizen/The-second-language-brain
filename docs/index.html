@@ -82,6 +82,18 @@
     <button data-filter="all">All</button>
   </nav>
 
+  <aside class="detail-panel" id="detail-panel" aria-hidden="true">
+    <div class="detail-backdrop" data-close-detail></div>
+    <article class="detail-card" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <button class="detail-close" data-close-detail>Close</button>
+      <span class="node-type" id="detail-type"></span>
+      <h2 id="detail-title"></h2>
+      <p id="detail-meta"></p>
+      <div id="detail-tags" class="meta-row"></div>
+      <pre id="detail-body"></pre>
+    </article>
+  </aside>
+
   <script src="app.js"></script>
 </body>
 </html>

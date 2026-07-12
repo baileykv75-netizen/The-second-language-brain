@@ -24,6 +24,18 @@ def parse_list(value: str) -> list[str]:
     return [item.strip().strip("\"'") for item in value.split(",") if item.strip()]
 
 
+def unique_list(items: list[str]) -> list[str]:
+    seen = set()
+    values = []
+    for item in items:
+        normalized = item.strip()
+        key = normalized.lower()
+        if normalized and key not in seen:
+            seen.add(key)
+            values.append(normalized)
+    return values
+
+
 def parse_frontmatter(text: str) -> tuple[dict, str]:
     if not text.startswith("---"):
         return {}, text
@@ -96,6 +108,14 @@ def field(block: str, label: str) -> str:
 def find_section(sections: dict[str, str], keyword: str) -> str:
     for title, body in sections.items():
         if keyword in title:
+            return body
+    return ""
+
+
+def find_any_section(sections: dict[str, str], keywords: list[str]) -> str:
+    for keyword in keywords:
+        body = find_section(sections, keyword)
+        if body:
             return body
     return ""
 
@@ -224,7 +244,7 @@ def process(input_path: Path) -> None:
         used_for = parse_list(field(block, "Used for"))
         item_related = parse_list(field(block, "Related")) or related
         node_id = f"expr_{expression_slug}_{created.strftime('%Y%m%d')}"
-        node_meta = base_node_meta(node_id, "expression", expression_title, created, source_session, topics + used_for, skills, item_related)
+        node_meta = base_node_meta(node_id, "expression", expression_title, created, source_session, unique_list(topics + used_for), skills, item_related)
         node_body = "\n".join([
             f"# {expression_title}",
             "",
@@ -236,13 +256,35 @@ def process(input_path: Path) -> None:
         ])
         write_node(ROOT / "Expression_Bank" / f"{expression_slug}.md", node_meta, node_body)
 
+    mini_responses = find_any_section(sections, ["mini speaking", "response bank", "speaking response", "short response"])
+    for response_title, block in h3_blocks(mini_responses):
+        response_slug = slugify(response_title)
+        used_for = parse_list(field(block, "Used for")) or parse_list(field(block, "Reusable for"))
+        item_related = parse_list(field(block, "Related")) or related
+        response_text = field(block, "Response") or field(block, "Answer") or block.strip()
+        structure = field(block, "Structure")
+        node_id = f"response_{response_slug}_{created.strftime('%Y%m%d')}"
+        node_meta = base_node_meta(node_id, "mini_response", response_title, created, source_session, unique_list(topics + used_for), skills, item_related)
+        node_body = "\n".join([
+            f"# {response_title}",
+            "",
+            f"Response:\n{response_text}",
+            "",
+            f"Used for:\n{', '.join(used_for)}",
+            "",
+            f"Structure:\n{structure}",
+            "",
+            f"Related:\n{', '.join(item_related)}",
+        ])
+        write_node(ROOT / "Response_Bank" / f"{response_slug}.md", node_meta, node_body)
+
     stories = find_section(sections, "personal stories")
     for story_title, block in h3_blocks(stories):
         story_slug = slugify(story_title)
         used_for = parse_list(field(block, "Used for"))
         item_related = parse_list(field(block, "Related")) or related
         node_id = f"story_{story_slug}_{created.strftime('%Y%m%d')}"
-        node_meta = base_node_meta(node_id, "personal_story", story_title, created, source_session, topics + used_for, skills, item_related)
+        node_meta = base_node_meta(node_id, "personal_story", story_title, created, source_session, unique_list(topics + used_for), skills, item_related)
         node_body = "\n".join([
             f"# {story_title}",
             "",

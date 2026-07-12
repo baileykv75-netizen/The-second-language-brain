@@ -175,7 +175,7 @@ def write_static_assets() -> None:
     <div>
       <p class="eyebrow">IELTS Speaking Second Brain</p>
       <h1>The Second Language Brain</h1>
-      <p class="lede">Review what is due, explore reusable expressions, and grow your personal English ability tree.</p>
+      <p class="lede">Review what is due, explore reusable responses, expressions, and topics, then grow your personal English ability tree.</p>
     </div>
     <a class="github-link" href="https://github.com/baileykv75-netizen/The-second-language-brain">GitHub</a>
   </header>
@@ -206,6 +206,7 @@ def write_static_assets() -> None:
       <button class="tab" data-filter="vocabulary">Words</button>
       <button class="tab" data-filter="grammar_error">Mistakes</button>
       <button class="tab" data-filter="expression">Expressions</button>
+      <button class="tab" data-filter="mini_response">Responses</button>
       <button class="tab" data-filter="personal_story">Stories</button>
     </nav>
 
@@ -240,7 +241,7 @@ def write_static_assets() -> None:
     <button data-filter="due">Review</button>
     <button data-filter="session">Sessions</button>
     <button data-filter="vocabulary">Words</button>
-    <button data-filter="expression">Express</button>
+    <button data-filter="mini_response">Responses</button>
     <button data-filter="all">All</button>
   </nav>
 
@@ -631,6 +632,7 @@ const typeLabels = {
   grammar_error: "Mistake",
   pronunciation: "Pronunciation",
   expression: "Expression",
+  mini_response: "Response",
   personal_story: "Story",
 };
 
@@ -683,7 +685,7 @@ function renderStats() {
     ["Sessions", stats.sessions],
     ["Words", stats.vocabulary],
     ["Mistakes", stats.grammarMistakes],
-    ["Expressions", stats.expressions],
+    ["Responses", stats.responses],
   ].map(([label, count]) => `<div class="stat"><strong>${count}</strong><span>${label}</span></div>`).join("");
 }
 
@@ -692,7 +694,7 @@ function renderReview() {
   const upcoming = state.data.upcoming.slice(0, 6);
   $("#today-title").textContent = due.length ? `${due.length} item${due.length === 1 ? "" : "s"} due` : "Nothing due today";
   $("#today-copy").textContent = due.length
-    ? "Start with review, then browse the linked topics and expressions."
+    ? "Start with review, then browse the linked topics and reusable responses."
     : "No item is due yet. Use the upcoming queue or explore recent nodes.";
   $("#review-count").textContent = `${due.length} due`;
   const rows = [...due, ...upcoming].slice(0, 8);
@@ -821,6 +823,7 @@ def build(root: Path = ROOT) -> None:
         "vocabulary": sum(1 for node in nodes if node["type"] == "vocabulary"),
         "grammarMistakes": sum(1 for node in nodes if node["type"] == "grammar_error"),
         "expressions": sum(1 for node in nodes if node["type"] == "expression"),
+        "responses": sum(1 for node in nodes if node["type"] == "mini_response"),
         "stories": sum(1 for node in nodes if node["type"] == "personal_story"),
         "total": len(nodes),
     }

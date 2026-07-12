@@ -104,6 +104,7 @@ def build(root: Path = ROOT) -> None:
     vocab_count = sum(1 for _, meta in nodes if meta.get("type") == "vocabulary")
     mistake_count = sum(1 for _, meta in nodes if meta.get("type") == "grammar_error")
     expression_count = sum(1 for _, meta in nodes if meta.get("type") == "expression")
+    response_count = sum(1 for _, meta in nodes if meta.get("type") == "mini_response")
     story_count = sum(1 for _, meta in nodes if meta.get("type") == "personal_story")
 
     today_review = rel(due_file) if due_file else "Review_System/due/"
@@ -111,6 +112,7 @@ def build(root: Path = ROOT) -> None:
     vocab_rows = collect_by_type(nodes, "vocabulary", 8)
     mistake_rows = collect_by_type(nodes, "grammar_error", 5)
     expression_rows = collect_by_type(nodes, "expression", 5)
+    response_rows = collect_by_type(nodes, "mini_response", 5)
     story_rows = collect_by_type(nodes, "personal_story", 5)
     topic_rows = collect_index_links(root, "topic", 12)
     skill_rows = collect_index_links(root, "skill", 8)
@@ -118,10 +120,11 @@ def build(root: Path = ROOT) -> None:
     lines = [
         "# The Second Language Brain",
         "",
-        "A personal IELTS Speaking knowledge tree. Open this page like a learning app: review first, then browse topics, skills, vocabulary, expressions, and sessions.",
+        "A personal IELTS Speaking knowledge tree. Open this page like a learning app: review first, then browse topics, skills, vocabulary, mini responses, expressions, and sessions.",
         "",
         "## Start Here",
         "",
+        "- Mobile app view: [GitHub Pages](https://baileykv75-netizen.github.io/The-second-language-brain/)",
         f"- Today's review: [{Path(today_review).stem if due_file else 'Review folder'}]({today_review})",
         "- Add a new structured session: [inbox/](inbox/)",
         "- Session template: [templates/session_template.md](templates/session_template.md)",
@@ -133,6 +136,7 @@ def build(root: Path = ROOT) -> None:
         f"- Vocabulary nodes: {vocab_count}",
         f"- Grammar mistakes: {mistake_count}",
         f"- Expressions: {expression_count}",
+        f"- Mini responses: {response_count}",
         f"- Personal stories: {story_count}",
         "",
         "## Main Entrances",
@@ -145,6 +149,7 @@ def build(root: Path = ROOT) -> None:
         f"| Vocabulary | {link('indexes/vocabulary.md', 'Vocabulary index')} |",
         f"| Grammar mistakes | {link('indexes/mistakes.md', 'Mistake log')} |",
         f"| Expressions | {link('indexes/expressions.md', 'Expression bank')} |",
+        f"| Mini responses | {link('indexes/responses.md', 'Response bank')} |",
         f"| Personal stories | {link('indexes/personal_stories.md', 'Story bank')} |",
         "",
         "## Latest Sessions",
@@ -170,6 +175,10 @@ def build(root: Path = ROOT) -> None:
         "## Expression Bank",
         "",
         *(expression_rows or ["- No expressions yet."]),
+        "",
+        "## Mini Response Bank",
+        "",
+        *(response_rows or ["- No mini responses yet."]),
         "",
         "## Personal Stories",
         "",
@@ -212,4 +221,3 @@ def main(argv: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv))
-

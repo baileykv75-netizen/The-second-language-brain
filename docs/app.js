@@ -11,6 +11,7 @@ const typeLabels = {
   grammar_error: "Mistake",
   pronunciation: "Pronunciation",
   expression: "Expression",
+  mini_response: "Response",
   personal_story: "Story",
 };
 
@@ -63,7 +64,7 @@ function renderStats() {
     ["Sessions", stats.sessions],
     ["Words", stats.vocabulary],
     ["Mistakes", stats.grammarMistakes],
-    ["Expressions", stats.expressions],
+    ["Responses", stats.responses],
   ].map(([label, count]) => `<div class="stat"><strong>${count}</strong><span>${label}</span></div>`).join("");
 }
 
@@ -72,7 +73,7 @@ function renderReview() {
   const upcoming = state.data.upcoming.slice(0, 6);
   $("#today-title").textContent = due.length ? `${due.length} item${due.length === 1 ? "" : "s"} due` : "Nothing due today";
   $("#today-copy").textContent = due.length
-    ? "Start with review, then browse the linked topics and expressions."
+    ? "Start with review, then browse the linked topics and reusable responses."
     : "No item is due yet. Use the upcoming queue or explore recent nodes.";
   $("#review-count").textContent = `${due.length} due`;
   const rows = [...due, ...upcoming].slice(0, 8);

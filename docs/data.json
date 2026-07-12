@@ -5,21 +5,26 @@
     "vocabulary": 4,
     "grammarMistakes": 1,
     "expressions": 1,
+    "responses": 1,
     "stories": 1,
-    "total": 9
+    "total": 10
   },
   "topics": [
     {
       "name": "Technology",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Games",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Environment",
-      "count": 9
+      "count": 10
+    },
+    {
+      "name": "Opinion questions",
+      "count": 2
     },
     {
       "name": "Culture",
@@ -31,10 +36,6 @@
     },
     {
       "name": "Society",
-      "count": 1
-    },
-    {
-      "name": "Opinion questions",
       "count": 1
     },
     {
@@ -57,15 +58,15 @@
   "skills": [
     {
       "name": "Explain Reasons",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Describe Systems",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Express Personal Opinions",
-      "count": 9
+      "count": 10
     }
   ],
   "due": [],
@@ -169,6 +170,38 @@
       "path": "Personal_Stories/zhejiang_travel_experience.md",
       "excerpt": "Zhejiang travel experience Story: During my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a pe...",
       "body": "Zhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "response_system_thinking_game_answer_20260712",
+      "type": "mini_response",
+      "title": "System-thinking game answer",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment",
+        "Opinion questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "balance",
+        "adaptation"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Response_Bank/system_thinking_game_answer.md",
+      "excerpt": "System thinking game answer Response: I think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to surv...",
+      "body": "System-thinking game answer\n\nResponse:\nI think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.\n\nUsed for:\nTechnology, Games, Environment, Opinion questions\n\nStructure:\nmain idea - explanation - contrast - real-life connection\n\nRelated:\necosystem, balance, adaptation",
       "due_date": "2026-07-13"
     },
     {
@@ -354,7 +387,7 @@
       },
       "path": "Daily_Sessions/2026-07-12_ai_game_ideas.md",
       "excerpt": "Session Topic AI Game Development 1. Band 7.5 8.0 Model Answer I would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared...",
-      "body": "Session Topic\n\nAI Game Development\n\n1. Band 7.5-8.0 Model Answer\n\nI would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creature needs to obtain resources in order to survive. Some of them may be herbivores that depend on plants, while others may develop different survival strategies over time.\n\nWhat interests me most is that the game would not simply have a fixed winner. Instead, the creatures that adapt best to the changing environment would be more likely to thrive. This makes the game feel more natural and meaningful, because it reflects how systems work in real life.\n\nI think this kind of game could also help players understand that everything has two sides. A creature that seems weak in one environment may become powerful in another. So the goal is not just to defeat others, but to understand relationships, resources, and long-term balance.\n\n2. New Vocabulary\n\nSpawn\n\nMeaning:\nGenerate something in a game world.\n\nPronunciation:\n/spɔːn/\n\nExample:\nPlayers can spawn different creatures in the ecosystem.\n\nIELTS usage:\nUseful for describing games, technology, simulations, and artificial systems.\n\nRelated words:\ngenerate, create, appear\n\nHerbivore\n\nMeaning:\nAn animal that eats plants.\n\nPronunciation:\n/ˈhɜːrbɪvɔːr/\n\nExample:\nThe first creature is a simple herbivore that survives by eating grass.\n\nIELTS usage:\nUseful for describing animals, ecosystems, biology, and the environment.\n\nRelated words:\necosystem, plant-eating animal, food chain\n\nAdapt\n\nMeaning:\nChange successfully according to a new situation.\n\nPronunciation:\n/əˈdæpt/\n\nExample:\nThe creatures that adapt best will survive.\n\nIELTS usage:\nUseful for education, technology, work, culture, and environmental questions.\n\nRelated words:\nadjust, evolve, respond\n\nThrive\n\nMeaning:\nGrow successfully and become strong.\n\nPronunciation:\n/θraɪv/\n\nExample:\nThe creatures that adapt best thrive in the ecosystem.\n\nIELTS usage:\nUseful for describing people, communities, businesses, and natural systems.\n\nRelated words:\nflourish, succeed, develop\n\n3. Grammar Upgrade\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。\n\n4. Pronunciation Notes\n\nCongested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour.\n\n5. Personal Expression Bank\n\nTwo-sided system view\n\nExpression:\nEverything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system.\n\nUsed for:\nCulture, Philosophy, Society, Opinion questions\n\nRelated:\nbalance, systems thinking, complexity\n\n6. Personal Stories\n\nZhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth\n\n7. Topic Links\n\n- Technology\n- Games\n- Environment\n- Society\n\n8. Skill Links\n\n- Explain Reasons\n- Describe Systems\n- Express Personal Opinions",
+      "body": "Session Topic\n\nAI Game Development\n\n1. Band 7.5-8.0 Model Answer\n\nI would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creature needs to obtain resources in order to survive. Some of them may be herbivores that depend on plants, while others may develop different survival strategies over time.\n\nWhat interests me most is that the game would not simply have a fixed winner. Instead, the creatures that adapt best to the changing environment would be more likely to thrive. This makes the game feel more natural and meaningful, because it reflects how systems work in real life.\n\nI think this kind of game could also help players understand that everything has two sides. A creature that seems weak in one environment may become powerful in another. So the goal is not just to defeat others, but to understand relationships, resources, and long-term balance.\n\n2. New Vocabulary\n\nSpawn\n\nMeaning:\nGenerate something in a game world.\n\nPronunciation:\n/spɔːn/\n\nExample:\nPlayers can spawn different creatures in the ecosystem.\n\nIELTS usage:\nUseful for describing games, technology, simulations, and artificial systems.\n\nRelated words:\ngenerate, create, appear\n\nHerbivore\n\nMeaning:\nAn animal that eats plants.\n\nPronunciation:\n/ˈhɜːrbɪvɔːr/\n\nExample:\nThe first creature is a simple herbivore that survives by eating grass.\n\nIELTS usage:\nUseful for describing animals, ecosystems, biology, and the environment.\n\nRelated words:\necosystem, plant-eating animal, food chain\n\nAdapt\n\nMeaning:\nChange successfully according to a new situation.\n\nPronunciation:\n/əˈdæpt/\n\nExample:\nThe creatures that adapt best will survive.\n\nIELTS usage:\nUseful for education, technology, work, culture, and environmental questions.\n\nRelated words:\nadjust, evolve, respond\n\nThrive\n\nMeaning:\nGrow successfully and become strong.\n\nPronunciation:\n/θraɪv/\n\nExample:\nThe creatures that adapt best thrive in the ecosystem.\n\nIELTS usage:\nUseful for describing people, communities, businesses, and natural systems.\n\nRelated words:\nflourish, succeed, develop\n\n3. Grammar Upgrade\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。\n\n4. Pronunciation Notes\n\nCongested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour.\n\n5. Personal Expression Bank\n\nTwo-sided system view\n\nExpression:\nEverything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system.\n\nUsed for:\nCulture, Philosophy, Society, Opinion questions\n\nRelated:\nbalance, systems thinking, complexity\n\n6. Mini Speaking Responses\n\nSystem-thinking game answer\n\nResponse:\nI think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.\n\nUsed for:\nTechnology, Games, Environment, Opinion questions\n\nStructure:\nmain idea - explanation - contrast - real-life connection\n\nRelated:\necosystem, balance, adaptation\n\n7. Personal Stories\n\nZhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth\n\n8. Topic Links\n\n- Technology\n- Games\n- Environment\n- Society\n\n9. Skill Links\n\n- Explain Reasons\n- Describe Systems\n- Express Personal Opinions",
       "due_date": "2026-07-19"
     }
   ],
@@ -387,7 +420,7 @@
       },
       "path": "Daily_Sessions/2026-07-12_ai_game_ideas.md",
       "excerpt": "Session Topic AI Game Development 1. Band 7.5 8.0 Model Answer I would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared...",
-      "body": "Session Topic\n\nAI Game Development\n\n1. Band 7.5-8.0 Model Answer\n\nI would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creature needs to obtain resources in order to survive. Some of them may be herbivores that depend on plants, while others may develop different survival strategies over time.\n\nWhat interests me most is that the game would not simply have a fixed winner. Instead, the creatures that adapt best to the changing environment would be more likely to thrive. This makes the game feel more natural and meaningful, because it reflects how systems work in real life.\n\nI think this kind of game could also help players understand that everything has two sides. A creature that seems weak in one environment may become powerful in another. So the goal is not just to defeat others, but to understand relationships, resources, and long-term balance.\n\n2. New Vocabulary\n\nSpawn\n\nMeaning:\nGenerate something in a game world.\n\nPronunciation:\n/spɔːn/\n\nExample:\nPlayers can spawn different creatures in the ecosystem.\n\nIELTS usage:\nUseful for describing games, technology, simulations, and artificial systems.\n\nRelated words:\ngenerate, create, appear\n\nHerbivore\n\nMeaning:\nAn animal that eats plants.\n\nPronunciation:\n/ˈhɜːrbɪvɔːr/\n\nExample:\nThe first creature is a simple herbivore that survives by eating grass.\n\nIELTS usage:\nUseful for describing animals, ecosystems, biology, and the environment.\n\nRelated words:\necosystem, plant-eating animal, food chain\n\nAdapt\n\nMeaning:\nChange successfully according to a new situation.\n\nPronunciation:\n/əˈdæpt/\n\nExample:\nThe creatures that adapt best will survive.\n\nIELTS usage:\nUseful for education, technology, work, culture, and environmental questions.\n\nRelated words:\nadjust, evolve, respond\n\nThrive\n\nMeaning:\nGrow successfully and become strong.\n\nPronunciation:\n/θraɪv/\n\nExample:\nThe creatures that adapt best thrive in the ecosystem.\n\nIELTS usage:\nUseful for describing people, communities, businesses, and natural systems.\n\nRelated words:\nflourish, succeed, develop\n\n3. Grammar Upgrade\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。\n\n4. Pronunciation Notes\n\nCongested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour.\n\n5. Personal Expression Bank\n\nTwo-sided system view\n\nExpression:\nEverything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system.\n\nUsed for:\nCulture, Philosophy, Society, Opinion questions\n\nRelated:\nbalance, systems thinking, complexity\n\n6. Personal Stories\n\nZhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth\n\n7. Topic Links\n\n- Technology\n- Games\n- Environment\n- Society\n\n8. Skill Links\n\n- Explain Reasons\n- Describe Systems\n- Express Personal Opinions"
+      "body": "Session Topic\n\nAI Game Development\n\n1. Band 7.5-8.0 Model Answer\n\nI would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creature needs to obtain resources in order to survive. Some of them may be herbivores that depend on plants, while others may develop different survival strategies over time.\n\nWhat interests me most is that the game would not simply have a fixed winner. Instead, the creatures that adapt best to the changing environment would be more likely to thrive. This makes the game feel more natural and meaningful, because it reflects how systems work in real life.\n\nI think this kind of game could also help players understand that everything has two sides. A creature that seems weak in one environment may become powerful in another. So the goal is not just to defeat others, but to understand relationships, resources, and long-term balance.\n\n2. New Vocabulary\n\nSpawn\n\nMeaning:\nGenerate something in a game world.\n\nPronunciation:\n/spɔːn/\n\nExample:\nPlayers can spawn different creatures in the ecosystem.\n\nIELTS usage:\nUseful for describing games, technology, simulations, and artificial systems.\n\nRelated words:\ngenerate, create, appear\n\nHerbivore\n\nMeaning:\nAn animal that eats plants.\n\nPronunciation:\n/ˈhɜːrbɪvɔːr/\n\nExample:\nThe first creature is a simple herbivore that survives by eating grass.\n\nIELTS usage:\nUseful for describing animals, ecosystems, biology, and the environment.\n\nRelated words:\necosystem, plant-eating animal, food chain\n\nAdapt\n\nMeaning:\nChange successfully according to a new situation.\n\nPronunciation:\n/əˈdæpt/\n\nExample:\nThe creatures that adapt best will survive.\n\nIELTS usage:\nUseful for education, technology, work, culture, and environmental questions.\n\nRelated words:\nadjust, evolve, respond\n\nThrive\n\nMeaning:\nGrow successfully and become strong.\n\nPronunciation:\n/θraɪv/\n\nExample:\nThe creatures that adapt best thrive in the ecosystem.\n\nIELTS usage:\nUseful for describing people, communities, businesses, and natural systems.\n\nRelated words:\nflourish, succeed, develop\n\n3. Grammar Upgrade\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。\n\n4. Pronunciation Notes\n\nCongested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour.\n\n5. Personal Expression Bank\n\nTwo-sided system view\n\nExpression:\nEverything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system.\n\nUsed for:\nCulture, Philosophy, Society, Opinion questions\n\nRelated:\nbalance, systems thinking, complexity\n\n6. Mini Speaking Responses\n\nSystem-thinking game answer\n\nResponse:\nI think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.\n\nUsed for:\nTechnology, Games, Environment, Opinion questions\n\nStructure:\nmain idea - explanation - contrast - real-life connection\n\nRelated:\necosystem, balance, adaptation\n\n7. Personal Stories\n\nZhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth\n\n8. Topic Links\n\n- Technology\n- Games\n- Environment\n- Society\n\n9. Skill Links\n\n- Explain Reasons\n- Describe Systems\n- Express Personal Opinions"
     },
     {
       "id": "expr_two_sided_system_view_20260712",
@@ -486,6 +519,37 @@
       "path": "Personal_Stories/zhejiang_travel_experience.md",
       "excerpt": "Zhejiang travel experience Story: During my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a pe...",
       "body": "Zhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth"
+    },
+    {
+      "id": "response_system_thinking_game_answer_20260712",
+      "type": "mini_response",
+      "title": "System-thinking game answer",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment",
+        "Opinion questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "balance",
+        "adaptation"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Response_Bank/system_thinking_game_answer.md",
+      "excerpt": "System thinking game answer Response: I think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to surv...",
+      "body": "System-thinking game answer\n\nResponse:\nI think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.\n\nUsed for:\nTechnology, Games, Environment, Opinion questions\n\nStructure:\nmain idea - explanation - contrast - real-life connection\n\nRelated:\necosystem, balance, adaptation"
     },
     {
       "id": "pron_congested_20260712",

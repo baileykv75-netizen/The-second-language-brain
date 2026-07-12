@@ -67,7 +67,23 @@ Everything has two sides, but they should not always be judged as simply good or
 Used for:
 Culture, Philosophy, Society, Opinion questions
 
-## 6. Personal Stories
+## 6. Mini Speaking Responses
+
+### System-thinking game answer
+
+Response:
+I think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.
+
+Used for:
+Technology, Games, Environment, Opinion questions
+
+Structure:
+main idea -> explanation -> contrast -> real-life connection
+
+Related:
+ecosystem, balance, adaptation
+
+## 7. Personal Stories
 
 ### Zhejiang travel experience
 
@@ -77,15 +93,14 @@ During my trip to Zhejiang, I realized that a single travel experience can be us
 Used for:
 Travel, Places, People, Unexpected Experience
 
-## 7. Topic Links
+## 8. Topic Links
 
 - Technology
 - Games
 - Environment
 
-## 8. Skill Links
+## 9. Skill Links
 
 - Explain Reasons
 - Describe Systems
 - Express Personal Opinions
-

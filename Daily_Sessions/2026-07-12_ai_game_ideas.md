@@ -132,7 +132,23 @@ Culture, Philosophy, Society, Opinion questions
 Related:
 balance, systems thinking, complexity
 
-## 6. Personal Stories
+## 6. Mini Speaking Responses
+
+### System-thinking game answer
+
+Response:
+I think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.
+
+Used for:
+Technology, Games, Environment, Opinion questions
+
+Structure:
+main idea -> explanation -> contrast -> real-life connection
+
+Related:
+ecosystem, balance, adaptation
+
+## 7. Personal Stories
 
 ### Zhejiang travel experience
 
@@ -145,14 +161,14 @@ Travel, Places, People, Unexpected Experience
 Related:
 flexible story bank, IELTS Part 2, personal growth
 
-## 7. Topic Links
+## 8. Topic Links
 
 - Technology
 - Games
 - Environment
 - Society
 
-## 8. Skill Links
+## 9. Skill Links
 
 - Explain Reasons
 - Describe Systems

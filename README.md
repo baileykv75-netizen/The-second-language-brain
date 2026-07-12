@@ -1,15 +1,10 @@
 # The Second Language Brain
 
-A personal IELTS Speaking knowledge tree. Open this page like a learning app: review first, then browse topics, skills, vocabulary, expressions, and sessions.
-
-## Better App View
-
-The mobile-friendly app is in [docs/index.html](docs/index.html). For the best phone experience, enable GitHub Pages from `main` / `docs`, then open the Pages URL in your mobile browser.
-
-Privacy note: GitHub Pages sites can be publicly available even when the repository is private. Do not enable Pages if you want all learning notes to remain private.
+A personal IELTS Speaking knowledge tree. Open this page like a learning app: review first, then browse topics, skills, vocabulary, mini responses, expressions, and sessions.
 
 ## Start Here
 
+- Mobile app view: [GitHub Pages](https://baileykv75-netizen.github.io/The-second-language-brain/)
 - Today's review: [2026-07-12](Review_System/due/2026-07-12.md)
 - Add a new structured session: [inbox/](inbox/)
 - Session template: [templates/session_template.md](templates/session_template.md)
@@ -21,6 +16,7 @@ Privacy note: GitHub Pages sites can be publicly available even when the reposit
 - Vocabulary nodes: 4
 - Grammar mistakes: 1
 - Expressions: 1
+- Mini responses: 1
 - Personal stories: 1
 
 ## Main Entrances
@@ -33,6 +29,7 @@ Privacy note: GitHub Pages sites can be publicly available even when the reposit
 | Vocabulary | [Vocabulary index](indexes/vocabulary.md) |
 | Grammar mistakes | [Mistake log](indexes/mistakes.md) |
 | Expressions | [Expression bank](indexes/expressions.md) |
+| Mini responses | [Response bank](indexes/responses.md) |
 | Personal stories | [Story bank](indexes/personal_stories.md) |
 
 ## Latest Sessions
@@ -73,6 +70,10 @@ Privacy note: GitHub Pages sites can be publicly available even when the reposit
 ## Expression Bank
 
 - [Two-sided system view](Expression_Bank/two_sided_system_view.md)
+
+## Mini Response Bank
+
+- [System-thinking game answer](Response_Bank/system_thinking_game_answer.md)
 
 ## Personal Stories
 

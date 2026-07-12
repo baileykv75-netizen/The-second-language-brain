@@ -100,6 +100,7 @@ def build(root: Path = ROOT) -> None:
     write_index(root / "indexes" / "vocabulary.md", "Vocabulary Index", by_type.get("vocabulary", []))
     write_index(root / "indexes" / "mistakes.md", "Grammar Mistake Index", by_type.get("grammar_error", []))
     write_index(root / "indexes" / "expressions.md", "Expression Bank Index", by_type.get("expression", []))
+    write_index(root / "indexes" / "responses.md", "Mini Response Bank Index", by_type.get("mini_response", []))
     write_index(root / "indexes" / "personal_stories.md", "Personal Story Index", by_type.get("personal_story", []))
 
     for topic, rows in sorted(by_topic.items()):

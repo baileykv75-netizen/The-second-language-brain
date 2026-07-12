@@ -26,6 +26,7 @@ Do not treat sessions as isolated notes. Every useful item should become a reusa
 - Put grammar error nodes in `Mistake_Log/`.
 - Put pronunciation nodes in `Skill_Tree/Pronunciation/`.
 - Put reusable personal expressions in `Expression_Bank/`.
+- Put reusable multi-sentence speaking responses in `Response_Bank/`.
 - Put reusable personal stories in `Personal_Stories/`.
 - Regenerate `indexes/` and `Review_System/due/` with scripts instead of editing them manually.
 
@@ -51,4 +52,3 @@ Before committing, check that generated nodes contain:
 - `related`
 - `review.next_due`
 - `review.interval_days`
-

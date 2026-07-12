@@ -1,0 +1,8 @@
+{
+  "name": "The Second Language Brain",
+  "short_name": "Language Brain",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e8",
+  "theme_color": "#13231b"
+}

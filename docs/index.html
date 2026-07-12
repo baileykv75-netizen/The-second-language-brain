@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#13231b">
+  <title>The Second Language Brain</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">IELTS Speaking Second Brain</p>
+      <h1>The Second Language Brain</h1>
+      <p class="lede">Review what is due, explore reusable expressions, and grow your personal English ability tree.</p>
+    </div>
+    <a class="github-link" href="https://github.com/baileykv75-netizen/The-second-language-brain">GitHub</a>
+  </header>
+
+  <main>
+    <section class="hero-grid">
+      <article class="focus-card">
+        <span class="label">Today</span>
+        <h2 id="today-title">Review queue</h2>
+        <p id="today-copy">Loading your review list...</p>
+        <div class="action-row">
+          <button class="primary-action" data-filter="due">Start review</button>
+          <button class="ghost-action" data-filter="all">Browse all</button>
+        </div>
+      </article>
+      <div class="stats-grid" id="stats"></div>
+    </section>
+
+    <section class="search-panel">
+      <label for="search">Search your brain</label>
+      <input id="search" type="search" placeholder="Try: adapt, environment, explain reasons">
+      <div class="chips" id="quick-filters"></div>
+    </section>
+
+    <nav class="tab-bar" aria-label="Content sections">
+      <button class="tab active" data-filter="all">All</button>
+      <button class="tab" data-filter="session">Sessions</button>
+      <button class="tab" data-filter="vocabulary">Words</button>
+      <button class="tab" data-filter="grammar_error">Mistakes</button>
+      <button class="tab" data-filter="expression">Expressions</button>
+      <button class="tab" data-filter="personal_story">Stories</button>
+    </nav>
+
+    <section class="section-grid">
+      <article class="panel">
+        <div class="panel-heading">
+          <h2>Due and upcoming</h2>
+          <span id="review-count">0 items</span>
+        </div>
+        <div id="review-list" class="compact-list"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-heading">
+          <h2>Topics</h2>
+          <span>Reusable links</span>
+        </div>
+        <div id="topic-cloud" class="tag-cloud"></div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <h2 id="results-title">Knowledge nodes</h2>
+        <span id="result-count">0 items</span>
+      </div>
+      <div id="cards" class="card-grid"></div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <button data-filter="due">Review</button>
+    <button data-filter="session">Sessions</button>
+    <button data-filter="vocabulary">Words</button>
+    <button data-filter="expression">Express</button>
+    <button data-filter="all">All</button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -2,6 +2,12 @@
 
 A personal IELTS Speaking knowledge tree. Open this page like a learning app: review first, then browse topics, skills, vocabulary, expressions, and sessions.
 
+## Better App View
+
+The mobile-friendly app is in [docs/index.html](docs/index.html). For the best phone experience, enable GitHub Pages from `main` / `docs`, then open the Pages URL in your mobile browser.
+
+Privacy note: GitHub Pages sites can be publicly available even when the repository is private. Do not enable Pages if you want all learning notes to remain private.
+
 ## Start Here
 
 - Today's review: [2026-07-12](Review_System/due/2026-07-12.md)

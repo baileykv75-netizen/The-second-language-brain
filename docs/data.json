@@ -1,0 +1,623 @@
+{
+  "generated": "2026-07-12",
+  "stats": {
+    "sessions": 1,
+    "vocabulary": 4,
+    "grammarMistakes": 1,
+    "expressions": 1,
+    "stories": 1,
+    "total": 9
+  },
+  "topics": [
+    {
+      "name": "Technology",
+      "count": 9
+    },
+    {
+      "name": "Games",
+      "count": 9
+    },
+    {
+      "name": "Environment",
+      "count": 9
+    },
+    {
+      "name": "Culture",
+      "count": 1
+    },
+    {
+      "name": "Philosophy",
+      "count": 1
+    },
+    {
+      "name": "Society",
+      "count": 1
+    },
+    {
+      "name": "Opinion questions",
+      "count": 1
+    },
+    {
+      "name": "Travel",
+      "count": 1
+    },
+    {
+      "name": "Places",
+      "count": 1
+    },
+    {
+      "name": "People",
+      "count": 1
+    },
+    {
+      "name": "Unexpected Experience",
+      "count": 1
+    }
+  ],
+  "skills": [
+    {
+      "name": "Explain Reasons",
+      "count": 9
+    },
+    {
+      "name": "Describe Systems",
+      "count": 9
+    },
+    {
+      "name": "Express Personal Opinions",
+      "count": 9
+    }
+  ],
+  "due": [],
+  "upcoming": [
+    {
+      "id": "expr_two_sided_system_view_20260712",
+      "type": "expression",
+      "title": "Two-sided system view",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment",
+        "Culture",
+        "Philosophy",
+        "Society",
+        "Opinion questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "balance",
+        "systems thinking",
+        "complexity"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Expression_Bank/two_sided_system_view.md",
+      "excerpt": "Two sided system view Expression: Everything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system. Used for: Culture, P...",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "grammar_20260712_1",
+      "type": "grammar_error",
+      "title": "The winner can get the resource and survive.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "adaptation",
+        "survival"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_grammar_1.md",
+      "excerpt": "Grammar Upgrade 1 Original: The winner can get the resource and survive. Better: The creatures that obtain enough resources are more likely to survive. Explanation: 使用 relative...",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "story_zhejiang_travel_experience_20260712",
+      "type": "personal_story",
+      "title": "Zhejiang travel experience",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment",
+        "Travel",
+        "Places",
+        "People",
+        "Unexpected Experience"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "flexible story bank",
+        "IELTS Part 2",
+        "personal growth"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Personal_Stories/zhejiang_travel_experience.md",
+      "excerpt": "Zhejiang travel experience Story: During my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a pe...",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "pron_congested_20260712",
+      "type": "pronunciation",
+      "title": "Congested",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "adaptation",
+        "survival"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Pronunciation/congested.md",
+      "excerpt": "Congested Pronunciation: /kənˈdʒestɪd/ Common mistake: wrong stress Practice sentence: The roads are often congested during rush hour.",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_adapt_20260712",
+      "type": "vocabulary",
+      "title": "Adapt",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "adjust",
+        "evolve",
+        "respond"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/adapt.md",
+      "excerpt": "Adapt Meaning: Change successfully according to a new situation. Pronunciation: /əˈdæpt/ Example: The creatures that adapt best will survive. IELTS usage: Useful for education,...",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_herbivore_20260712",
+      "type": "vocabulary",
+      "title": "Herbivore",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "plant-eating animal",
+        "food chain"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/herbivore.md",
+      "excerpt": "Herbivore Meaning: An animal that eats plants. Pronunciation: /ˈhɜːrbɪvɔːr/ Example: The first creature is a simple herbivore that survives by eating grass. IELTS usage: Useful...",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_spawn_20260712",
+      "type": "vocabulary",
+      "title": "Spawn",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "generate",
+        "create",
+        "appear"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/spawn.md",
+      "excerpt": "Spawn Meaning: Generate something in a game world. Pronunciation: /spɔːn/ Example: Players can spawn different creatures in the ecosystem. IELTS usage: Useful for describing gam...",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_thrive_20260712",
+      "type": "vocabulary",
+      "title": "Thrive",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "flourish",
+        "succeed",
+        "develop"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/thrive.md",
+      "excerpt": "Thrive Meaning: Grow successfully and become strong. Pronunciation: /θraɪv/ Example: The creatures that adapt best thrive in the ecosystem. IELTS usage: Useful for describing pe...",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "session_20260712_ai_game_ideas",
+      "type": "session",
+      "title": "AI Game Ideas",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "adaptation",
+        "survival"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-19",
+        "interval_days": "7"
+      },
+      "path": "Daily_Sessions/2026-07-12_ai_game_ideas.md",
+      "excerpt": "Session Topic AI Game Development 1. Band 7.5 8.0 Model Answer I would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared...",
+      "due_date": "2026-07-19"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "session_20260712_ai_game_ideas",
+      "type": "session",
+      "title": "AI Game Ideas",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "adaptation",
+        "survival"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-19",
+        "interval_days": "7"
+      },
+      "path": "Daily_Sessions/2026-07-12_ai_game_ideas.md",
+      "excerpt": "Session Topic AI Game Development 1. Band 7.5 8.0 Model Answer I would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared..."
+    },
+    {
+      "id": "expr_two_sided_system_view_20260712",
+      "type": "expression",
+      "title": "Two-sided system view",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment",
+        "Culture",
+        "Philosophy",
+        "Society",
+        "Opinion questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "balance",
+        "systems thinking",
+        "complexity"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Expression_Bank/two_sided_system_view.md",
+      "excerpt": "Two sided system view Expression: Everything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system. Used for: Culture, P..."
+    },
+    {
+      "id": "grammar_20260712_1",
+      "type": "grammar_error",
+      "title": "The winner can get the resource and survive.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "adaptation",
+        "survival"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_grammar_1.md",
+      "excerpt": "Grammar Upgrade 1 Original: The winner can get the resource and survive. Better: The creatures that obtain enough resources are more likely to survive. Explanation: 使用 relative..."
+    },
+    {
+      "id": "story_zhejiang_travel_experience_20260712",
+      "type": "personal_story",
+      "title": "Zhejiang travel experience",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment",
+        "Travel",
+        "Places",
+        "People",
+        "Unexpected Experience"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "flexible story bank",
+        "IELTS Part 2",
+        "personal growth"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Personal_Stories/zhejiang_travel_experience.md",
+      "excerpt": "Zhejiang travel experience Story: During my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a pe..."
+    },
+    {
+      "id": "pron_congested_20260712",
+      "type": "pronunciation",
+      "title": "Congested",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "adaptation",
+        "survival"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Pronunciation/congested.md",
+      "excerpt": "Congested Pronunciation: /kənˈdʒestɪd/ Common mistake: wrong stress Practice sentence: The roads are often congested during rush hour."
+    },
+    {
+      "id": "vocab_adapt_20260712",
+      "type": "vocabulary",
+      "title": "Adapt",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "adjust",
+        "evolve",
+        "respond"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/adapt.md",
+      "excerpt": "Adapt Meaning: Change successfully according to a new situation. Pronunciation: /əˈdæpt/ Example: The creatures that adapt best will survive. IELTS usage: Useful for education,..."
+    },
+    {
+      "id": "vocab_herbivore_20260712",
+      "type": "vocabulary",
+      "title": "Herbivore",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "ecosystem",
+        "plant-eating animal",
+        "food chain"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/herbivore.md",
+      "excerpt": "Herbivore Meaning: An animal that eats plants. Pronunciation: /ˈhɜːrbɪvɔːr/ Example: The first creature is a simple herbivore that survives by eating grass. IELTS usage: Useful..."
+    },
+    {
+      "id": "vocab_spawn_20260712",
+      "type": "vocabulary",
+      "title": "Spawn",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "generate",
+        "create",
+        "appear"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/spawn.md",
+      "excerpt": "Spawn Meaning: Generate something in a game world. Pronunciation: /spɔːn/ Example: Players can spawn different creatures in the ecosystem. IELTS usage: Useful for describing gam..."
+    },
+    {
+      "id": "vocab_thrive_20260712",
+      "type": "vocabulary",
+      "title": "Thrive",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_game_ideas",
+      "topics": [
+        "Technology",
+        "Games",
+        "Environment"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Describe Systems",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "flourish",
+        "succeed",
+        "develop"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/thrive.md",
+      "excerpt": "Thrive Meaning: Grow successfully and become strong. Pronunciation: /θraɪv/ Example: The creatures that adapt best thrive in the ecosystem. IELTS usage: Useful for describing pe..."
+    }
+  ]
+}

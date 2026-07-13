@@ -1,5 +1,5 @@
 ---
-id: story_zhejiang_travel_experience_20260712
+id: story_20260712_ai_game_ideas_zhejiang_travel_experience
 type: personal_story
 title: Zhejiang travel experience
 created: 2026-07-12

@@ -1,5 +1,5 @@
 ---
-id: expr_two_sided_system_view_20260712
+id: expr_20260712_ai_game_ideas_two_sided_system_view
 type: expression
 title: Two-sided system view
 created: 2026-07-12

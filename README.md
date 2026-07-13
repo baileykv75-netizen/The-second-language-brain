@@ -6,7 +6,7 @@ A personal IELTS Speaking knowledge tree. Open this page like a learning app: re
 
 - Mobile app view: [GitHub Pages](https://baileykv75-netizen.github.io/The-second-language-brain/)
 - Project plan: [PROJECT_PLAN.md](PROJECT_PLAN.md)
-- Today's review: [2026-07-12](Review_System/due/2026-07-12.md)
+- Today's review: [2026-07-13](Review_System/due/2026-07-13.md)
 - Add a new structured session: [inbox/](inbox/)
 - Session template: [templates/session_template.md](templates/session_template.md)
 - Full session history: [indexes/sessions.md](indexes/sessions.md)
@@ -24,7 +24,7 @@ A personal IELTS Speaking knowledge tree. Open this page like a learning app: re
 
 | Area | Open |
 | --- | --- |
-| Review | [Due list](Review_System/due/2026-07-12.md) |
+| Review | [Due list](Review_System/due/2026-07-13.md) |
 | Topics | [Topic tree](IELTS_Topics/) |
 | Skills | [Skill tree](Skill_Tree/) |
 | Vocabulary | [Vocabulary index](indexes/vocabulary.md) |
@@ -59,26 +59,26 @@ A personal IELTS Speaking knowledge tree. Open this page like a learning app: re
 
 ## Recent Vocabulary
 
-- [Adapt](Skill_Tree/Vocabulary/adapt.md)
-- [Herbivore](Skill_Tree/Vocabulary/herbivore.md)
-- [Spawn](Skill_Tree/Vocabulary/spawn.md)
-- [Thrive](Skill_Tree/Vocabulary/thrive.md)
+- [Adapt](Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_adapt.md)
+- [Herbivore](Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_herbivore.md)
+- [Spawn](Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_spawn.md)
+- [Thrive](Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_thrive.md)
 
 ## Recent Grammar Mistakes
 
-- [The winner can get the resource and survive.](Mistake_Log/2026-07-12_grammar_1.md)
+- [The winner can get the resource and survive.](Mistake_Log/2026-07-12_ai_game_ideas_grammar_1.md)
 
 ## Expression Bank
 
-- [Two-sided system view](Expression_Bank/two_sided_system_view.md)
+- [Two-sided system view](Expression_Bank/2026-07-12_ai_game_ideas_two_sided_system_view.md)
 
 ## Mini Response Bank
 
-- [System-thinking game answer](Response_Bank/system_thinking_game_answer.md)
+- [System-thinking game answer](Response_Bank/2026-07-12_ai_game_ideas_system_thinking_game_answer.md)
 
 ## Personal Stories
 
-- [Zhejiang travel experience](Personal_Stories/zhejiang_travel_experience.md)
+- [Zhejiang travel experience](Personal_Stories/2026-07-12_ai_game_ideas_zhejiang_travel_experience.md)
 
 ## How To Update This Brain
 
@@ -94,8 +94,12 @@ Please add this IELTS session to the knowledge tree, run the pipeline, commit, a
 For local Windows workflow:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\run_pipeline.ps1 inbox\2026-07-12_AI_Game_Ideas.md
+python scripts/run_pipeline.py inbox/2026-07-12_AI_Game_Ideas.md
 ```
+
+`scripts/run_pipeline.py` processes the session, rebuilds indexes, creates today's review list, refreshes this README, updates the GitHub Pages app, and runs repository validation.
+
+Do not edit `docs/data.json` manually except for debugging. It is generated from Markdown nodes.
 
 ## Content Rules
 
@@ -103,4 +107,4 @@ powershell -ExecutionPolicy Bypass -File .\scripts\run_pipeline.ps1 inbox\2026-0
 - Chinese is used for grammar explanations, review notes, and learning guidance.
 - The scripts organize and link your material. They do not rewrite your personal ideas.
 
-_Dashboard last generated: 2026-07-12_
+_Dashboard last generated: 2026-07-13_

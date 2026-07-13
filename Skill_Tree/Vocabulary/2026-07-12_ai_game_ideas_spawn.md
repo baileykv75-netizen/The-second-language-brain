@@ -1,31 +1,31 @@
 ---
-id: vocab_adapt_20260712
+id: vocab_20260712_ai_game_ideas_spawn
 type: vocabulary
-title: Adapt
+title: Spawn
 created: 2026-07-12
 source_session: session_20260712_ai_game_ideas
 topics: [Technology, Games, Environment]
 skills: [Explain Reasons, Describe Systems, Express Personal Opinions]
-related: [adjust, evolve, respond]
+related: [generate, create, appear]
 review:
   status: new
   next_due: 2026-07-13
   interval_days: 1
 ---
 
-# Adapt
+# Spawn
 
 Meaning:
-Change successfully according to a new situation.
+Generate something in a game world.
 
 Pronunciation:
-/əˈdæpt/
+/spɔːn/
 
 Example:
-The creatures that adapt best will survive.
+Players can spawn different creatures in the ecosystem.
 
 IELTS usage:
-Useful for education, technology, work, culture, and environmental questions.
+Useful for describing games, technology, simulations, and artificial systems.
 
 Related words:
-adjust, evolve, respond
+generate, create, appear

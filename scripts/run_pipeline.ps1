@@ -30,14 +30,6 @@ if (-not $Python) {
     throw "Python was not found. Install Python or run this project from Codex with the bundled runtime."
 }
 
-$ProcessScript = Join-Path $RepoRoot "scripts\process_session.py"
-$IndexScript = Join-Path $RepoRoot "scripts\build_indexes.py"
-$ReviewScript = Join-Path $RepoRoot "scripts\build_review.py"
-$DashboardScript = Join-Path $RepoRoot "scripts\build_dashboard.py"
-$SiteScript = Join-Path $RepoRoot "scripts\build_site.py"
+$PipelineScript = Join-Path $RepoRoot "scripts\run_pipeline.py"
 
-& $Python $ProcessScript $SessionFile
-& $Python $IndexScript
-& $Python $ReviewScript
-& $Python $DashboardScript
-& $Python $SiteScript
+& $Python $PipelineScript $SessionFile

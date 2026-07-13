@@ -1,5 +1,5 @@
 ---
-id: grammar_20260712_1
+id: grammar_20260712_ai_game_ideas_grammar_1
 type: grammar_error
 title: The winner can get the resource and survive.
 created: 2026-07-12

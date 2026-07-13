@@ -78,9 +78,9 @@ def first_existing(paths: list[Path]) -> str:
     return ""
 
 
-def latest_due_file(root: Path) -> Path | None:
-    files = sorted((root / "Review_System" / "due").glob("*.md"), reverse=True)
-    return files[0] if files else None
+def due_file_for_date(root: Path, review_date: date) -> Path | None:
+    path = root / "Review_System" / "due" / f"{review_date.isoformat()}.md"
+    return path if path.exists() else None
 
 
 def collect_by_type(nodes: list[tuple[Path, dict]], node_type: str, limit: int = 8) -> list[str]:
@@ -97,9 +97,10 @@ def collect_index_links(root: Path, prefix: str, limit: int = 12) -> list[str]:
     return rows
 
 
-def build(root: Path = ROOT) -> None:
+def build(root: Path = ROOT, review_date: date | None = None) -> None:
+    review_date = review_date or date.today()
     nodes = iter_nodes(root)
-    due_file = latest_due_file(root)
+    due_file = due_file_for_date(root, review_date)
     session_count = sum(1 for _, meta in nodes if meta.get("type") == "session")
     vocab_count = sum(1 for _, meta in nodes if meta.get("type") == "vocabulary")
     mistake_count = sum(1 for _, meta in nodes if meta.get("type") == "grammar_error")
@@ -199,8 +200,12 @@ def build(root: Path = ROOT) -> None:
         "For local Windows workflow:",
         "",
         "```powershell",
-        "powershell -ExecutionPolicy Bypass -File .\\scripts\\run_pipeline.ps1 inbox\\2026-07-12_AI_Game_Ideas.md",
+        "python scripts/run_pipeline.py inbox/2026-07-12_AI_Game_Ideas.md",
         "```",
+        "",
+        "`scripts/run_pipeline.py` processes the session, rebuilds indexes, creates today's review list, refreshes this README, updates the GitHub Pages app, and runs repository validation.",
+        "",
+        "Do not edit `docs/data.json` manually except for debugging. It is generated from Markdown nodes.",
         "",
         "## Content Rules",
         "",
@@ -216,7 +221,12 @@ def build(root: Path = ROOT) -> None:
 
 
 def main(argv: list[str]) -> int:
-    build(ROOT)
+    review_date = date.today()
+    if len(argv) == 2:
+        from datetime import datetime
+
+        review_date = datetime.strptime(argv[1], "%Y-%m-%d").date()
+    build(ROOT, review_date)
     return 0
 
 

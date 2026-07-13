@@ -1,9 +1,9 @@
 ---
 title: AI Game Ideas
 date: 2026-07-12
-topics: [Technology, Games, Environment]
+topics: [Technology, Games, Environment, Personal Philosophy, Opinion Questions]
 skills: [Explain Reasons, Describe Systems, Express Personal Opinions]
-related: [ecosystem, adaptation, survival]
+related: [ecosystem, adaptation, survival, system thinking]
 ---
 
 # Session Topic
@@ -12,28 +12,47 @@ AI Game Development
 
 ## 1. Band 7.5-8.0 Model Answer
 
-Write the polished speaking answer here.
+Write the polished speaking answer here. Keep the user's view, and create an upgraded version separately when needed.
 
 ## 2. New Vocabulary
 
 ### Spawn
 
 Meaning:
-Generate something in a game world.
+Generate or appear in a game world.
 
 Pronunciation:
-/spɔːn/
+/spawn/
 
 Example:
 Players can spawn different creatures in the ecosystem.
 
 IELTS usage:
-Useful for describing games, technology, simulations, and systems.
+Useful for describing games, technology, simulations, and artificial systems.
 
 Related words:
 generate, create, appear
 
+### Adapt
+
+Meaning:
+Change successfully according to a new situation.
+
+Pronunciation:
+/uh-DAPT/
+
+Example:
+The creatures that adapt best are more likely to survive.
+
+IELTS usage:
+Useful for technology, education, environment, work, and personal growth questions.
+
+Related words:
+adjust, evolve, respond
+
 ## 3. Grammar Upgrade
+
+### Resource sentence
 
 Original:
 The winner can get the resource and survive.
@@ -42,17 +61,17 @@ Better:
 The creatures that obtain enough resources are more likely to survive.
 
 Explanation:
-使用 relative clause 和更自然的 academic expression，让句子更接近 Band 7.5+ 的表达。
+Use a relative clause and a more natural academic expression. 中文说明：这里把简单动作升级成更适合 IELTS Speaking 的因果表达。
 
 ## 4. Pronunciation Notes
 
 ### Congested
 
 Pronunciation:
-/kənˈdʒestɪd/
+/kuhn-JES-tid/
 
 Common mistake:
-wrong stress
+Putting the stress on the wrong syllable.
 
 Practice sentence:
 The city center is often congested during rush hour.
@@ -66,6 +85,9 @@ Everything has two sides, but they should not always be judged as simply good or
 
 Used for:
 Culture, Philosophy, Society, Opinion questions
+
+Related:
+balance, complexity, system thinking
 
 ## 6. Mini Speaking Responses
 
@@ -83,6 +105,20 @@ main idea -> explanation -> contrast -> real-life connection
 Related:
 ecosystem, balance, adaptation
 
+### Personal philosophy opinion answer
+
+Response:
+In my opinion, many things in life should be understood as systems rather than simple choices between good and bad. For example, technology can create problems, but it can also give people new tools to solve those problems. So I usually try to look at the relationship between different parts before making a judgment.
+
+Used for:
+Personal Philosophy, Opinion Questions, Technology, Society
+
+Structure:
+opinion -> example -> balanced judgment
+
+Related:
+system thinking, balance, judgment
+
 ## 7. Personal Stories
 
 ### Zhejiang travel experience
@@ -93,11 +129,16 @@ During my trip to Zhejiang, I realized that a single travel experience can be us
 Used for:
 Travel, Places, People, Unexpected Experience
 
+Related:
+travel, memory, personal change
+
 ## 8. Topic Links
 
 - Technology
 - Games
 - Environment
+- Personal Philosophy
+- Opinion Questions
 
 ## 9. Skill Links
 

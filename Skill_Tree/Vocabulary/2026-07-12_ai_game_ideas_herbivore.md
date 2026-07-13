@@ -1,5 +1,5 @@
 ---
-id: vocab_herbivore_20260712
+id: vocab_20260712_ai_game_ideas_herbivore
 type: vocabulary
 title: Herbivore
 created: 2026-07-12

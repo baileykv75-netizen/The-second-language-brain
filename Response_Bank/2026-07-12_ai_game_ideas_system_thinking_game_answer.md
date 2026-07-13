@@ -1,5 +1,5 @@
 ---
-id: response_system_thinking_game_answer_20260712
+id: response_20260712_ai_game_ideas_system_thinking_game_answer
 type: mini_response
 title: System-thinking game answer
 created: 2026-07-12

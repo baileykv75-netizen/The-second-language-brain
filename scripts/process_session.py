@@ -5,9 +5,23 @@ import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+try:
+    from normalize_session_update import normalize_text
+except ImportError:  # pragma: no cover - keeps direct imports tolerant.
+    normalize_text = None
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEW_INTERVALS = [1, 3, 7, 14, 30]
+NODE_DIRS = [
+    "Daily_Sessions",
+    "Skill_Tree/Vocabulary",
+    "Skill_Tree/Pronunciation",
+    "Mistake_Log",
+    "Expression_Bank",
+    "Response_Bank",
+    "Personal_Stories",
+]
 
 
 def slugify(value: str) -> str:
@@ -43,16 +57,28 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
     if not match:
         return {}, text
     meta: dict[str, object] = {}
+    current_parent = None
     for line in match.group(1).splitlines():
-        if not line.strip() or ":" not in line:
+        if not line.strip():
+            continue
+        if line.startswith("  ") and current_parent:
+            key, raw = line.strip().split(":", 1)
+            parent = meta.setdefault(current_parent, {})
+            if isinstance(parent, dict):
+                parent[key.strip()] = raw.strip().strip("\"'")
+            continue
+        if ":" not in line:
             continue
         key, raw = line.split(":", 1)
         key = key.strip()
         raw = raw.strip()
+        current_parent = key if raw == "" else None
         if raw.startswith("[") and raw.endswith("]"):
             meta[key] = parse_list(raw)
-        else:
+        elif raw:
             meta[key] = raw.strip("\"'")
+        else:
+            meta[key] = {}
     return meta, text[match.end():]
 
 
@@ -98,11 +124,14 @@ def h3_blocks(section: str) -> list[tuple[str, str]]:
 
 def field(block: str, label: str) -> str:
     pattern = re.compile(
-        rf"^{re.escape(label)}:\s*\n(.*?)(?=^[A-Z][A-Za-z ]+:\s*$|\Z)",
+        rf"^{re.escape(label)}:\s*(?:\n(.*?))?(?=^[A-Z][A-Za-z ]+:\s*$|^[A-Z][A-Za-z ]+:\s+|\Z)",
         re.M | re.S,
     )
     match = pattern.search(block)
-    return match.group(1).strip() if match else ""
+    if not match:
+        inline = re.search(rf"^{re.escape(label)}:\s*(.+)$", block, re.M)
+        return inline.group(1).strip() if inline else ""
+    return (match.group(1) or "").strip()
 
 
 def find_section(sections: dict[str, str], keyword: str) -> str:
@@ -120,9 +149,12 @@ def find_any_section(sections: dict[str, str], keywords: list[str]) -> str:
     return ""
 
 
-def write_node(path: Path, meta: dict, body: str) -> None:
+def write_node(path: Path, meta: dict, body: str) -> str:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(frontmatter(meta) + body.strip() + "\n", encoding="utf-8")
+    content = frontmatter(meta) + body.strip() + "\n"
+    action = "updated" if path.exists() else "created"
+    path.write_text(content, encoding="utf-8")
+    return action
 
 
 def session_date(input_path: Path, meta: dict) -> date:
@@ -144,16 +176,25 @@ def normalize_meta_list(meta: dict, key: str) -> list[str]:
     return []
 
 
-def base_node_meta(node_id: str, node_type: str, title: str, created: date, source_session: str, topics: list[str], skills: list[str], related: list[str]) -> dict:
+def base_node_meta(
+    node_id: str,
+    node_type: str,
+    title: str,
+    created: date,
+    source_session: str,
+    topics: list[str],
+    skills: list[str],
+    related: list[str],
+) -> dict:
     return {
         "id": node_id,
         "type": node_type,
         "title": title,
         "created": created.isoformat(),
         "source_session": source_session,
-        "topics": topics,
-        "skills": skills,
-        "related": related,
+        "topics": unique_list(topics),
+        "skills": unique_list(skills),
+        "related": unique_list(related),
         "review": {
             "status": "new",
             "next_due": (created + timedelta(days=REVIEW_INTERVALS[0])).isoformat(),
@@ -162,8 +203,31 @@ def base_node_meta(node_id: str, node_type: str, title: str, created: date, sour
     }
 
 
-def process(input_path: Path) -> None:
+def node_key(created: date, session_slug: str, item_slug: str) -> str:
+    return f"{created.strftime('%Y%m%d')}_{session_slug}_{item_slug}"
+
+
+def cleanup_session_nodes(source_session: str, keep_paths: set[Path]) -> list[Path]:
+    removed: list[Path] = []
+    normalized_keep = {path.resolve() for path in keep_paths}
+    for directory in NODE_DIRS:
+        root = ROOT / directory
+        if not root.exists():
+            continue
+        for path in root.glob("*.md"):
+            if path.resolve() in normalized_keep:
+                continue
+            meta, _ = parse_frontmatter(path.read_text(encoding="utf-8"))
+            if meta.get("source_session") == source_session:
+                path.unlink()
+                removed.append(path)
+    return removed
+
+
+def process(input_path: Path) -> Path:
     raw_text = input_path.read_text(encoding="utf-8")
+    if normalize_text:
+        raw_text = normalize_text(raw_text, input_path)
     meta, body = parse_frontmatter(raw_text)
     created = session_date(input_path, meta)
     title = str(meta.get("title") or input_path.stem)
@@ -173,18 +237,22 @@ def process(input_path: Path) -> None:
     skills = normalize_meta_list(meta, "skills")
     related = normalize_meta_list(meta, "related")
     sections = split_sections(body)
+    written_paths: set[Path] = set()
+    actions: list[str] = []
 
     session_meta = base_node_meta(source_session, "session", title, created, source_session, topics, skills, related)
     session_meta["review"]["next_due"] = (created + timedelta(days=7)).isoformat()
     session_meta["review"]["interval_days"] = 7
     session_path = ROOT / "Daily_Sessions" / f"{created.isoformat()}_{session_slug}.md"
-    write_node(session_path, session_meta, body)
+    actions.append(f"{write_node(session_path, session_meta, body)} session: {session_path.relative_to(ROOT)}")
+    written_paths.add(session_path)
 
     vocabulary = find_section(sections, "new vocabulary")
     for term, block in h3_blocks(vocabulary):
         term_slug = slugify(term)
         item_related = parse_list(field(block, "Related words")) or related
-        node_id = f"vocab_{term_slug}_{created.strftime('%Y%m%d')}"
+        key = node_key(created, session_slug, term_slug)
+        node_id = f"vocab_{key}"
         node_meta = base_node_meta(node_id, "vocabulary", term, created, source_session, topics, skills, item_related)
         node_body = "\n".join([
             f"# {term}",
@@ -199,7 +267,9 @@ def process(input_path: Path) -> None:
             "",
             f"Related words:\n{', '.join(item_related)}",
         ])
-        write_node(ROOT / "Skill_Tree" / "Vocabulary" / f"{term_slug}.md", node_meta, node_body)
+        path = ROOT / "Skill_Tree" / "Vocabulary" / f"{created.isoformat()}_{session_slug}_{term_slug}.md"
+        actions.append(f"{write_node(path, node_meta, node_body)} vocabulary: {path.relative_to(ROOT)}")
+        written_paths.add(path)
 
     grammar = find_section(sections, "grammar")
     if grammar:
@@ -209,7 +279,9 @@ def process(input_path: Path) -> None:
             better = field(block, "Better")
             explanation = field(block, "Explanation")
             title_text = original[:60] if original else grammar_title
-            node_id = f"grammar_{created.strftime('%Y%m%d')}_{index}"
+            item_slug = f"grammar_{index}"
+            key = node_key(created, session_slug, item_slug)
+            node_id = f"grammar_{key}"
             node_meta = base_node_meta(node_id, "grammar_error", title_text, created, source_session, topics, skills, related)
             node_body = "\n".join([
                 f"# Grammar Upgrade {index}",
@@ -220,12 +292,15 @@ def process(input_path: Path) -> None:
                 "",
                 f"Explanation:\n{explanation}",
             ])
-            write_node(ROOT / "Mistake_Log" / f"{created.isoformat()}_grammar_{index}.md", node_meta, node_body)
+            path = ROOT / "Mistake_Log" / f"{created.isoformat()}_{session_slug}_grammar_{index}.md"
+            actions.append(f"{write_node(path, node_meta, node_body)} grammar: {path.relative_to(ROOT)}")
+            written_paths.add(path)
 
     pronunciation = find_section(sections, "pronunciation")
     for term, block in h3_blocks(pronunciation):
         term_slug = slugify(term)
-        node_id = f"pron_{term_slug}_{created.strftime('%Y%m%d')}"
+        key = node_key(created, session_slug, term_slug)
+        node_id = f"pron_{key}"
         node_meta = base_node_meta(node_id, "pronunciation", term, created, source_session, topics, skills, related)
         node_body = "\n".join([
             f"# {term}",
@@ -236,14 +311,17 @@ def process(input_path: Path) -> None:
             "",
             f"Practice sentence:\n{field(block, 'Practice sentence')}",
         ])
-        write_node(ROOT / "Skill_Tree" / "Pronunciation" / f"{term_slug}.md", node_meta, node_body)
+        path = ROOT / "Skill_Tree" / "Pronunciation" / f"{created.isoformat()}_{session_slug}_{term_slug}.md"
+        actions.append(f"{write_node(path, node_meta, node_body)} pronunciation: {path.relative_to(ROOT)}")
+        written_paths.add(path)
 
     expressions = find_section(sections, "personal expression")
     for expression_title, block in h3_blocks(expressions):
         expression_slug = slugify(expression_title)
         used_for = parse_list(field(block, "Used for"))
         item_related = parse_list(field(block, "Related")) or related
-        node_id = f"expr_{expression_slug}_{created.strftime('%Y%m%d')}"
+        key = node_key(created, session_slug, expression_slug)
+        node_id = f"expr_{key}"
         node_meta = base_node_meta(node_id, "expression", expression_title, created, source_session, unique_list(topics + used_for), skills, item_related)
         node_body = "\n".join([
             f"# {expression_title}",
@@ -254,7 +332,9 @@ def process(input_path: Path) -> None:
             "",
             f"Related:\n{', '.join(item_related)}",
         ])
-        write_node(ROOT / "Expression_Bank" / f"{expression_slug}.md", node_meta, node_body)
+        path = ROOT / "Expression_Bank" / f"{created.isoformat()}_{session_slug}_{expression_slug}.md"
+        actions.append(f"{write_node(path, node_meta, node_body)} expression: {path.relative_to(ROOT)}")
+        written_paths.add(path)
 
     mini_responses = find_any_section(sections, ["mini speaking", "response bank", "speaking response", "short response"])
     for response_title, block in h3_blocks(mini_responses):
@@ -263,7 +343,8 @@ def process(input_path: Path) -> None:
         item_related = parse_list(field(block, "Related")) or related
         response_text = field(block, "Response") or field(block, "Answer") or block.strip()
         structure = field(block, "Structure")
-        node_id = f"response_{response_slug}_{created.strftime('%Y%m%d')}"
+        key = node_key(created, session_slug, response_slug)
+        node_id = f"response_{key}"
         node_meta = base_node_meta(node_id, "mini_response", response_title, created, source_session, unique_list(topics + used_for), skills, item_related)
         node_body = "\n".join([
             f"# {response_title}",
@@ -276,14 +357,17 @@ def process(input_path: Path) -> None:
             "",
             f"Related:\n{', '.join(item_related)}",
         ])
-        write_node(ROOT / "Response_Bank" / f"{response_slug}.md", node_meta, node_body)
+        path = ROOT / "Response_Bank" / f"{created.isoformat()}_{session_slug}_{response_slug}.md"
+        actions.append(f"{write_node(path, node_meta, node_body)} mini response: {path.relative_to(ROOT)}")
+        written_paths.add(path)
 
     stories = find_section(sections, "personal stories")
     for story_title, block in h3_blocks(stories):
         story_slug = slugify(story_title)
         used_for = parse_list(field(block, "Used for"))
         item_related = parse_list(field(block, "Related")) or related
-        node_id = f"story_{story_slug}_{created.strftime('%Y%m%d')}"
+        key = node_key(created, session_slug, story_slug)
+        node_id = f"story_{key}"
         node_meta = base_node_meta(node_id, "personal_story", story_title, created, source_session, unique_list(topics + used_for), skills, item_related)
         node_body = "\n".join([
             f"# {story_title}",
@@ -294,18 +378,17 @@ def process(input_path: Path) -> None:
             "",
             f"Related:\n{', '.join(item_related)}",
         ])
-        write_node(ROOT / "Personal_Stories" / f"{story_slug}.md", node_meta, node_body)
+        path = ROOT / "Personal_Stories" / f"{created.isoformat()}_{session_slug}_{story_slug}.md"
+        actions.append(f"{write_node(path, node_meta, node_body)} story: {path.relative_to(ROOT)}")
+        written_paths.add(path)
 
-    import build_indexes
-    import build_review
-    import build_dashboard
-    import build_site
+    removed = cleanup_session_nodes(source_session, written_paths)
+    for item in removed:
+        actions.append(f"removed legacy node: {item.relative_to(ROOT)}")
 
-    build_indexes.build(ROOT)
-    build_review.build(ROOT, created)
-    build_dashboard.build(ROOT)
-    build_site.build(ROOT)
+    print("\n".join(actions))
     print(f"Processed session: {session_path.relative_to(ROOT)}")
+    return session_path
 
 
 def main(argv: list[str]) -> int:

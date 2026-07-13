@@ -1,31 +1,31 @@
 ---
-id: vocab_spawn_20260712
+id: vocab_20260712_ai_game_ideas_thrive
 type: vocabulary
-title: Spawn
+title: Thrive
 created: 2026-07-12
 source_session: session_20260712_ai_game_ideas
 topics: [Technology, Games, Environment]
 skills: [Explain Reasons, Describe Systems, Express Personal Opinions]
-related: [generate, create, appear]
+related: [flourish, succeed, develop]
 review:
   status: new
   next_due: 2026-07-13
   interval_days: 1
 ---
 
-# Spawn
+# Thrive
 
 Meaning:
-Generate something in a game world.
+Grow successfully and become strong.
 
 Pronunciation:
-/spɔːn/
+/θraɪv/
 
 Example:
-Players can spawn different creatures in the ecosystem.
+The creatures that adapt best thrive in the ecosystem.
 
 IELTS usage:
-Useful for describing games, technology, simulations, and artificial systems.
+Useful for describing people, communities, businesses, and natural systems.
 
 Related words:
-generate, create, appear
+flourish, succeed, develop

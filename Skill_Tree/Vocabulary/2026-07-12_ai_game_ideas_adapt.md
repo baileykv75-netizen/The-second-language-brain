@@ -1,31 +1,31 @@
 ---
-id: vocab_thrive_20260712
+id: vocab_20260712_ai_game_ideas_adapt
 type: vocabulary
-title: Thrive
+title: Adapt
 created: 2026-07-12
 source_session: session_20260712_ai_game_ideas
 topics: [Technology, Games, Environment]
 skills: [Explain Reasons, Describe Systems, Express Personal Opinions]
-related: [flourish, succeed, develop]
+related: [adjust, evolve, respond]
 review:
   status: new
   next_due: 2026-07-13
   interval_days: 1
 ---
 
-# Thrive
+# Adapt
 
 Meaning:
-Grow successfully and become strong.
+Change successfully according to a new situation.
 
 Pronunciation:
-/θraɪv/
+/əˈdæpt/
 
 Example:
-The creatures that adapt best thrive in the ecosystem.
+The creatures that adapt best will survive.
 
 IELTS usage:
-Useful for describing people, communities, businesses, and natural systems.
+Useful for education, technology, work, culture, and environmental questions.
 
 Related words:
-flourish, succeed, develop
+adjust, evolve, respond

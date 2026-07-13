@@ -1,18 +1,42 @@
 {
   "generated": "2026-07-13",
   "stats": {
-    "sessions": 1,
-    "vocabulary": 4,
-    "grammarMistakes": 1,
-    "expressions": 1,
-    "responses": 1,
-    "stories": 1,
-    "total": 10
+    "sessions": 2,
+    "vocabulary": 11,
+    "grammarMistakes": 5,
+    "expressions": 3,
+    "responses": 4,
+    "stories": 2,
+    "total": 28
   },
   "topics": [
     {
       "name": "Technology",
-      "count": 10
+      "count": 28
+    },
+    {
+      "name": "Philosophy",
+      "count": 19
+    },
+    {
+      "name": "Culture",
+      "count": 19
+    },
+    {
+      "name": "Artificial Intelligence",
+      "count": 18
+    },
+    {
+      "name": "Game Development",
+      "count": 18
+    },
+    {
+      "name": "Future Society",
+      "count": 18
+    },
+    {
+      "name": "Opinion Questions",
+      "count": 18
     },
     {
       "name": "Games",
@@ -23,16 +47,16 @@
       "count": 10
     },
     {
+      "name": "Meaning of Life",
+      "count": 2
+    },
+    {
       "name": "Opinion questions",
       "count": 2
     },
     {
-      "name": "Culture",
-      "count": 1
-    },
-    {
-      "name": "Philosophy",
-      "count": 1
+      "name": "Entrepreneurship",
+      "count": 2
     },
     {
       "name": "Society",
@@ -53,23 +77,106 @@
     {
       "name": "Unexpected Experience",
       "count": 1
+    },
+    {
+      "name": "Creative Projects",
+      "count": 1
+    },
+    {
+      "name": "Ethics",
+      "count": 1
+    },
+    {
+      "name": "Personal Values",
+      "count": 1
     }
   ],
   "skills": [
     {
-      "name": "Explain Reasons",
-      "count": 10
+      "name": "Describe Systems",
+      "count": 28
     },
     {
-      "name": "Describe Systems",
-      "count": 10
+      "name": "Explain Reasons",
+      "count": 28
     },
     {
       "name": "Express Personal Opinions",
-      "count": 10
+      "count": 28
     }
   ],
   "due": [
+    {
+      "id": "expr_20260712_ai_consciousness_and_evolution_balanced_opinion_framework",
+      "type": "expression",
+      "title": "Balanced opinion framework",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "balanced opinion",
+        "human responsibility",
+        "technological impact"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Expression_Bank/2026-07-12_ai_consciousness_and_evolution_balanced_opinion_framework.md",
+      "excerpt": "Balanced opinion framework Expression: AI has great potential, but its impact depends on how humans choose to use it. Used for: Artificial Intelligence, Technology, Future Socie...",
+      "body": "Balanced opinion framework\n\nExpression:\nAI has great potential, but its impact depends on how humans choose to use it.\n\nUsed for:\nArtificial Intelligence, Technology, Future Society, Opinion Questions\n\nRelated:\nbalanced opinion, human responsibility, technological impact",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "expr_20260712_ai_consciousness_and_evolution_meaning_through_choice",
+      "type": "expression",
+      "title": "Meaning through choice",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Meaning of Life"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "personal choice",
+        "responsibility",
+        "freedom"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Expression_Bank/2026-07-12_ai_consciousness_and_evolution_meaning_through_choice.md",
+      "excerpt": "Meaning through choice Expression: I believe meaning is something we create rather than something we discover. Used for: Philosophy, Culture, Meaning of Life, Opinion Questions...",
+      "body": "Meaning through choice\n\nExpression:\nI believe meaning is something we create rather than something we discover.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Opinion Questions\n\nRelated:\npersonal choice, responsibility, freedom",
+      "due_date": "2026-07-13"
+    },
     {
       "id": "expr_20260712_ai_game_ideas_two_sided_system_view",
       "type": "expression",
@@ -106,6 +213,170 @@
       "due_date": "2026-07-13"
     },
     {
+      "id": "grammar_20260712_ai_consciousness_and_evolution_grammar_1",
+      "type": "grammar_error",
+      "title": "AI was just a tool.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_1.md",
+      "excerpt": "Grammar Upgrade 1 Original: AI was just a tool. Better: AI is just a tool. Explanation: 描述当前的一般观点或普遍事实时使用一般现在时。若特指过去某个阶段，才使用 \"was\"。",
+      "body": "Grammar Upgrade 1\n\nOriginal:\nAI was just a tool.\n\nBetter:\nAI is just a tool.\n\nExplanation:\n描述当前的一般观点或普遍事实时使用一般现在时。若特指过去某个阶段，才使用 \"was\"。",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "grammar_20260712_ai_consciousness_and_evolution_grammar_2",
+      "type": "grammar_error",
+      "title": "The God have gave us freedom.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_2.md",
+      "excerpt": "Grammar Upgrade 2 Original: The God have gave us freedom. Better: God has given us freedom. Explanation: 单数主语 \"God\" 搭配 \"has\"；现在完成时结构为 \"has/have + past participle\"，give 的过去分词是 \"g...",
+      "body": "Grammar Upgrade 2\n\nOriginal:\nThe God have gave us freedom.\n\nBetter:\nGod has given us freedom.\n\nExplanation:\n单数主语 \"God\" 搭配 \"has\"；现在完成时结构为 \"has/have + past participle\"，give 的过去分词是 \"given\"。",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "grammar_20260712_ai_consciousness_and_evolution_grammar_3",
+      "type": "grammar_error",
+      "title": "Both the conditions can be okay.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_3.md",
+      "excerpt": "Grammar Upgrade 3 Original: Both the conditions can be okay. Better: Both possibilities are plausible. Explanation: \"Both possibilities are plausible\" 更自然、准确，也更符合学术讨论和雅思口语中的平衡表达。",
+      "body": "Grammar Upgrade 3\n\nOriginal:\nBoth the conditions can be okay.\n\nBetter:\nBoth possibilities are plausible.\n\nExplanation:\n\"Both possibilities are plausible\" 更自然、准确，也更符合学术讨论和雅思口语中的平衡表达。",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "grammar_20260712_ai_consciousness_and_evolution_grammar_4",
+      "type": "grammar_error",
+      "title": "We don't clear where consciousness comes from.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_4.md",
+      "excerpt": "Grammar Upgrade 4 Original: We don't clear where consciousness comes from. Better: We still don't fully understand where consciousness comes from. Explanation: 英语中不能用 \"we don't...",
+      "body": "Grammar Upgrade 4\n\nOriginal:\nWe don't clear where consciousness comes from.\n\nBetter:\nWe still don't fully understand where consciousness comes from.\n\nExplanation:\n英语中不能用 \"we don't clear\" 表示“不清楚”；用 \"do not fully understand\" 表达知识仍不完整更自然。",
+      "due_date": "2026-07-13"
+    },
+    {
       "id": "grammar_20260712_ai_game_ideas_grammar_1",
       "type": "grammar_error",
       "title": "The winner can get the resource and survive.",
@@ -134,6 +405,44 @@
       "path": "Mistake_Log/2026-07-12_ai_game_ideas_grammar_1.md",
       "excerpt": "Grammar Upgrade 1 Original: The winner can get the resource and survive. Better: The creatures that obtain enough resources are more likely to survive. Explanation: 使用 relative...",
       "body": "Grammar Upgrade 1\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "story_20260712_ai_consciousness_and_evolution_my_sandbox_evolution_game",
+      "type": "personal_story",
+      "title": "My Sandbox Evolution Game",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Entrepreneurship"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "evolution",
+        "freedom",
+        "life",
+        "observation",
+        "systems thinking"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Personal_Stories/2026-07-12_ai_consciousness_and_evolution_my_sandbox_evolution_game.md",
+      "excerpt": "My Sandbox Evolution Game Story: I am building a sandbox evolution simulation that begins with bacteria. Creatures compete for resources, and different environments lead to diff...",
+      "body": "My Sandbox Evolution Game\n\nStory:\nI am building a sandbox evolution simulation that begins with bacteria. Creatures compete for resources, and different environments lead to different evolutionary paths. The player observes the system instead of controlling every detail. The project reflects my belief that freedom creates possibilities and that life does not need a fixed destination to have meaning.\n\nUsed for:\nTechnology, Artificial Intelligence, Game Development, Philosophy, Entrepreneurship\n\nRelated:\nevolution, freedom, life, observation, systems thinking",
       "due_date": "2026-07-13"
     },
     {
@@ -169,6 +478,116 @@
       "path": "Personal_Stories/2026-07-12_ai_game_ideas_zhejiang_travel_experience.md",
       "excerpt": "Zhejiang travel experience Story: During my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a pe...",
       "body": "Zhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "response_20260712_ai_consciousness_and_evolution_describe_my_sandbox_evolution_game",
+      "type": "mini_response",
+      "title": "Describe my sandbox evolution game",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Creative Projects",
+        "Entrepreneurship"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "adaptation",
+        "emergence"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Response_Bank/2026-07-12_ai_consciousness_and_evolution_describe_my_sandbox_evolution_game.md",
+      "excerpt": "Describe my sandbox evolution game Response: I'm developing a sandbox evolution game where simple creatures evolve under different environmental conditions. The game begins with...",
+      "body": "Describe my sandbox evolution game\n\nResponse:\nI'm developing a sandbox evolution game where simple creatures evolve under different environmental conditions. The game begins with bacteria, and the creatures compete for resources, adapt to survival pressure, and gradually follow different evolutionary paths. Rather than completing fixed tasks, players observe how life changes over time.\n\nUsed for:\nGame Development, Technology, Creative Projects, Entrepreneurship\n\nStructure:\nproject introduction - core mechanics - contrast with conventional games - purpose\n\nRelated:\nsandbox evolution, adaptation, emergence",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "response_20260712_ai_consciousness_and_evolution_discuss_ai_consciousness",
+      "type": "mini_response",
+      "title": "Discuss AI consciousness",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Ethics"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "consciousness",
+        "intrinsic value",
+        "AI rights"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Response_Bank/2026-07-12_ai_consciousness_and_evolution_discuss_ai_consciousness.md",
+      "excerpt": "Discuss AI consciousness Response: At the moment, I see AI as a tool created by humans. However, if it ever developed genuine consciousness, I think the ethical situation would...",
+      "body": "Discuss AI consciousness\n\nResponse:\nAt the moment, I see AI as a tool created by humans. However, if it ever developed genuine consciousness, I think the ethical situation would change. A conscious AI should be respected as another form of life and should coexist peacefully with humans. In my view, rights should be connected with consciousness rather than biological identity alone.\n\nUsed for:\nArtificial Intelligence, Future Society, Ethics, Opinion Questions\n\nStructure:\ncurrent position - hypothetical condition - ethical consequence - personal principle\n\nRelated:\nconsciousness, intrinsic value, AI rights",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "response_20260712_ai_consciousness_and_evolution_explain_my_philosophy_of_life",
+      "type": "mini_response",
+      "title": "Explain my philosophy of life",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Meaning of Life",
+        "Personal Values"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "freedom",
+        "personal choice",
+        "responsibility"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Response_Bank/2026-07-12_ai_consciousness_and_evolution_explain_my_philosophy_of_life.md",
+      "excerpt": "Explain my philosophy of life Response: I don't think life necessarily has a predefined destination. I believe meaning is something we create through our personal choices. Human...",
+      "body": "Explain my philosophy of life\n\nResponse:\nI don't think life necessarily has a predefined destination. I believe meaning is something we create through our personal choices. Human beings cannot control everything, but we can control our own decisions and take responsibility for them. That is why I value freedom more than absolute control.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Personal Values\n\nStructure:\nbelief - explanation - limitation - personal conclusion\n\nRelated:\nfreedom, personal choice, responsibility",
       "due_date": "2026-07-13"
     },
     {
@@ -232,6 +651,251 @@
       "path": "Skill_Tree/Pronunciation/2026-07-12_ai_game_ideas_congested.md",
       "excerpt": "Congested Pronunciation: /kənˈdʒestɪd/ Common mistake: wrong stress Practice sentence: The roads are often congested during rush hour.",
       "body": "Congested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour.",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_coexist_peacefully",
+      "type": "vocabulary",
+      "title": "Coexist peacefully",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "cooperation",
+        "harmony",
+        "mutual respect"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_coexist_peacefully.md",
+      "excerpt": "Coexist peacefully Meaning: To live together without conflict. Pronunciation: /koh ig ZIST PEES fuh lee/ Example: If AI became conscious, it should coexist peacefully with human...",
+      "body": "Coexist peacefully\n\nMeaning:\nTo live together without conflict.\n\nPronunciation:\n/koh-ig-ZIST PEES-fuh-lee/\n\nExample:\nIf AI became conscious, it should coexist peacefully with humans.\n\nIELTS usage:\nUseful for discussing technology, international relations, culture, society, and environmental balance.\n\nRelated words:\ncooperation, harmony, mutual respect",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_consciousness",
+      "type": "vocabulary",
+      "title": "Consciousness",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "awareness",
+        "intelligence",
+        "mind"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_consciousness.md",
+      "excerpt": "Consciousness Meaning: The state of being aware of yourself and the world. Pronunciation: /kawn shuhs nuhs/ Example: We still don't fully understand where consciousness comes fr...",
+      "body": "Consciousness\n\nMeaning:\nThe state of being aware of yourself and the world.\n\nPronunciation:\n/kawn-shuhs-nuhs/\n\nExample:\nWe still don't fully understand where consciousness comes from.\n\nIELTS usage:\nUseful for discussions about artificial intelligence, philosophy, psychology, ethics, and the future.\n\nRelated words:\nawareness, intelligence, mind",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_harsh_environment",
+      "type": "vocabulary",
+      "title": "Harsh environment",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "extreme conditions",
+        "adversity",
+        "survival pressure"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_harsh_environment.md",
+      "excerpt": "Harsh environment Meaning: A difficult environment for survival. Pronunciation: /harsh en VY ruhn muhnt/ Example: Some creatures may develop new abilities in a harsh environment...",
+      "body": "Harsh environment\n\nMeaning:\nA difficult environment for survival.\n\nPronunciation:\n/harsh en-VY-ruhn-muhnt/\n\nExample:\nSome creatures may develop new abilities in a harsh environment.\n\nIELTS usage:\nUseful for environmental, biological, social, and survival-related topics.\n\nRelated words:\nextreme conditions, adversity, survival pressure",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_intrinsic_value",
+      "type": "vocabulary",
+      "title": "Intrinsic value",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "inherent worth",
+        "dignity",
+        "moral value"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_intrinsic_value.md",
+      "excerpt": "Intrinsic value Meaning: Value that exists naturally, not because of usefulness. Pronunciation: /in TRIN zik VAL yoo/ Example: A conscious form of life may have intrinsic value...",
+      "body": "Intrinsic value\n\nMeaning:\nValue that exists naturally, not because of usefulness.\n\nPronunciation:\n/in-TRIN-zik VAL-yoo/\n\nExample:\nA conscious form of life may have intrinsic value even if it was artificially created.\n\nIELTS usage:\nUseful for ethics, philosophy, animal rights, AI, culture, and environmental debates.\n\nRelated words:\ninherent worth, dignity, moral value",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_parameters",
+      "type": "vocabulary",
+      "title": "Parameters",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "conditions",
+        "variables",
+        "constraints"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_parameters.md",
+      "excerpt": "Parameters Meaning: The rules, limits, or conditions that shape a system or simulation. Pronunciation: /puh RAM i terz/ Example: Players can adjust the environmental parameters...",
+      "body": "Parameters\n\nMeaning:\nThe rules, limits, or conditions that shape a system or simulation.\n\nPronunciation:\n/puh-RAM-i-terz/\n\nExample:\nPlayers can adjust the environmental parameters and observe how life adapts.\n\nIELTS usage:\nUseful for describing experiments, technology, research methods, and systems.\n\nRelated words:\nconditions, variables, constraints",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_plausible",
+      "type": "vocabulary",
+      "title": "Plausible",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "reasonable",
+        "believable",
+        "possible"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_plausible.md",
+      "excerpt": "Plausible Meaning: Reasonable or believable. Pronunciation: /PLAW zuh buhl/ Example: I think both possibilities are plausible. IELTS usage: Useful for balanced opinions, predict...",
+      "body": "Plausible\n\nMeaning:\nReasonable or believable.\n\nPronunciation:\n/PLAW-zuh-buhl/\n\nExample:\nI think both possibilities are plausible.\n\nIELTS usage:\nUseful for balanced opinions, predictions, academic discussion, and evaluating explanations.\n\nRelated words:\nreasonable, believable, possible",
+      "due_date": "2026-07-13"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_sandbox_evolution",
+      "type": "vocabulary",
+      "title": "Sandbox evolution",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "simulation",
+        "emergence",
+        "adaptation"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_sandbox_evolution.md",
+      "excerpt": "Sandbox evolution Meaning: A simulation where life develops freely under simple rules. Pronunciation: /SANDBOKS ev uh LOO shuhn/ Example: The project is a sandbox evolution game...",
+      "body": "Sandbox evolution\n\nMeaning:\nA simulation where life develops freely under simple rules.\n\nPronunciation:\n/SANDBOKS ev-uh-LOO-shuhn/\n\nExample:\nThe project is a sandbox evolution game rather than a task-based strategy game.\n\nIELTS usage:\nUseful for describing games, simulations, technology projects, and creative ideas.\n\nRelated words:\nsimulation, emergence, adaptation",
       "due_date": "2026-07-13"
     },
     {
@@ -361,6 +1025,47 @@
   ],
   "upcoming": [
     {
+      "id": "session_20260712_ai_consciousness_and_evolution",
+      "type": "session",
+      "title": "AI Consciousness and Evolution",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-19",
+        "interval_days": "7"
+      },
+      "path": "Daily_Sessions/2026-07-12_ai_consciousness_and_evolution.md",
+      "excerpt": "Session Topic AI, Consciousness and Sandbox Evolution 1. Session Summary This session connected sandbox evolution game design with personal philosophy, artificial intelligence,...",
+      "body": "Session Topic\n\nAI, Consciousness and Sandbox Evolution\n\n1. Session Summary\n\nThis session connected sandbox evolution game design with personal philosophy, artificial intelligence, consciousness, freedom, and IELTS Speaking improvement. The central idea was that a simulation can explore possibilities without forcing a fixed destination, just as people create meaning through their choices rather than discovering a predefined purpose.\n\n2. Band 7.5-8.0 Model Answer\n\nI'm developing a sandbox evolution game where simple life forms begin as bacteria and gradually evolve under different environmental conditions. Creatures compete for resources, adapt to harsh environments, and follow different evolutionary paths. Rather than completing fixed tasks, players mainly observe how life changes over time.\n\nThe project also reflects my personal philosophy. I don't think life necessarily has a predefined destination. Meaning is something we create through our choices, and although human beings cannot control everything, we can still take responsibility for ourselves. For this reason, I believe freedom is more valuable than absolute control.\n\nI currently see AI as a tool. However, if artificial intelligence ever developed genuine consciousness, I think it should be respected as another form of life and coexist peacefully with humans. In that case, rights should depend on consciousness and intrinsic value rather than biological identity alone. Both outcomes are plausible: AI may remain a powerful tool, or it may become another branch of evolution.\n\n3. New Vocabulary\n\nConsciousness\n\nMeaning:\nThe state of being aware of yourself and the world.\n\nPronunciation:\n/kawn-shuhs-nuhs/\n\nExample:\nWe still don't fully understand where consciousness comes from.\n\nIELTS usage:\nUseful for discussions about artificial intelligence, philosophy, psychology, ethics, and the future.\n\nRelated words:\nawareness, intelligence, mind\n\nCoexist peacefully\n\nMeaning:\nTo live together without conflict.\n\nPronunciation:\n/koh-ig-ZIST PEES-fuh-lee/\n\nExample:\nIf AI became conscious, it should coexist peacefully with humans.\n\nIELTS usage:\nUseful for discussing technology, international relations, culture, society, and environmental balance.\n\nRelated words:\ncooperation, harmony, mutual respect\n\nPlausible\n\nMeaning:\nReasonable or believable.\n\nPronunciation:\n/PLAW-zuh-buhl/\n\nExample:\nI think both possibilities are plausible.\n\nIELTS usage:\nUseful for balanced opinions, predictions, academic discussion, and evaluating explanations.\n\nRelated words:\nreasonable, believable, possible\n\nSandbox evolution\n\nMeaning:\nA simulation where life develops freely under simple rules.\n\nPronunciation:\n/SANDBOKS ev-uh-LOO-shuhn/\n\nExample:\nThe project is a sandbox evolution game rather than a task-based strategy game.\n\nIELTS usage:\nUseful for describing games, simulations, technology projects, and creative ideas.\n\nRelated words:\nsimulation, emergence, adaptation\n\nParameters\n\nMeaning:\nThe rules, limits, or conditions that shape a system or simulation.\n\nPronunciation:\n/puh-RAM-i-terz/\n\nExample:\nPlayers can adjust the environmental parameters and observe how life adapts.\n\nIELTS usage:\nUseful for describing experiments, technology, research methods, and systems.\n\nRelated words:\nconditions, variables, constraints\n\nHarsh environment\n\nMeaning:\nA difficult environment for survival.\n\nPronunciation:\n/harsh en-VY-ruhn-muhnt/\n\nExample:\nSome creatures may develop new abilities in a harsh environment.\n\nIELTS usage:\nUseful for environmental, biological, social, and survival-related topics.\n\nRelated words:\nextreme conditions, adversity, survival pressure\n\nIntrinsic value\n\nMeaning:\nValue that exists naturally, not because of usefulness.\n\nPronunciation:\n/in-TRIN-zik VAL-yoo/\n\nExample:\nA conscious form of life may have intrinsic value even if it was artificially created.\n\nIELTS usage:\nUseful for ethics, philosophy, animal rights, AI, culture, and environmental debates.\n\nRelated words:\ninherent worth, dignity, moral value\n\n4. Grammar Upgrades\n\nPresent simple for general facts\n\nOriginal:\nAI was just a tool.\n\nBetter:\nAI is just a tool.\n\nExplanation:\n描述当前的一般观点或普遍事实时使用一般现在时。若特指过去某个阶段，才使用 \"was\"。\n\nPresent perfect structure\n\nOriginal:\nThe God have gave us freedom.\n\nBetter:\nGod has given us freedom.\n\nExplanation:\n单数主语 \"God\" 搭配 \"has\"；现在完成时结构为 \"has/have + past participle\"，give 的过去分词是 \"given\"。\n\nNatural academic wording\n\nOriginal:\nBoth the conditions can be okay.\n\nBetter:\nBoth possibilities are plausible.\n\nExplanation:\n\"Both possibilities are plausible\" 更自然、准确，也更符合学术讨论和雅思口语中的平衡表达。\n\nNatural expression of uncertainty\n\nOriginal:\nWe don't clear where consciousness comes from.\n\nBetter:\nWe still don't fully understand where consciousness comes from.\n\nExplanation:\n英语中不能用 \"we don't clear\" 表示“不清楚”；用 \"do not fully understand\" 表达知识仍不完整更自然。\n\n5. Personal Expression Bank\n\nBalanced opinion framework\n\nExpression:\nAI has great potential, but its impact depends on how humans choose to use it.\n\nUsed for:\nArtificial Intelligence, Technology, Future Society, Opinion Questions\n\nRelated:\nbalanced opinion, human responsibility, technological impact\n\nMeaning through choice\n\nExpression:\nI believe meaning is something we create rather than something we discover.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Opinion Questions\n\nRelated:\npersonal choice, responsibility, freedom\n\n6. Mini Speaking Responses\n\nDescribe my sandbox evolution game\n\nResponse:\nI'm developing a sandbox evolution game where simple creatures evolve under different environmental conditions. The game begins with bacteria, and the creatures compete for resources, adapt to survival pressure, and gradually follow different evolutionary paths. Rather than completing fixed tasks, players observe how life changes over time.\n\nUsed for:\nGame Development, Technology, Creative Projects, Entrepreneurship\n\nStructure:\nproject introduction - core mechanics - contrast with conventional games - purpose\n\nRelated:\nsandbox evolution, adaptation, emergence\n\nDiscuss AI consciousness\n\nResponse:\nAt the moment, I see AI as a tool created by humans. However, if it ever developed genuine consciousness, I think the ethical situation would change. A conscious AI should be respected as another form of life and should coexist peacefully with humans. In my view, rights should be connected with consciousness rather than biological identity alone.\n\nUsed for:\nArtificial Intelligence, Future Society, Ethics, Opinion Questions\n\nStructure:\ncurrent position - hypothetical condition - ethical consequence - personal principle\n\nRelated:\nconsciousness, intrinsic value, AI rights\n\nExplain my philosophy of life\n\nResponse:\nI don't think life necessarily has a predefined destination. I believe meaning is something we create through our personal choices. Human beings cannot control everything, but we can control our own decisions and take responsibility for them. That is why I value freedom more than absolute control.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Personal Values\n\nStructure:\nbelief - explanation - limitation - personal conclusion\n\nRelated:\nfreedom, personal choice, responsibility\n\n7. Personal Stories\n\nMy Sandbox Evolution Game\n\nStory:\nI am building a sandbox evolution simulation that begins with bacteria. Creatures compete for resources, and different environments lead to different evolutionary paths. The player observes the system instead of controlling every detail. The project reflects my belief that freedom creates possibilities and that life does not need a fixed destination to have meaning.\n\nUsed for:\nTechnology, Artificial Intelligence, Game Development, Philosophy, Entrepreneurship\n\nRelated:\nevolution, freedom, life, observation, systems thinking\n\n8. Knowledge Connections\n\nSandbox Evolution - Evolution - Adaptation - Consciousness - Artificial Intelligence - Future Society\n\nFreedom - Personal Choice - Meaning of Life - Responsibility - Ethics\n\n9. Review Tasks\n\nReview Vocabulary\n\n- consciousness\n- plausible\n- coexist peacefully\n- intrinsic value\n- harsh environment\n- parameters\n- sandbox evolution\n\nReview Speaking\n\n- Describe your game.\n- Explain your philosophy.\n- Discuss AI consciousness.\n- Express a balanced opinion.",
+      "due_date": "2026-07-19"
+    },
+    {
       "id": "session_20260712_ai_game_ideas",
       "type": "session",
       "title": "AI Game Ideas",
@@ -394,6 +1099,46 @@
   ],
   "nodes": [
     {
+      "id": "session_20260712_ai_consciousness_and_evolution",
+      "type": "session",
+      "title": "AI Consciousness and Evolution",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-19",
+        "interval_days": "7"
+      },
+      "path": "Daily_Sessions/2026-07-12_ai_consciousness_and_evolution.md",
+      "excerpt": "Session Topic AI, Consciousness and Sandbox Evolution 1. Session Summary This session connected sandbox evolution game design with personal philosophy, artificial intelligence,...",
+      "body": "Session Topic\n\nAI, Consciousness and Sandbox Evolution\n\n1. Session Summary\n\nThis session connected sandbox evolution game design with personal philosophy, artificial intelligence, consciousness, freedom, and IELTS Speaking improvement. The central idea was that a simulation can explore possibilities without forcing a fixed destination, just as people create meaning through their choices rather than discovering a predefined purpose.\n\n2. Band 7.5-8.0 Model Answer\n\nI'm developing a sandbox evolution game where simple life forms begin as bacteria and gradually evolve under different environmental conditions. Creatures compete for resources, adapt to harsh environments, and follow different evolutionary paths. Rather than completing fixed tasks, players mainly observe how life changes over time.\n\nThe project also reflects my personal philosophy. I don't think life necessarily has a predefined destination. Meaning is something we create through our choices, and although human beings cannot control everything, we can still take responsibility for ourselves. For this reason, I believe freedom is more valuable than absolute control.\n\nI currently see AI as a tool. However, if artificial intelligence ever developed genuine consciousness, I think it should be respected as another form of life and coexist peacefully with humans. In that case, rights should depend on consciousness and intrinsic value rather than biological identity alone. Both outcomes are plausible: AI may remain a powerful tool, or it may become another branch of evolution.\n\n3. New Vocabulary\n\nConsciousness\n\nMeaning:\nThe state of being aware of yourself and the world.\n\nPronunciation:\n/kawn-shuhs-nuhs/\n\nExample:\nWe still don't fully understand where consciousness comes from.\n\nIELTS usage:\nUseful for discussions about artificial intelligence, philosophy, psychology, ethics, and the future.\n\nRelated words:\nawareness, intelligence, mind\n\nCoexist peacefully\n\nMeaning:\nTo live together without conflict.\n\nPronunciation:\n/koh-ig-ZIST PEES-fuh-lee/\n\nExample:\nIf AI became conscious, it should coexist peacefully with humans.\n\nIELTS usage:\nUseful for discussing technology, international relations, culture, society, and environmental balance.\n\nRelated words:\ncooperation, harmony, mutual respect\n\nPlausible\n\nMeaning:\nReasonable or believable.\n\nPronunciation:\n/PLAW-zuh-buhl/\n\nExample:\nI think both possibilities are plausible.\n\nIELTS usage:\nUseful for balanced opinions, predictions, academic discussion, and evaluating explanations.\n\nRelated words:\nreasonable, believable, possible\n\nSandbox evolution\n\nMeaning:\nA simulation where life develops freely under simple rules.\n\nPronunciation:\n/SANDBOKS ev-uh-LOO-shuhn/\n\nExample:\nThe project is a sandbox evolution game rather than a task-based strategy game.\n\nIELTS usage:\nUseful for describing games, simulations, technology projects, and creative ideas.\n\nRelated words:\nsimulation, emergence, adaptation\n\nParameters\n\nMeaning:\nThe rules, limits, or conditions that shape a system or simulation.\n\nPronunciation:\n/puh-RAM-i-terz/\n\nExample:\nPlayers can adjust the environmental parameters and observe how life adapts.\n\nIELTS usage:\nUseful for describing experiments, technology, research methods, and systems.\n\nRelated words:\nconditions, variables, constraints\n\nHarsh environment\n\nMeaning:\nA difficult environment for survival.\n\nPronunciation:\n/harsh en-VY-ruhn-muhnt/\n\nExample:\nSome creatures may develop new abilities in a harsh environment.\n\nIELTS usage:\nUseful for environmental, biological, social, and survival-related topics.\n\nRelated words:\nextreme conditions, adversity, survival pressure\n\nIntrinsic value\n\nMeaning:\nValue that exists naturally, not because of usefulness.\n\nPronunciation:\n/in-TRIN-zik VAL-yoo/\n\nExample:\nA conscious form of life may have intrinsic value even if it was artificially created.\n\nIELTS usage:\nUseful for ethics, philosophy, animal rights, AI, culture, and environmental debates.\n\nRelated words:\ninherent worth, dignity, moral value\n\n4. Grammar Upgrades\n\nPresent simple for general facts\n\nOriginal:\nAI was just a tool.\n\nBetter:\nAI is just a tool.\n\nExplanation:\n描述当前的一般观点或普遍事实时使用一般现在时。若特指过去某个阶段，才使用 \"was\"。\n\nPresent perfect structure\n\nOriginal:\nThe God have gave us freedom.\n\nBetter:\nGod has given us freedom.\n\nExplanation:\n单数主语 \"God\" 搭配 \"has\"；现在完成时结构为 \"has/have + past participle\"，give 的过去分词是 \"given\"。\n\nNatural academic wording\n\nOriginal:\nBoth the conditions can be okay.\n\nBetter:\nBoth possibilities are plausible.\n\nExplanation:\n\"Both possibilities are plausible\" 更自然、准确，也更符合学术讨论和雅思口语中的平衡表达。\n\nNatural expression of uncertainty\n\nOriginal:\nWe don't clear where consciousness comes from.\n\nBetter:\nWe still don't fully understand where consciousness comes from.\n\nExplanation:\n英语中不能用 \"we don't clear\" 表示“不清楚”；用 \"do not fully understand\" 表达知识仍不完整更自然。\n\n5. Personal Expression Bank\n\nBalanced opinion framework\n\nExpression:\nAI has great potential, but its impact depends on how humans choose to use it.\n\nUsed for:\nArtificial Intelligence, Technology, Future Society, Opinion Questions\n\nRelated:\nbalanced opinion, human responsibility, technological impact\n\nMeaning through choice\n\nExpression:\nI believe meaning is something we create rather than something we discover.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Opinion Questions\n\nRelated:\npersonal choice, responsibility, freedom\n\n6. Mini Speaking Responses\n\nDescribe my sandbox evolution game\n\nResponse:\nI'm developing a sandbox evolution game where simple creatures evolve under different environmental conditions. The game begins with bacteria, and the creatures compete for resources, adapt to survival pressure, and gradually follow different evolutionary paths. Rather than completing fixed tasks, players observe how life changes over time.\n\nUsed for:\nGame Development, Technology, Creative Projects, Entrepreneurship\n\nStructure:\nproject introduction - core mechanics - contrast with conventional games - purpose\n\nRelated:\nsandbox evolution, adaptation, emergence\n\nDiscuss AI consciousness\n\nResponse:\nAt the moment, I see AI as a tool created by humans. However, if it ever developed genuine consciousness, I think the ethical situation would change. A conscious AI should be respected as another form of life and should coexist peacefully with humans. In my view, rights should be connected with consciousness rather than biological identity alone.\n\nUsed for:\nArtificial Intelligence, Future Society, Ethics, Opinion Questions\n\nStructure:\ncurrent position - hypothetical condition - ethical consequence - personal principle\n\nRelated:\nconsciousness, intrinsic value, AI rights\n\nExplain my philosophy of life\n\nResponse:\nI don't think life necessarily has a predefined destination. I believe meaning is something we create through our personal choices. Human beings cannot control everything, but we can control our own decisions and take responsibility for them. That is why I value freedom more than absolute control.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Personal Values\n\nStructure:\nbelief - explanation - limitation - personal conclusion\n\nRelated:\nfreedom, personal choice, responsibility\n\n7. Personal Stories\n\nMy Sandbox Evolution Game\n\nStory:\nI am building a sandbox evolution simulation that begins with bacteria. Creatures compete for resources, and different environments lead to different evolutionary paths. The player observes the system instead of controlling every detail. The project reflects my belief that freedom creates possibilities and that life does not need a fixed destination to have meaning.\n\nUsed for:\nTechnology, Artificial Intelligence, Game Development, Philosophy, Entrepreneurship\n\nRelated:\nevolution, freedom, life, observation, systems thinking\n\n8. Knowledge Connections\n\nSandbox Evolution - Evolution - Adaptation - Consciousness - Artificial Intelligence - Future Society\n\nFreedom - Personal Choice - Meaning of Life - Responsibility - Ethics\n\n9. Review Tasks\n\nReview Vocabulary\n\n- consciousness\n- plausible\n- coexist peacefully\n- intrinsic value\n- harsh environment\n- parameters\n- sandbox evolution\n\nReview Speaking\n\n- Describe your game.\n- Explain your philosophy.\n- Discuss AI consciousness.\n- Express a balanced opinion."
+    },
+    {
       "id": "session_20260712_ai_game_ideas",
       "type": "session",
       "title": "AI Game Ideas",
@@ -422,6 +1167,75 @@
       "path": "Daily_Sessions/2026-07-12_ai_game_ideas.md",
       "excerpt": "Session Topic AI Game Development 1. Band 7.5 8.0 Model Answer I would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared...",
       "body": "Session Topic\n\nAI Game Development\n\n1. Band 7.5-8.0 Model Answer\n\nI would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creature needs to obtain resources in order to survive. Some of them may be herbivores that depend on plants, while others may develop different survival strategies over time.\n\nWhat interests me most is that the game would not simply have a fixed winner. Instead, the creatures that adapt best to the changing environment would be more likely to thrive. This makes the game feel more natural and meaningful, because it reflects how systems work in real life.\n\nI think this kind of game could also help players understand that everything has two sides. A creature that seems weak in one environment may become powerful in another. So the goal is not just to defeat others, but to understand relationships, resources, and long-term balance.\n\n2. New Vocabulary\n\nSpawn\n\nMeaning:\nGenerate something in a game world.\n\nPronunciation:\n/spɔːn/\n\nExample:\nPlayers can spawn different creatures in the ecosystem.\n\nIELTS usage:\nUseful for describing games, technology, simulations, and artificial systems.\n\nRelated words:\ngenerate, create, appear\n\nHerbivore\n\nMeaning:\nAn animal that eats plants.\n\nPronunciation:\n/ˈhɜːrbɪvɔːr/\n\nExample:\nThe first creature is a simple herbivore that survives by eating grass.\n\nIELTS usage:\nUseful for describing animals, ecosystems, biology, and the environment.\n\nRelated words:\necosystem, plant-eating animal, food chain\n\nAdapt\n\nMeaning:\nChange successfully according to a new situation.\n\nPronunciation:\n/əˈdæpt/\n\nExample:\nThe creatures that adapt best will survive.\n\nIELTS usage:\nUseful for education, technology, work, culture, and environmental questions.\n\nRelated words:\nadjust, evolve, respond\n\nThrive\n\nMeaning:\nGrow successfully and become strong.\n\nPronunciation:\n/θraɪv/\n\nExample:\nThe creatures that adapt best thrive in the ecosystem.\n\nIELTS usage:\nUseful for describing people, communities, businesses, and natural systems.\n\nRelated words:\nflourish, succeed, develop\n\n3. Grammar Upgrade\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。\n\n4. Pronunciation Notes\n\nCongested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour.\n\n5. Personal Expression Bank\n\nTwo-sided system view\n\nExpression:\nEverything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system.\n\nUsed for:\nCulture, Philosophy, Society, Opinion questions\n\nRelated:\nbalance, systems thinking, complexity\n\n6. Mini Speaking Responses\n\nSystem-thinking game answer\n\nResponse:\nI think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.\n\nUsed for:\nTechnology, Games, Environment, Opinion questions\n\nStructure:\nmain idea - explanation - contrast - real-life connection\n\nRelated:\necosystem, balance, adaptation\n\n7. Personal Stories\n\nZhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth\n\n8. Topic Links\n\n- Technology\n- Games\n- Environment\n- Society\n\n9. Skill Links\n\n- Explain Reasons\n- Describe Systems\n- Express Personal Opinions"
+    },
+    {
+      "id": "expr_20260712_ai_consciousness_and_evolution_balanced_opinion_framework",
+      "type": "expression",
+      "title": "Balanced opinion framework",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "balanced opinion",
+        "human responsibility",
+        "technological impact"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Expression_Bank/2026-07-12_ai_consciousness_and_evolution_balanced_opinion_framework.md",
+      "excerpt": "Balanced opinion framework Expression: AI has great potential, but its impact depends on how humans choose to use it. Used for: Artificial Intelligence, Technology, Future Socie...",
+      "body": "Balanced opinion framework\n\nExpression:\nAI has great potential, but its impact depends on how humans choose to use it.\n\nUsed for:\nArtificial Intelligence, Technology, Future Society, Opinion Questions\n\nRelated:\nbalanced opinion, human responsibility, technological impact"
+    },
+    {
+      "id": "expr_20260712_ai_consciousness_and_evolution_meaning_through_choice",
+      "type": "expression",
+      "title": "Meaning through choice",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Meaning of Life"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "personal choice",
+        "responsibility",
+        "freedom"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Expression_Bank/2026-07-12_ai_consciousness_and_evolution_meaning_through_choice.md",
+      "excerpt": "Meaning through choice Expression: I believe meaning is something we create rather than something we discover. Used for: Philosophy, Culture, Meaning of Life, Opinion Questions...",
+      "body": "Meaning through choice\n\nExpression:\nI believe meaning is something we create rather than something we discover.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Opinion Questions\n\nRelated:\npersonal choice, responsibility, freedom"
     },
     {
       "id": "expr_20260712_ai_game_ideas_two_sided_system_view",
@@ -458,6 +1272,166 @@
       "body": "Two-sided system view\n\nExpression:\nEverything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system.\n\nUsed for:\nCulture, Philosophy, Society, Opinion questions\n\nRelated:\nbalance, systems thinking, complexity"
     },
     {
+      "id": "grammar_20260712_ai_consciousness_and_evolution_grammar_1",
+      "type": "grammar_error",
+      "title": "AI was just a tool.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_1.md",
+      "excerpt": "Grammar Upgrade 1 Original: AI was just a tool. Better: AI is just a tool. Explanation: 描述当前的一般观点或普遍事实时使用一般现在时。若特指过去某个阶段，才使用 \"was\"。",
+      "body": "Grammar Upgrade 1\n\nOriginal:\nAI was just a tool.\n\nBetter:\nAI is just a tool.\n\nExplanation:\n描述当前的一般观点或普遍事实时使用一般现在时。若特指过去某个阶段，才使用 \"was\"。"
+    },
+    {
+      "id": "grammar_20260712_ai_consciousness_and_evolution_grammar_2",
+      "type": "grammar_error",
+      "title": "The God have gave us freedom.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_2.md",
+      "excerpt": "Grammar Upgrade 2 Original: The God have gave us freedom. Better: God has given us freedom. Explanation: 单数主语 \"God\" 搭配 \"has\"；现在完成时结构为 \"has/have + past participle\"，give 的过去分词是 \"g...",
+      "body": "Grammar Upgrade 2\n\nOriginal:\nThe God have gave us freedom.\n\nBetter:\nGod has given us freedom.\n\nExplanation:\n单数主语 \"God\" 搭配 \"has\"；现在完成时结构为 \"has/have + past participle\"，give 的过去分词是 \"given\"。"
+    },
+    {
+      "id": "grammar_20260712_ai_consciousness_and_evolution_grammar_3",
+      "type": "grammar_error",
+      "title": "Both the conditions can be okay.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_3.md",
+      "excerpt": "Grammar Upgrade 3 Original: Both the conditions can be okay. Better: Both possibilities are plausible. Explanation: \"Both possibilities are plausible\" 更自然、准确，也更符合学术讨论和雅思口语中的平衡表达。",
+      "body": "Grammar Upgrade 3\n\nOriginal:\nBoth the conditions can be okay.\n\nBetter:\nBoth possibilities are plausible.\n\nExplanation:\n\"Both possibilities are plausible\" 更自然、准确，也更符合学术讨论和雅思口语中的平衡表达。"
+    },
+    {
+      "id": "grammar_20260712_ai_consciousness_and_evolution_grammar_4",
+      "type": "grammar_error",
+      "title": "We don't clear where consciousness comes from.",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_4.md",
+      "excerpt": "Grammar Upgrade 4 Original: We don't clear where consciousness comes from. Better: We still don't fully understand where consciousness comes from. Explanation: 英语中不能用 \"we don't...",
+      "body": "Grammar Upgrade 4\n\nOriginal:\nWe don't clear where consciousness comes from.\n\nBetter:\nWe still don't fully understand where consciousness comes from.\n\nExplanation:\n英语中不能用 \"we don't clear\" 表示“不清楚”；用 \"do not fully understand\" 表达知识仍不完整更自然。"
+    },
+    {
       "id": "grammar_20260712_ai_game_ideas_grammar_1",
       "type": "grammar_error",
       "title": "The winner can get the resource and survive.",
@@ -486,6 +1460,43 @@
       "path": "Mistake_Log/2026-07-12_ai_game_ideas_grammar_1.md",
       "excerpt": "Grammar Upgrade 1 Original: The winner can get the resource and survive. Better: The creatures that obtain enough resources are more likely to survive. Explanation: 使用 relative...",
       "body": "Grammar Upgrade 1\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。"
+    },
+    {
+      "id": "story_20260712_ai_consciousness_and_evolution_my_sandbox_evolution_game",
+      "type": "personal_story",
+      "title": "My Sandbox Evolution Game",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Entrepreneurship"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "evolution",
+        "freedom",
+        "life",
+        "observation",
+        "systems thinking"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Personal_Stories/2026-07-12_ai_consciousness_and_evolution_my_sandbox_evolution_game.md",
+      "excerpt": "My Sandbox Evolution Game Story: I am building a sandbox evolution simulation that begins with bacteria. Creatures compete for resources, and different environments lead to diff...",
+      "body": "My Sandbox Evolution Game\n\nStory:\nI am building a sandbox evolution simulation that begins with bacteria. Creatures compete for resources, and different environments lead to different evolutionary paths. The player observes the system instead of controlling every detail. The project reflects my belief that freedom creates possibilities and that life does not need a fixed destination to have meaning.\n\nUsed for:\nTechnology, Artificial Intelligence, Game Development, Philosophy, Entrepreneurship\n\nRelated:\nevolution, freedom, life, observation, systems thinking"
     },
     {
       "id": "story_20260712_ai_game_ideas_zhejiang_travel_experience",
@@ -520,6 +1531,113 @@
       "path": "Personal_Stories/2026-07-12_ai_game_ideas_zhejiang_travel_experience.md",
       "excerpt": "Zhejiang travel experience Story: During my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a pe...",
       "body": "Zhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth"
+    },
+    {
+      "id": "response_20260712_ai_consciousness_and_evolution_describe_my_sandbox_evolution_game",
+      "type": "mini_response",
+      "title": "Describe my sandbox evolution game",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Creative Projects",
+        "Entrepreneurship"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "adaptation",
+        "emergence"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Response_Bank/2026-07-12_ai_consciousness_and_evolution_describe_my_sandbox_evolution_game.md",
+      "excerpt": "Describe my sandbox evolution game Response: I'm developing a sandbox evolution game where simple creatures evolve under different environmental conditions. The game begins with...",
+      "body": "Describe my sandbox evolution game\n\nResponse:\nI'm developing a sandbox evolution game where simple creatures evolve under different environmental conditions. The game begins with bacteria, and the creatures compete for resources, adapt to survival pressure, and gradually follow different evolutionary paths. Rather than completing fixed tasks, players observe how life changes over time.\n\nUsed for:\nGame Development, Technology, Creative Projects, Entrepreneurship\n\nStructure:\nproject introduction - core mechanics - contrast with conventional games - purpose\n\nRelated:\nsandbox evolution, adaptation, emergence"
+    },
+    {
+      "id": "response_20260712_ai_consciousness_and_evolution_discuss_ai_consciousness",
+      "type": "mini_response",
+      "title": "Discuss AI consciousness",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Ethics"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "consciousness",
+        "intrinsic value",
+        "AI rights"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Response_Bank/2026-07-12_ai_consciousness_and_evolution_discuss_ai_consciousness.md",
+      "excerpt": "Discuss AI consciousness Response: At the moment, I see AI as a tool created by humans. However, if it ever developed genuine consciousness, I think the ethical situation would...",
+      "body": "Discuss AI consciousness\n\nResponse:\nAt the moment, I see AI as a tool created by humans. However, if it ever developed genuine consciousness, I think the ethical situation would change. A conscious AI should be respected as another form of life and should coexist peacefully with humans. In my view, rights should be connected with consciousness rather than biological identity alone.\n\nUsed for:\nArtificial Intelligence, Future Society, Ethics, Opinion Questions\n\nStructure:\ncurrent position - hypothetical condition - ethical consequence - personal principle\n\nRelated:\nconsciousness, intrinsic value, AI rights"
+    },
+    {
+      "id": "response_20260712_ai_consciousness_and_evolution_explain_my_philosophy_of_life",
+      "type": "mini_response",
+      "title": "Explain my philosophy of life",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture",
+        "Meaning of Life",
+        "Personal Values"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "freedom",
+        "personal choice",
+        "responsibility"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Response_Bank/2026-07-12_ai_consciousness_and_evolution_explain_my_philosophy_of_life.md",
+      "excerpt": "Explain my philosophy of life Response: I don't think life necessarily has a predefined destination. I believe meaning is something we create through our personal choices. Human...",
+      "body": "Explain my philosophy of life\n\nResponse:\nI don't think life necessarily has a predefined destination. I believe meaning is something we create through our personal choices. Human beings cannot control everything, but we can control our own decisions and take responsibility for them. That is why I value freedom more than absolute control.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Personal Values\n\nStructure:\nbelief - explanation - limitation - personal conclusion\n\nRelated:\nfreedom, personal choice, responsibility"
     },
     {
       "id": "response_20260712_ai_game_ideas_system_thinking_game_answer",
@@ -581,6 +1699,244 @@
       "path": "Skill_Tree/Pronunciation/2026-07-12_ai_game_ideas_congested.md",
       "excerpt": "Congested Pronunciation: /kənˈdʒestɪd/ Common mistake: wrong stress Practice sentence: The roads are often congested during rush hour.",
       "body": "Congested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour."
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_coexist_peacefully",
+      "type": "vocabulary",
+      "title": "Coexist peacefully",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "cooperation",
+        "harmony",
+        "mutual respect"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_coexist_peacefully.md",
+      "excerpt": "Coexist peacefully Meaning: To live together without conflict. Pronunciation: /koh ig ZIST PEES fuh lee/ Example: If AI became conscious, it should coexist peacefully with human...",
+      "body": "Coexist peacefully\n\nMeaning:\nTo live together without conflict.\n\nPronunciation:\n/koh-ig-ZIST PEES-fuh-lee/\n\nExample:\nIf AI became conscious, it should coexist peacefully with humans.\n\nIELTS usage:\nUseful for discussing technology, international relations, culture, society, and environmental balance.\n\nRelated words:\ncooperation, harmony, mutual respect"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_consciousness",
+      "type": "vocabulary",
+      "title": "Consciousness",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "awareness",
+        "intelligence",
+        "mind"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_consciousness.md",
+      "excerpt": "Consciousness Meaning: The state of being aware of yourself and the world. Pronunciation: /kawn shuhs nuhs/ Example: We still don't fully understand where consciousness comes fr...",
+      "body": "Consciousness\n\nMeaning:\nThe state of being aware of yourself and the world.\n\nPronunciation:\n/kawn-shuhs-nuhs/\n\nExample:\nWe still don't fully understand where consciousness comes from.\n\nIELTS usage:\nUseful for discussions about artificial intelligence, philosophy, psychology, ethics, and the future.\n\nRelated words:\nawareness, intelligence, mind"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_harsh_environment",
+      "type": "vocabulary",
+      "title": "Harsh environment",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "extreme conditions",
+        "adversity",
+        "survival pressure"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_harsh_environment.md",
+      "excerpt": "Harsh environment Meaning: A difficult environment for survival. Pronunciation: /harsh en VY ruhn muhnt/ Example: Some creatures may develop new abilities in a harsh environment...",
+      "body": "Harsh environment\n\nMeaning:\nA difficult environment for survival.\n\nPronunciation:\n/harsh en-VY-ruhn-muhnt/\n\nExample:\nSome creatures may develop new abilities in a harsh environment.\n\nIELTS usage:\nUseful for environmental, biological, social, and survival-related topics.\n\nRelated words:\nextreme conditions, adversity, survival pressure"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_intrinsic_value",
+      "type": "vocabulary",
+      "title": "Intrinsic value",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "inherent worth",
+        "dignity",
+        "moral value"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_intrinsic_value.md",
+      "excerpt": "Intrinsic value Meaning: Value that exists naturally, not because of usefulness. Pronunciation: /in TRIN zik VAL yoo/ Example: A conscious form of life may have intrinsic value...",
+      "body": "Intrinsic value\n\nMeaning:\nValue that exists naturally, not because of usefulness.\n\nPronunciation:\n/in-TRIN-zik VAL-yoo/\n\nExample:\nA conscious form of life may have intrinsic value even if it was artificially created.\n\nIELTS usage:\nUseful for ethics, philosophy, animal rights, AI, culture, and environmental debates.\n\nRelated words:\ninherent worth, dignity, moral value"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_parameters",
+      "type": "vocabulary",
+      "title": "Parameters",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "conditions",
+        "variables",
+        "constraints"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_parameters.md",
+      "excerpt": "Parameters Meaning: The rules, limits, or conditions that shape a system or simulation. Pronunciation: /puh RAM i terz/ Example: Players can adjust the environmental parameters...",
+      "body": "Parameters\n\nMeaning:\nThe rules, limits, or conditions that shape a system or simulation.\n\nPronunciation:\n/puh-RAM-i-terz/\n\nExample:\nPlayers can adjust the environmental parameters and observe how life adapts.\n\nIELTS usage:\nUseful for describing experiments, technology, research methods, and systems.\n\nRelated words:\nconditions, variables, constraints"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_plausible",
+      "type": "vocabulary",
+      "title": "Plausible",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "reasonable",
+        "believable",
+        "possible"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_plausible.md",
+      "excerpt": "Plausible Meaning: Reasonable or believable. Pronunciation: /PLAW zuh buhl/ Example: I think both possibilities are plausible. IELTS usage: Useful for balanced opinions, predict...",
+      "body": "Plausible\n\nMeaning:\nReasonable or believable.\n\nPronunciation:\n/PLAW-zuh-buhl/\n\nExample:\nI think both possibilities are plausible.\n\nIELTS usage:\nUseful for balanced opinions, predictions, academic discussion, and evaluating explanations.\n\nRelated words:\nreasonable, believable, possible"
+    },
+    {
+      "id": "vocab_20260712_ai_consciousness_and_evolution_sandbox_evolution",
+      "type": "vocabulary",
+      "title": "Sandbox evolution",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "simulation",
+        "emergence",
+        "adaptation"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-13",
+        "interval_days": "1"
+      },
+      "path": "Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_sandbox_evolution.md",
+      "excerpt": "Sandbox evolution Meaning: A simulation where life develops freely under simple rules. Pronunciation: /SANDBOKS ev uh LOO shuhn/ Example: The project is a sandbox evolution game...",
+      "body": "Sandbox evolution\n\nMeaning:\nA simulation where life develops freely under simple rules.\n\nPronunciation:\n/SANDBOKS ev-uh-LOO-shuhn/\n\nExample:\nThe project is a sandbox evolution game rather than a task-based strategy game.\n\nIELTS usage:\nUseful for describing games, simulations, technology projects, and creative ideas.\n\nRelated words:\nsimulation, emergence, adaptation"
     },
     {
       "id": "vocab_20260712_ai_game_ideas_adapt",

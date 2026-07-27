@@ -11,6 +11,7 @@ review:
   status: new
   next_due: 2026-07-17
   interval_days: 1
+source_case: case_20260716_herbicide_free_campus_article_practice
 ---
 
 # Balanced view on chemical use

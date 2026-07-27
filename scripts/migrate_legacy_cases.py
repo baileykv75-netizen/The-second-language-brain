@@ -26,6 +26,15 @@ SEEDS = {
         "source_note": "This is a migrated legacy speaking session. No article source was stored for it.",
         "topics": ["Technology", "Artificial Intelligence", "Future Society", "Ethics", "Opinion Questions"],
     },
+    "session_20260716_herbicide_free_campus_article_practice": {
+        "case_id": "case_20260716_herbicide_free_campus_article_practice",
+        "question": "Should universities use potentially harmful chemicals when they are useful for research?",
+        "initial": "I think it depends on the purpose and the level of risk.",
+        "counter": "Could a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative?",
+        "position": "Essential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.",
+        "source_note": "This is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position.",
+        "topics": ["Environment", "Education", "Health", "Climate Change", "Opinion Questions"],
+    },
 }
 
 

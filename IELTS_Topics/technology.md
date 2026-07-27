@@ -5,6 +5,7 @@
 - [Balanced opinion framework](../Expression_Bank/2026-07-12_ai_consciousness_and_evolution_balanced_opinion_framework.md) - `expression`
 - [Meaning through choice](../Expression_Bank/2026-07-12_ai_consciousness_and_evolution_meaning_through_choice.md) - `expression`
 - [Two-sided system view](../Expression_Bank/2026-07-12_ai_game_ideas_two_sided_system_view.md) - `expression`
+- [Come at a cost](../Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_come_at_a_cost.md) - `expression`
 - [AI was just a tool.](../Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_1.md) - `grammar_error`
 - [The God have gave us freedom.](../Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_2.md) - `grammar_error`
 - [Both the conditions can be okay.](../Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_3.md) - `grammar_error`
@@ -16,6 +17,7 @@
 - [Discuss AI consciousness](../Response_Bank/2026-07-12_ai_consciousness_and_evolution_discuss_ai_consciousness.md) - `mini_response`
 - [Explain my philosophy of life](../Response_Bank/2026-07-12_ai_consciousness_and_evolution_explain_my_philosophy_of_life.md) - `mini_response`
 - [System-thinking game answer](../Response_Bank/2026-07-12_ai_game_ideas_system_thinking_game_answer.md) - `mini_response`
+- [Environmental responsibility](../Response_Bank/2026-07-16_herbicide_free_campus_article_practice_environmental_responsibility.md) - `mini_response`
 - [Congested](../Skill_Tree/Pronunciation/2026-07-12_ai_game_ideas_congested.md) - `pronunciation`
 - [Coexist peacefully](../Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_coexist_peacefully.md) - `vocabulary`
 - [Consciousness](../Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_consciousness.md) - `vocabulary`

@@ -1,16 +1,903 @@
 {
   "generated_on": "2026-07-27",
   "stats": {
-    "total": 30,
-    "speakingCases": 2,
-    "sessions": 2,
-    "vocabulary": 11,
-    "grammarMistakes": 5,
-    "expressions": 3,
-    "responses": 4,
+    "total": 52,
+    "speakingCases": 3,
+    "sessions": 3,
+    "vocabulary": 12,
+    "grammarMistakes": 9,
+    "expressions": 14,
+    "responses": 7,
     "stories": 2
   },
   "nodes": [
+    {
+      "id": "grammar_20260716_herbicide_free_campus_article_practice_grammar_2",
+      "type": "grammar_error",
+      "title": "They need to find a outlet.",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_2.md",
+      "excerpt": "Grammar Upgrade 2 Original: They need to find a outlet. Better: They need to find an outlet. Explanation: “Outlet”以元音音素开头，因此冠词用“an”，不是“a”。",
+      "body": "Grammar Upgrade 2\n\nOriginal:\nThey need to find a outlet.\n\nBetter:\nThey need to find an outlet.\n\nExplanation:\n“Outlet”以元音音素开头，因此冠词用“an”，不是“a”。",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "pron_20260716_herbicide_free_campus_article_practice_technological",
+      "type": "pronunciation",
+      "title": "Technological",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Skill_Tree/Pronunciation/2026-07-16_herbicide_free_campus_article_practice_technological.md",
+      "excerpt": "Technological Pronunciation: /ˌtek.nəˈlɒdʒ.ɪ.kəl/ Common mistake: Dropping the first syllables and saying “logical development” instead of “technological development”. Practice sentence: Technological develo...",
+      "body": "Technological\n\nPronunciation:\n/ˌtek.nəˈlɒdʒ.ɪ.kəl/\n\nCommon mistake:\nDropping the first syllables and saying “logical development” instead of “technological development”.\n\nPractice sentence:\nTechnological development can come at a cost if environmental risks are ignored.",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "vocab_20260716_herbicide_free_campus_article_practice_technical_vs_technological",
+      "type": "vocabulary",
+      "title": "Technical vs Technological",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "technology",
+        "technique",
+        "innovation",
+        "equipment"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Skill_Tree/Vocabulary/2026-07-16_herbicide_free_campus_article_practice_technical_vs_technological.md",
+      "excerpt": "Technical vs Technological Meaning: Technical relates to practical skills, specialist details, or the operation of something. Technological relates to technology and broader technological development. Pronun...",
+      "body": "Technical vs Technological\n\nMeaning:\nTechnical relates to practical skills, specialist details, or the operation of something. Technological relates to technology and broader technological development.\n\nPronunciation:\ntechnical /ˈtek.nɪ.kəl/; technological /ˌtek.nəˈlɒdʒ.ɪ.kəl/\n\nExample:\nWe had a technical problem during the experiment, but technological progress has improved the equipment.\n\nIELTS usage:\nUse technical for problems, skills, details, and support. Use technological for progress, development, change, and innovation.\n\nRelated words:\ntechnology, technique, innovation, equipment",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_rid_a_place_of_something",
+      "type": "expression",
+      "title": "Rid a place of something",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Public Health",
+        "Campus Life"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "remove",
+        "eliminate",
+        "clear"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_rid_a_place_of_something.md",
+      "excerpt": "Rid a place of something Expression: Rid a place of something means to remove something unwanted or harmful from that place. Used for: Environment, Public Health, Campus Life Related: remove, eliminate, clear",
+      "body": "Rid a place of something\n\nExpression:\nRid a place of something means to remove something unwanted or harmful from that place.\n\nUsed for:\nEnvironment, Public Health, Campus Life\n\nRelated:\nremove, eliminate, clear",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_recover_from",
+      "type": "expression",
+      "title": "Recover from",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Failure",
+        "Natural Disasters"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "heal",
+        "rebuild",
+        "bounce back"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_recover_from.md",
+      "excerpt": "Recover from Expression: Recover from means to return to a normal or healthy state after damage, illness, failure, or a difficult event. Used for: Health, Environment, Failure, Natural Disasters Related: hea...",
+      "body": "Recover from\n\nExpression:\nRecover from means to return to a normal or healthy state after damage, illness, failure, or a difficult event.\n\nUsed for:\nHealth, Environment, Failure, Natural Disasters\n\nRelated:\nheal, rebuild, bounce back",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_play_a_role_in_doing_something",
+      "type": "expression",
+      "title": "Play a role in doing something",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Society",
+        "Teamwork"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "contribute to",
+        "participate in",
+        "be responsible for"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_play_a_role_in_doing_something.md",
+      "excerpt": "Play a role in doing something Expression: Play a role in doing something means to contribute to or participate in producing a result. Used for: Society, Environment, Education, Teamwork Related: contribute...",
+      "body": "Play a role in doing something\n\nExpression:\nPlay a role in doing something means to contribute to or participate in producing a result.\n\nUsed for:\nSociety, Environment, Education, Teamwork\n\nRelated:\ncontribute to, participate in, be responsible for",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_learn_of_something",
+      "type": "expression",
+      "title": "Learn of something",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "News"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "discover",
+        "find out",
+        "become aware"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_learn_of_something.md",
+      "excerpt": "Learn of something Expression: Learn of something means to become aware of something or hear that it exists. Used for: Education, News, Environment Related: discover, find out, become aware",
+      "body": "Learn of something\n\nExpression:\nLearn of something means to become aware of something or hear that it exists.\n\nUsed for:\nEducation, News, Environment\n\nRelated:\ndiscover, find out, become aware",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "grammar_20260716_herbicide_free_campus_article_practice_grammar_1",
+      "type": "grammar_error",
+      "title": "It depends if this kind of material is safe.",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_1.md",
+      "excerpt": "Grammar Upgrade 1 Original: It depends if this kind of material is safe. Better: It depends on the purpose. If this kind of material is safe, it might be acceptable. Explanation: “Depend”通常和介词“on”搭配。把条件拆成两个句...",
+      "body": "Grammar Upgrade 1\n\nOriginal:\nIt depends if this kind of material is safe.\n\nBetter:\nIt depends on the purpose. If this kind of material is safe, it might be acceptable.\n\nExplanation:\n“Depend”通常和介词“on”搭配。把条件拆成两个句子后，逻辑更清楚，也更像自然的雅思口语表达。",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "grammar_20260716_herbicide_free_campus_article_practice_grammar_3",
+      "type": "grammar_error",
+      "title": "If it is harmful for all human beings, we should stop it.",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_3.md",
+      "excerpt": "Grammar Upgrade 3 Original: If it is harmful for all human beings, we should stop it. Better: If it is harmful to people or the environment, the university should stop using it. Explanation: 固定搭配是“be harmful...",
+      "body": "Grammar Upgrade 3\n\nOriginal:\nIf it is harmful for all human beings, we should stop it.\n\nBetter:\nIf it is harmful to people or the environment, the university should stop using it.\n\nExplanation:\n固定搭配是“be harmful to someone or something”。同时，“stop using it”比“stop it”更明确。",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "grammar_20260716_herbicide_free_campus_article_practice_grammar_4",
+      "type": "grammar_error",
+      "title": "I will stop them doing these kinds of things.",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_4.md",
+      "excerpt": "Grammar Upgrade 4 Original: I will stop them doing these kinds of things. Better: I will ask the university to stop using the chemicals, or stop people from using them irresponsibly. Explanation: “停止做某事”用“st...",
+      "body": "Grammar Upgrade 4\n\nOriginal:\nI will stop them doing these kinds of things.\n\nBetter:\nI will ask the university to stop using the chemicals, or stop people from using them irresponsibly.\n\nExplanation:\n“停止做某事”用“stop doing something”；“阻止某人做某事”用“stop someone from doing something”。",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "session_20260716_herbicide_free_campus_article_practice",
+      "type": "session",
+      "title": "Herbicide-Free Campus Article Practice",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-23",
+        "interval_days": "7"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Daily_Sessions/2026-07-16_herbicide_free_campus_article_practice.md",
+      "excerpt": "Session Topic Herbicide-Free Campus, environmental risks, and active IELTS speaking practice 1. Band 7.5-8.0 Model Answer Whether harmful chemicals should be used on a university campus depends on their purp...",
+      "body": "Session Topic\n\nHerbicide-Free Campus, environmental risks, and active IELTS speaking practice\n\n1. Band 7.5-8.0 Model Answer\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n2. New Vocabulary\n\nTechnical vs Technological\n\nMeaning:\nTechnical relates to practical skills, specialist details, or the operation of something. Technological relates to technology and broader technological development.\n\nPronunciation:\ntechnical /ˈtek.nɪ.kəl/; technological /ˌtek.nəˈlɒdʒ.ɪ.kəl/\n\nExample:\nWe had a technical problem during the experiment, but technological progress has improved the equipment.\n\nIELTS usage:\nUse technical for problems, skills, details, and support. Use technological for progress, development, change, and innovation.\n\nRelated words:\ntechnology, technique, innovation, equipment\n\n3. Grammar Upgrade\n\nIt depends on the purpose\n\nOriginal:\nIt depends if this kind of material is safe.\n\nBetter:\nIt depends on the purpose. If this kind of material is safe, it might be acceptable.\n\nExplanation:\n“Depend”通常和介词“on”搭配。把条件拆成两个句子后，逻辑更清楚，也更像自然的雅思口语表达。\n\nAn outlet\n\nOriginal:\nThey need to find a outlet.\n\nBetter:\nThey need to find an outlet.\n\nExplanation:\n“Outlet”以元音音素开头，因此冠词用“an”，不是“a”。\n\nHarmful to\n\nOriginal:\nIf it is harmful for all human beings, we should stop it.\n\nBetter:\nIf it is harmful to people or the environment, the university should stop using it.\n\nExplanation:\n固定搭配是“be harmful to someone or something”。同时，“stop using it”比“stop it”更明确。\n\nStop someone from doing something\n\nOriginal:\nI will stop them doing these kinds of things.\n\nBetter:\nI will ask the university to stop using the chemicals, or stop people from using them irresponsibly.\n\nExplanation:\n“停止做某事”用“stop doing something”；“阻止某人做某事”用“stop someone from doing something”。\n\n4. Pronunciation Notes\n\nTechnological\n\nPronunciation:\n/ˌtek.nəˈlɒdʒ.ɪ.kəl/\n\nCommon mistake:\nDropping the first syllables and saying “logical development” instead of “technological development”.\n\nPractice sentence:\nTechnological development can come at a cost if environmental risks are ignored.\n\n5. Personal Expression Bank\n\nLearn of something\n\nExpression:\nLearn of something means to become aware of something or hear that it exists.\n\nUsed for:\nEducation, News, Environment\n\nRelated:\ndiscover, find out, become aware\n\nRid a place of something\n\nExpression:\nRid a place of something means to remove something unwanted or harmful from that place.\n\nUsed for:\nEnvironment, Public Health, Campus Life\n\nRelated:\nremove, eliminate, clear\n\nFind an outlet\n\nExpression:\nFind an outlet means to find a healthy way to express or release pressure, emotion, or energy.\n\nUsed for:\nMental Health, Study, Work, Personal Development\n\nRelated:\nrelease pressure, cope with stress, emotional expression\n\nFit into the larger picture\n\nExpression:\nFit into the larger picture means to form part of a broader goal, plan, or situation.\n\nUsed for:\nOpinion Questions, Career, Society, Environment\n\nRelated:\nbroader goal, long-term plan, overall system\n\nCome at a cost\n\nExpression:\nCome at a cost means to bring a benefit while also causing a disadvantage, sacrifice, or risk.\n\nUsed for:\nTechnology, Environment, Economy, Society\n\nRelated:\ntrade-off, consequence, sacrifice\n\nContribute to\n\nExpression:\nContribute to means to help cause a result or play a part in creating it.\n\nUsed for:\nEnvironment, Health, Society, Education\n\nRelated:\nlead to, result in, play a part in\n\nContaminate waterways\n\nExpression:\nContaminate waterways means to pollute rivers, lakes, streams, or other water systems.\n\nUsed for:\nEnvironment, Public Health, Agriculture\n\nRelated:\nwater pollution, toxic waste, environmental damage\n\nHamper the ability to\n\nExpression:\nHamper the ability to means to make it more difficult for someone or something to perform an action.\n\nUsed for:\nEducation, Environment, Personal Development, Work\n\nRelated:\nhinder, obstruct, limit\n\nRecover from\n\nExpression:\nRecover from means to return to a normal or healthy state after damage, illness, failure, or a difficult event.\n\nUsed for:\nHealth, Environment, Failure, Natural Disasters\n\nRelated:\nheal, rebuild, bounce back\n\nPlay a role in doing something\n\nExpression:\nPlay a role in doing something means to contribute to or participate in producing a result.\n\nUsed for:\nSociety, Environment, Education, Teamwork\n\nRelated:\ncontribute to, participate in, be responsible for\n\nBe in the present moment\n\nExpression:\nBe in the present moment means to focus attention on what is happening now rather than worrying about the past or future.\n\nUsed for:\nMental Health, Lifestyle, Personal Development\n\nRelated:\nmindfulness, focus, awareness\n\n6. Mini Speaking Responses\n\nBalanced view on chemical use\n\nResponse:\nIt depends on the purpose. If a chemical is essential for laboratory research and safety rules are followed, its use might be acceptable. However, if it harms people's health or the environment, the university should stop using it and find safer alternatives.\n\nUsed for:\nEnvironment, Education, Health, Opinion Questions\n\nStructure:\ncondition -> acceptable case -> harmful case -> recommendation\n\nRelated:\nsafety rules, laboratory research, safer alternatives\n\nEnvironmental responsibility\n\nResponse:\nTechnological development can come at a cost if environmental risks are ignored. Chemical waste can contaminate waterways, so governments, universities, companies, and ordinary people should all play a role in protecting the environment.\n\nUsed for:\nTechnology, Environment, Society, Opinion Questions\n\nStructure:\nwarning -> concrete consequence -> shared responsibility\n\nRelated:\ntechnological development, contaminated waterways, environmental responsibility\n\nFinding an outlet for pressure\n\nResponse:\nWhen people are under pressure from their studies or research, they need to find an outlet. Talking with friends, practising English, or following a workout routine can help them relax and improve their mood.\n\nUsed for:\nMental Health, Education, Lifestyle, Study\n\nStructure:\nproblem -> need -> examples -> benefit\n\nRelated:\npressure, anxiety, exercise, emotional outlet\n\n7. Learning Feedback\n\nStrengths\n\n- The learner could give a balanced answer instead of treating chemical use as simply good or bad.\n- New collocations were actively used in original sentences, especially “come at a cost”, “contaminate waterways”, and “play a role in”.\n- The learner could explain ideas at length and connect environmental issues with technology, health, and responsibility.\n\nAreas to Improve\n\n- Use articles carefully: “an outlet”, not “a outlet”.\n- Use natural prepositions: “harmful to”, “depend on”, and “pressure from studies”.\n- Avoid repeated fillers and long, unfinished sentence chains. State the main judgment first, then explain it.\n- Practise long words separately so the first syllables are not dropped, especially “technological” and “environmental”.\n\nFinal Active Output\n\nTechnological development can come at a cost if environmental risks are ignored. Chemical waste can contaminate waterways, so we should play a role in protecting the environment.\n\n8. Topic Links\n\n- Environment\n- Education\n- Health\n- Climate Change\n- Opinion Questions\n\n9. Skill Links\n\n- Explain Reasons\n- Express Personal Opinions\n- Use Collocations",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "case_20260716_herbicide_free_campus_article_practice",
+      "type": "speaking_case",
+      "title": "Herbicide-Free Campus Article Practice",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "active",
+        "stage": "0",
+        "next_due": "2026-07-17",
+        "interval_days": "1",
+        "completed_dates": [],
+        "last_feedback": "",
+        "next_focus": ""
+      },
+      "source_url": {},
+      "source_title": {},
+      "source_excerpt": {},
+      "path": "Speaking_Cases/2026-07-16_herbicide_free_campus_article_practice.md",
+      "excerpt": "Speaking Case Source Material Source Fact This is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position. My Summary...",
+      "body": "Speaking Case\n\nSource Material\n\nSource Fact\n\nThis is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position.\n\nMy Summary\n\nRecovered from a previous IELTS speaking session.\n\nIELTS Speaking Question\n\nShould universities use potentially harmful chemicals when they are useful for research?\n\nMy Initial Position\n\nI think it depends on the purpose and the level of risk.\n\nChallenge And Reasoning\n\nCounterargument\n\nCould a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative?\n\nFinal Position\n\nEssential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.\n\nSpeaking Answers\n\n30 Seconds\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n60 Seconds\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n2 Minutes\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\nLinked Legacy Session\n\nThe original session remains in Daily_Sessions and all existing knowledge nodes are preserved.",
+      "question": "Should universities use potentially harmful chemicals when they are useful for research?",
+      "final_position": "### Counterargument Could a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative? ### Final Position Essential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.",
+      "due_date": "2026-07-17",
+      "prompt": "开始今日复习\nCase ID: case_20260716_herbicide_free_campus_article_practice\nCase: Herbicide-Free Campus Article Practice\nQuestion: Should universities use potentially harmful chemicals when they are useful for research?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_hamper_the_ability_to",
+      "type": "expression",
+      "title": "Hamper the ability to",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Personal Development",
+        "Work"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "hinder",
+        "obstruct",
+        "limit"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_hamper_the_ability_to.md",
+      "excerpt": "Hamper the ability to Expression: Hamper the ability to means to make it more difficult for someone or something to perform an action. Used for: Education, Environment, Personal Development, Work Related: hi...",
+      "body": "Hamper the ability to\n\nExpression:\nHamper the ability to means to make it more difficult for someone or something to perform an action.\n\nUsed for:\nEducation, Environment, Personal Development, Work\n\nRelated:\nhinder, obstruct, limit",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_fit_into_the_larger_picture",
+      "type": "expression",
+      "title": "Fit into the larger picture",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Career",
+        "Society"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "broader goal",
+        "long-term plan",
+        "overall system"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_fit_into_the_larger_picture.md",
+      "excerpt": "Fit into the larger picture Expression: Fit into the larger picture means to form part of a broader goal, plan, or situation. Used for: Opinion Questions, Career, Society, Environment Related: broader goal,...",
+      "body": "Fit into the larger picture\n\nExpression:\nFit into the larger picture means to form part of a broader goal, plan, or situation.\n\nUsed for:\nOpinion Questions, Career, Society, Environment\n\nRelated:\nbroader goal, long-term plan, overall system",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "response_20260716_herbicide_free_campus_article_practice_finding_an_outlet_for_pressure",
+      "type": "mini_response",
+      "title": "Finding an outlet for pressure",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Mental Health",
+        "Lifestyle",
+        "Study"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pressure",
+        "anxiety",
+        "exercise",
+        "emotional outlet"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Response_Bank/2026-07-16_herbicide_free_campus_article_practice_finding_an_outlet_for_pressure.md",
+      "excerpt": "Finding an outlet for pressure Response: When people are under pressure from their studies or research, they need to find an outlet. Talking with friends, practising English, or following a workout routine c...",
+      "body": "Finding an outlet for pressure\n\nResponse:\nWhen people are under pressure from their studies or research, they need to find an outlet. Talking with friends, practising English, or following a workout routine can help them relax and improve their mood.\n\nUsed for:\nMental Health, Education, Lifestyle, Study\n\nStructure:\nproblem -> need -> examples -> benefit\n\nRelated:\npressure, anxiety, exercise, emotional outlet",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_find_an_outlet",
+      "type": "expression",
+      "title": "Find an outlet",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Mental Health",
+        "Study",
+        "Work",
+        "Personal Development"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "release pressure",
+        "cope with stress",
+        "emotional expression"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_find_an_outlet.md",
+      "excerpt": "Find an outlet Expression: Find an outlet means to find a healthy way to express or release pressure, emotion, or energy. Used for: Mental Health, Study, Work, Personal Development Related: release pressure,...",
+      "body": "Find an outlet\n\nExpression:\nFind an outlet means to find a healthy way to express or release pressure, emotion, or energy.\n\nUsed for:\nMental Health, Study, Work, Personal Development\n\nRelated:\nrelease pressure, cope with stress, emotional expression",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "response_20260716_herbicide_free_campus_article_practice_environmental_responsibility",
+      "type": "mini_response",
+      "title": "Environmental responsibility",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Technology",
+        "Society"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "technological development",
+        "contaminated waterways",
+        "environmental responsibility"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Response_Bank/2026-07-16_herbicide_free_campus_article_practice_environmental_responsibility.md",
+      "excerpt": "Environmental responsibility Response: Technological development can come at a cost if environmental risks are ignored. Chemical waste can contaminate waterways, so governments, universities, companies, and...",
+      "body": "Environmental responsibility\n\nResponse:\nTechnological development can come at a cost if environmental risks are ignored. Chemical waste can contaminate waterways, so governments, universities, companies, and ordinary people should all play a role in protecting the environment.\n\nUsed for:\nTechnology, Environment, Society, Opinion Questions\n\nStructure:\nwarning -> concrete consequence -> shared responsibility\n\nRelated:\ntechnological development, contaminated waterways, environmental responsibility",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_contribute_to",
+      "type": "expression",
+      "title": "Contribute to",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Society"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "lead to",
+        "result in",
+        "play a part in"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_contribute_to.md",
+      "excerpt": "Contribute to Expression: Contribute to means to help cause a result or play a part in creating it. Used for: Environment, Health, Society, Education Related: lead to, result in, play a part in",
+      "body": "Contribute to\n\nExpression:\nContribute to means to help cause a result or play a part in creating it.\n\nUsed for:\nEnvironment, Health, Society, Education\n\nRelated:\nlead to, result in, play a part in",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_contaminate_waterways",
+      "type": "expression",
+      "title": "Contaminate waterways",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Public Health",
+        "Agriculture"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "water pollution",
+        "toxic waste",
+        "environmental damage"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_contaminate_waterways.md",
+      "excerpt": "Contaminate waterways Expression: Contaminate waterways means to pollute rivers, lakes, streams, or other water systems. Used for: Environment, Public Health, Agriculture Related: water pollution, toxic wast...",
+      "body": "Contaminate waterways\n\nExpression:\nContaminate waterways means to pollute rivers, lakes, streams, or other water systems.\n\nUsed for:\nEnvironment, Public Health, Agriculture\n\nRelated:\nwater pollution, toxic waste, environmental damage",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_come_at_a_cost",
+      "type": "expression",
+      "title": "Come at a cost",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Technology",
+        "Economy",
+        "Society"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "trade-off",
+        "consequence",
+        "sacrifice"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_come_at_a_cost.md",
+      "excerpt": "Come at a cost Expression: Come at a cost means to bring a benefit while also causing a disadvantage, sacrifice, or risk. Used for: Technology, Environment, Economy, Society Related: trade-off, consequence,...",
+      "body": "Come at a cost\n\nExpression:\nCome at a cost means to bring a benefit while also causing a disadvantage, sacrifice, or risk.\n\nUsed for:\nTechnology, Environment, Economy, Society\n\nRelated:\ntrade-off, consequence, sacrifice",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260716_herbicide_free_campus_article_practice_be_in_the_present_moment",
+      "type": "expression",
+      "title": "Be in the present moment",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions",
+        "Mental Health",
+        "Lifestyle",
+        "Personal Development"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "mindfulness",
+        "focus",
+        "awareness"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_be_in_the_present_moment.md",
+      "excerpt": "Be in the present moment Expression: Be in the present moment means to focus attention on what is happening now rather than worrying about the past or future. Used for: Mental Health, Lifestyle, Personal Dev...",
+      "body": "Be in the present moment\n\nExpression:\nBe in the present moment means to focus attention on what is happening now rather than worrying about the past or future.\n\nUsed for:\nMental Health, Lifestyle, Personal Development\n\nRelated:\nmindfulness, focus, awareness",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "response_20260716_herbicide_free_campus_article_practice_balanced_view_on_chemical_use",
+      "type": "mini_response",
+      "title": "Balanced view on chemical use",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "safety rules",
+        "laboratory research",
+        "safer alternatives"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-17",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Response_Bank/2026-07-16_herbicide_free_campus_article_practice_balanced_view_on_chemical_use.md",
+      "excerpt": "Balanced view on chemical use Response: It depends on the purpose. If a chemical is essential for laboratory research and safety rules are followed, its use might be acceptable. However, if it harms people's...",
+      "body": "Balanced view on chemical use\n\nResponse:\nIt depends on the purpose. If a chemical is essential for laboratory research and safety rules are followed, its use might be acceptable. However, if it harms people's health or the environment, the university should stop using it and find safer alternatives.\n\nUsed for:\nEnvironment, Education, Health, Opinion Questions\n\nStructure:\ncondition -> acceptable case -> harmful case -> recommendation\n\nRelated:\nsafety rules, laboratory research, safer alternatives",
+      "question": "",
+      "final_position": ""
+    },
     {
       "id": "story_20260712_ai_game_ideas_zhejiang_travel_experience",
       "type": "personal_story",
@@ -1326,6 +2213,52 @@
       "final_position": "### Counterargument How could society distinguish genuine consciousness from convincing behaviour, and what practical rights would follow? ### Final Position If AI developed genuine consciousness, its moral status should depend on consciousness and intrinsic value rather than biological identity alone, while society would still need careful evidence and safe",
       "due_date": "2026-07-13",
       "prompt": "开始今日复习\nCase ID: case_20260712_ai_consciousness_and_evolution\nCase: AI Consciousness and Evolution\nQuestion: If artificial intelligence developed consciousness, should it have rights?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
+    },
+    {
+      "id": "case_20260716_herbicide_free_campus_article_practice",
+      "type": "speaking_case",
+      "title": "Herbicide-Free Campus Article Practice",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "active",
+        "stage": "0",
+        "next_due": "2026-07-17",
+        "interval_days": "1",
+        "completed_dates": [],
+        "last_feedback": "",
+        "next_focus": ""
+      },
+      "source_url": {},
+      "source_title": {},
+      "source_excerpt": {},
+      "path": "Speaking_Cases/2026-07-16_herbicide_free_campus_article_practice.md",
+      "excerpt": "Speaking Case Source Material Source Fact This is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position. My Summary...",
+      "body": "Speaking Case\n\nSource Material\n\nSource Fact\n\nThis is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position.\n\nMy Summary\n\nRecovered from a previous IELTS speaking session.\n\nIELTS Speaking Question\n\nShould universities use potentially harmful chemicals when they are useful for research?\n\nMy Initial Position\n\nI think it depends on the purpose and the level of risk.\n\nChallenge And Reasoning\n\nCounterargument\n\nCould a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative?\n\nFinal Position\n\nEssential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.\n\nSpeaking Answers\n\n30 Seconds\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n60 Seconds\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n2 Minutes\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\nLinked Legacy Session\n\nThe original session remains in Daily_Sessions and all existing knowledge nodes are preserved.",
+      "question": "Should universities use potentially harmful chemicals when they are useful for research?",
+      "final_position": "### Counterargument Could a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative? ### Final Position Essential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.",
+      "due_date": "2026-07-17",
+      "prompt": "开始今日复习\nCase ID: case_20260716_herbicide_free_campus_article_practice\nCase: Herbicide-Free Campus Article Practice\nQuestion: Should universities use potentially harmful chemicals when they are useful for research?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
     }
   ],
   "upcoming": [],
@@ -1372,6 +2305,52 @@
       "final_position": "### Counterargument A complex system can be difficult for players to understand. Why would this be more engaging than a simple competitive game? ### Final Position I value an ecosystem-based game because changing conditions, rather than a fixed winner, can make players think about adaptation, balance, and long-term consequences.",
       "due_date": "2026-07-13",
       "prompt": "开始今日复习\nCase ID: case_20260712_ai_game_ideas\nCase: AI Game Ideas\nQuestion: What kind of game would you like to develop, and why would it be meaningful?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
+    },
+    {
+      "id": "case_20260716_herbicide_free_campus_article_practice",
+      "type": "speaking_case",
+      "title": "Herbicide-Free Campus Article Practice",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "active",
+        "stage": "0",
+        "next_due": "2026-07-17",
+        "interval_days": "1",
+        "completed_dates": [],
+        "last_feedback": "",
+        "next_focus": ""
+      },
+      "source_url": {},
+      "source_title": {},
+      "source_excerpt": {},
+      "path": "Speaking_Cases/2026-07-16_herbicide_free_campus_article_practice.md",
+      "excerpt": "Speaking Case Source Material Source Fact This is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position. My Summary...",
+      "body": "Speaking Case\n\nSource Material\n\nSource Fact\n\nThis is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position.\n\nMy Summary\n\nRecovered from a previous IELTS speaking session.\n\nIELTS Speaking Question\n\nShould universities use potentially harmful chemicals when they are useful for research?\n\nMy Initial Position\n\nI think it depends on the purpose and the level of risk.\n\nChallenge And Reasoning\n\nCounterargument\n\nCould a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative?\n\nFinal Position\n\nEssential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.\n\nSpeaking Answers\n\n30 Seconds\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n60 Seconds\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n2 Minutes\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\nLinked Legacy Session\n\nThe original session remains in Daily_Sessions and all existing knowledge nodes are preserved.",
+      "question": "Should universities use potentially harmful chemicals when they are useful for research?",
+      "final_position": "### Counterargument Could a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative? ### Final Position Essential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.",
+      "due_date": "2026-07-17",
+      "prompt": "开始今日复习\nCase ID: case_20260716_herbicide_free_campus_article_practice\nCase: Herbicide-Free Campus Article Practice\nQuestion: Should universities use potentially harmful chemicals when they are useful for research?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
     },
     {
       "id": "case_20260712_ai_consciousness_and_evolution",
@@ -1426,12 +2405,28 @@
   ],
   "topics": [
     {
-      "name": "Technology",
-      "count": 30
+      "name": "Opinion Questions",
+      "count": 42
     },
     {
-      "name": "Opinion Questions",
-      "count": 20
+      "name": "Environment",
+      "count": 33
+    },
+    {
+      "name": "Technology",
+      "count": 32
+    },
+    {
+      "name": "Education",
+      "count": 22
+    },
+    {
+      "name": "Health",
+      "count": 22
+    },
+    {
+      "name": "Climate Change",
+      "count": 22
     },
     {
       "name": "Artificial Intelligence",
@@ -1458,8 +2453,32 @@
       "count": 11
     },
     {
-      "name": "Environment",
-      "count": 11
+      "name": "Society",
+      "count": 6
+    },
+    {
+      "name": "Personal Development",
+      "count": 3
+    },
+    {
+      "name": "Mental Health",
+      "count": 3
+    },
+    {
+      "name": "Public Health",
+      "count": 2
+    },
+    {
+      "name": "Work",
+      "count": 2
+    },
+    {
+      "name": "Lifestyle",
+      "count": 2
+    },
+    {
+      "name": "Study",
+      "count": 2
     },
     {
       "name": "Opinion questions",
@@ -1478,6 +2497,38 @@
       "count": 2
     },
     {
+      "name": "Campus Life",
+      "count": 1
+    },
+    {
+      "name": "Failure",
+      "count": 1
+    },
+    {
+      "name": "Natural Disasters",
+      "count": 1
+    },
+    {
+      "name": "Teamwork",
+      "count": 1
+    },
+    {
+      "name": "News",
+      "count": 1
+    },
+    {
+      "name": "Career",
+      "count": 1
+    },
+    {
+      "name": "Agriculture",
+      "count": 1
+    },
+    {
+      "name": "Economy",
+      "count": 1
+    },
+    {
       "name": "Travel",
       "count": 1
     },
@@ -1494,10 +2545,6 @@
       "count": 1
     },
     {
-      "name": "Society",
-      "count": 1
-    },
-    {
       "name": "Personal Values",
       "count": 1
     },
@@ -1509,15 +2556,19 @@
   "skills": [
     {
       "name": "Explain Reasons",
-      "count": 30
+      "count": 52
+    },
+    {
+      "name": "Express Personal Opinions",
+      "count": 52
     },
     {
       "name": "Describe Systems",
       "count": 30
     },
     {
-      "name": "Express Personal Opinions",
-      "count": 30
+      "name": "Use Collocations",
+      "count": 22
     }
   ]
 }

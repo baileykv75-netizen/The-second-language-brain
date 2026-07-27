@@ -11,3 +11,4 @@
 - [Herbivore](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_herbivore.md) - `vocabulary`
 - [Spawn](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_spawn.md) - `vocabulary`
 - [Thrive](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_thrive.md) - `vocabulary`
+- [Technical vs Technological](../Skill_Tree/Vocabulary/2026-07-16_herbicide_free_campus_article_practice_technical_vs_technological.md) - `vocabulary`

@@ -46,6 +46,10 @@ jobs:
           fi
           while IFS= read -r file; do
             [ -z "$file" ] && continue
+            if ! grep -q '^update_type:' "$file"; then
+              echo "Skipping legacy inbox file: $file"
+              continue
+            fi
             python scripts/run_pipeline.py "$file"
           done <<< "$files"
 

@@ -11,6 +11,7 @@ review:
   status: new
   next_due: 2026-07-23
   interval_days: 7
+source_case: case_20260716_herbicide_free_campus_article_practice
 ---
 
 # Session Topic

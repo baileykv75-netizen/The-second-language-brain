@@ -14,12 +14,12 @@ A speaking-first IELTS knowledge system. Start with a Speaking Case, form a defe
 
 ## Quick Stats
 
-- Sessions: 2
-- Speaking cases: 2
-- Vocabulary nodes: 11
-- Grammar mistakes: 5
-- Expressions: 3
-- Mini responses: 4
+- Sessions: 3
+- Speaking cases: 3
+- Vocabulary nodes: 12
+- Grammar mistakes: 9
+- Expressions: 14
+- Mini responses: 7
 - Personal stories: 2
 
 ## Main Entrances
@@ -38,37 +38,41 @@ A speaking-first IELTS knowledge system. Start with a Speaking Case, form a defe
 
 ## Latest Sessions
 
+- [Herbicide-Free Campus Article Practice](Daily_Sessions/2026-07-16_herbicide_free_campus_article_practice.md)
 - [AI Consciousness and Evolution](Daily_Sessions/2026-07-12_ai_consciousness_and_evolution.md)
 - [AI Game Ideas](Daily_Sessions/2026-07-12_ai_game_ideas.md)
 
 ## Speaking Cases
 
+- [Herbicide-Free Campus Article Practice](Speaking_Cases/2026-07-16_herbicide_free_campus_article_practice.md)
 - [AI Consciousness and Evolution](Speaking_Cases/2026-07-12_ai_consciousness_and_evolution.md)
 - [AI Game Ideas](Speaking_Cases/2026-07-12_ai_game_ideas.md)
 
 ## Topic Tree
 
+- [Agriculture](indexes/topic_agriculture.md)
 - [Artificial Intelligence](indexes/topic_artificial_intelligence.md)
+- [Campus Life](indexes/topic_campus_life.md)
+- [Career](indexes/topic_career.md)
+- [Climate Change](indexes/topic_climate_change.md)
 - [Creative Projects](indexes/topic_creative_projects.md)
 - [Culture](indexes/topic_culture.md)
+- [Economy](indexes/topic_economy.md)
+- [Education](indexes/topic_education.md)
 - [Entrepreneurship](indexes/topic_entrepreneurship.md)
 - [Environment](indexes/topic_environment.md)
 - [Ethics](indexes/topic_ethics.md)
-- [Future Society](indexes/topic_future_society.md)
-- [Game Development](indexes/topic_game_development.md)
-- [Games](indexes/topic_games.md)
-- [Meaning Of Life](indexes/topic_meaning_of_life.md)
-- [Opinion Questions](indexes/topic_opinion_questions.md)
-- [People](indexes/topic_people.md)
 
 ## Speaking Skill Tree
 
 - [Describe Systems](indexes/skill_describe_systems.md)
 - [Explain Reasons](indexes/skill_explain_reasons.md)
 - [Express Personal Opinions](indexes/skill_express_personal_opinions.md)
+- [Use Collocations](indexes/skill_use_collocations.md)
 
 ## Recent Vocabulary
 
+- [Technical vs Technological](Skill_Tree/Vocabulary/2026-07-16_herbicide_free_campus_article_practice_technical_vs_technological.md)
 - [Coexist peacefully](Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_coexist_peacefully.md)
 - [Consciousness](Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_consciousness.md)
 - [Harsh environment](Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_harsh_environment.md)
@@ -76,28 +80,30 @@ A speaking-first IELTS knowledge system. Start with a Speaking Case, form a defe
 - [Parameters](Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_parameters.md)
 - [Plausible](Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_plausible.md)
 - [Sandbox evolution](Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_sandbox_evolution.md)
-- [Adapt](Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_adapt.md)
 
 ## Recent Grammar Mistakes
 
+- [It depends if this kind of material is safe.](Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_1.md)
+- [They need to find a outlet.](Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_2.md)
+- [If it is harmful for all human beings, we should stop it.](Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_3.md)
+- [I will stop them doing these kinds of things.](Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_4.md)
 - [AI was just a tool.](Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_1.md)
-- [The God have gave us freedom.](Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_2.md)
-- [Both the conditions can be okay.](Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_3.md)
-- [We don't clear where consciousness comes from.](Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_4.md)
-- [The winner can get the resource and survive.](Mistake_Log/2026-07-12_ai_game_ideas_grammar_1.md)
 
 ## Expression Bank
 
-- [Balanced opinion framework](Expression_Bank/2026-07-12_ai_consciousness_and_evolution_balanced_opinion_framework.md)
-- [Meaning through choice](Expression_Bank/2026-07-12_ai_consciousness_and_evolution_meaning_through_choice.md)
-- [Two-sided system view](Expression_Bank/2026-07-12_ai_game_ideas_two_sided_system_view.md)
+- [Be in the present moment](Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_be_in_the_present_moment.md)
+- [Come at a cost](Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_come_at_a_cost.md)
+- [Contaminate waterways](Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_contaminate_waterways.md)
+- [Contribute to](Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_contribute_to.md)
+- [Find an outlet](Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_find_an_outlet.md)
 
 ## Mini Response Bank
 
+- [Balanced view on chemical use](Response_Bank/2026-07-16_herbicide_free_campus_article_practice_balanced_view_on_chemical_use.md)
+- [Environmental responsibility](Response_Bank/2026-07-16_herbicide_free_campus_article_practice_environmental_responsibility.md)
+- [Finding an outlet for pressure](Response_Bank/2026-07-16_herbicide_free_campus_article_practice_finding_an_outlet_for_pressure.md)
 - [Describe my sandbox evolution game](Response_Bank/2026-07-12_ai_consciousness_and_evolution_describe_my_sandbox_evolution_game.md)
 - [Discuss AI consciousness](Response_Bank/2026-07-12_ai_consciousness_and_evolution_discuss_ai_consciousness.md)
-- [Explain my philosophy of life](Response_Bank/2026-07-12_ai_consciousness_and_evolution_explain_my_philosophy_of_life.md)
-- [System-thinking game answer](Response_Bank/2026-07-12_ai_game_ideas_system_thinking_game_answer.md)
 
 ## Personal Stories
 

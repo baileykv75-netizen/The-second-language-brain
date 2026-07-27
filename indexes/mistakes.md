@@ -9,3 +9,4 @@
 - [They need to find a outlet.](../Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_2.md) - `grammar_error`
 - [If it is harmful for all human beings, we should stop it.](../Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_3.md) - `grammar_error`
 - [I will stop them doing these kinds of things.](../Mistake_Log/2026-07-16_herbicide_free_campus_article_practice_grammar_4.md) - `grammar_error`
+- [He was told in charge.](../Mistake_Log/2026-07-27_computer_repair_delay_and_customer_service_grammar_1.md) - `grammar_error`

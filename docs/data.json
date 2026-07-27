@@ -1,16 +1,434 @@
 {
   "generated_on": "2026-07-27",
   "stats": {
-    "total": 52,
-    "speakingCases": 3,
-    "sessions": 3,
-    "vocabulary": 12,
-    "grammarMistakes": 9,
-    "expressions": 14,
-    "responses": 7,
-    "stories": 2
+    "total": 63,
+    "speakingCases": 4,
+    "sessions": 4,
+    "vocabulary": 17,
+    "grammarMistakes": 10,
+    "expressions": 15,
+    "responses": 8,
+    "stories": 3
   },
   "nodes": [
+    {
+      "id": "vocab_20260727_computer_repair_delay_and_customer_service_respond_quickly",
+      "type": "vocabulary",
+      "title": "Respond quickly",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "prompt response",
+        "react",
+        "reply"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_respond_quickly.md",
+      "excerpt": "Respond quickly Meaning: To react or reply without unnecessary delay. Pronunciation: respond /rɪˈspɒnd/ Example: Customers expect service companies to respond quickly when a problem is urgent. IELTS usage: U...",
+      "body": "Respond quickly\n\nMeaning:\nTo react or reply without unnecessary delay.\n\nPronunciation:\nrespond /rɪˈspɒnd/\n\nExample:\nCustomers expect service companies to respond quickly when a problem is urgent.\n\nIELTS usage:\nUseful for customer service, communication, public services, and business questions.\n\nRelated words:\nprompt response, react, reply",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "response_20260727_computer_repair_delay_and_customer_service_reasonable_customer_anger",
+      "type": "mini_response",
+      "title": "Reasonable customer anger",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "urgent problem",
+        "responsibility",
+        "data backup"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Response_Bank/2026-07-27_computer_repair_delay_and_customer_service_reasonable_customer_anger.md",
+      "excerpt": "Reasonable customer anger Response: The woman was probably right to be upset because she was dealing with an urgent problem. The technician had been put in charge, and the data had not been backed up. Howeve...",
+      "body": "Reasonable customer anger\n\nResponse:\nThe woman was probably right to be upset because she was dealing with an urgent problem. The technician had been put in charge, and the data had not been backed up. However, the source does not prove that the delay was entirely his personal fault.\n\nUsed for:\nCustomer Service, Workplace, Technology, Opinion Questions\n\nStructure:\nposition -> source-based reasons -> uncertainty\n\nRelated:\nurgent problem, responsibility, data backup",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "grammar_20260727_computer_repair_delay_and_customer_service_grammar_1",
+      "type": "grammar_error",
+      "title": "He was told in charge.",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "urgent problem",
+        "responsibility",
+        "data backup",
+        "service delay",
+        "reasonable anger"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Mistake_Log/2026-07-27_computer_repair_delay_and_customer_service_grammar_1.md",
+      "excerpt": "Grammar Upgrade 1 Original: He was told in charge. Better: He was put in charge of the situation. Explanation: 中文说明：“be put in charge of”表示“被安排负责某事”。“be told in charge”不是自然搭配。",
+      "body": "Grammar Upgrade 1\n\nOriginal:\nHe was told in charge.\n\nBetter:\nHe was put in charge of the situation.\n\nExplanation:\n中文说明：“be put in charge of”表示“被安排负责某事”。“be told in charge”不是自然搭配。",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "vocab_20260727_computer_repair_delay_and_customer_service_data_had_not_been_backed_up",
+      "type": "vocabulary",
+      "title": "Data had not been backed up",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "save a copy",
+        "data loss",
+        "storage"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_data_had_not_been_backed_up.md",
+      "excerpt": "Data had not been backed up Meaning: A copy of the data had not been saved somewhere safe. Pronunciation: backup /ˈbæk.ʌp/ Example: The data had not been backed up, so the customer was worried about losing i...",
+      "body": "Data had not been backed up\n\nMeaning:\nA copy of the data had not been saved somewhere safe.\n\nPronunciation:\nbackup /ˈbæk.ʌp/\n\nExample:\nThe data had not been backed up, so the customer was worried about losing it.\n\nIELTS usage:\nUseful for technology, work, risk, and digital security questions.\n\nRelated words:\nsave a copy, data loss, storage",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "vocab_20260727_computer_repair_delay_and_customer_service_customer_service",
+      "type": "vocabulary",
+      "title": "Customer service",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "client support",
+        "service quality",
+        "complaint handling"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_customer_service.md",
+      "excerpt": "Customer service Meaning: The help and support a company provides before, during, or after a purchase or service. Pronunciation: customer /ˈkʌs.tə.mər/ Example: Good customer service requires companies to re...",
+      "body": "Customer service\n\nMeaning:\nThe help and support a company provides before, during, or after a purchase or service.\n\nPronunciation:\ncustomer /ˈkʌs.tə.mər/\n\nExample:\nGood customer service requires companies to respond quickly and solve problems clearly.\n\nIELTS usage:\nUseful for business, shopping, services, and workplace topics.\n\nRelated words:\nclient support, service quality, complaint handling",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "story_20260727_computer_repair_delay_and_customer_service_connected_experience",
+      "type": "personal_story",
+      "title": "Connected Experience",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "service complaints",
+        "technical problems"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Personal_Stories/2026-07-27_computer_repair_delay_and_customer_service_connected_experience.md",
+      "excerpt": "Connected Experience Story: No personal experience was added in this case. Used for: Customer Service, Workplace Related: service complaints, technical problems",
+      "body": "Connected Experience\n\nStory:\nNo personal experience was added in this case.\n\nUsed for:\nCustomer Service, Workplace\n\nRelated:\nservice complaints, technical problems",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "case_20260727_computer_repair_customer_service",
+      "type": "speaking_case",
+      "title": "Computer Repair Delay and Customer Service",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "urgent problem",
+        "responsibility",
+        "data backup",
+        "service delay",
+        "reasonable anger"
+      ],
+      "review": {
+        "status": "active",
+        "stage": "0",
+        "next_due": "2026-07-28",
+        "interval_days": "1",
+        "completed_dates": [],
+        "last_feedback": "",
+        "next_focus": ""
+      },
+      "source_url": "uploaded-image-in-conversation",
+      "source_title": "Computer repair service dialogue",
+      "source_excerpt": "The data hadn't been backed up.",
+      "path": "Speaking_Cases/2026-07-27_computer_repair_delay_and_customer_service.md",
+      "excerpt": "Speaking Case Source Material Source Fact A woman contacted a computer repair service because her computer problem was urgent and was getting worse. A technician was put in charge of the situation. The compu...",
+      "body": "Speaking Case\n\nSource Material\n\nSource Fact\n\nA woman contacted a computer repair service because her computer problem was urgent and was getting worse. A technician was put in charge of the situation. The computer data had not been backed up, so there was a risk of losing it. The source does not establish whether the delay was personally caused by the technician or whether the company had a broader service failure.\n\nMy Summary\n\nA woman wanted a technician to repair her computer. She was dissatisfied because the service had not responded quickly, the computer problem was serious, and the data had not been backed up. The technician had been put in charge of the case, although the source did not prove that the entire delay was his personal fault.\n\nIELTS Speaking Question\n\nDo you think the woman's anger was reasonable? Why or why not?\n\nMy Initial Position\n\nBoth sides were understandable. The woman had a real reason to worry because her computer was not working properly. At the same time, the technician was following the company's instructions, so the whole problem might not have been his personal responsibility.\n\nChallenge And Reasoning\n\nCounterargument\n\nThe claim that the problem had nothing to do with the technician was too strong. The source says that he had been put in charge, so he did have some professional responsibility. However, the source did not prove that he personally caused the delay.\n\nFinal Position\n\nThe woman's anger was probably reasonable because she was dealing with an urgent problem, the technician had been put in charge, and the data had not been backed up. However, it is uncertain whether her anger should have been directed entirely at that individual technician rather than at the company or its service process.\n\nSpeaking Answers\n\n30 Seconds\n\nThe woman was probably right to be upset. She was dealing with an urgent problem, and the technician had been put in charge of the situation. In addition, the computer data had not been backed up, so there was a real risk of losing important information. However, we cannot be certain that the delay was entirely the technician's fault.\n\n60 Seconds\n\nNot completed in this session.\n\n2 Minutes\n\nNot completed in this session.\n\nNew Vocabulary\n\nBe dealing with an urgent problem\n\nMeaning:\nTo be facing a problem that requires immediate attention.\n\nPronunciation:\nurgent /ˈɜː.dʒənt/\n\nExample:\nShe was dealing with an urgent problem, so a slow response made her more anxious.\n\nIELTS usage:\nUseful for customer service, work, emergencies, and problem-solving questions.\n\nRelated words:\npressing issue, immediate attention, emergency\n\nBe put in charge\n\nMeaning:\nTo be given responsibility for a person, task, or situation.\n\nPronunciation:\ncharge /tʃɑːdʒ/\n\nExample:\nThe technician had been put in charge of the situation.\n\nIELTS usage:\nUseful for work, leadership, responsibility, and service questions.\n\nRelated words:\nbe responsible for, manage, handle\n\nData had not been backed up\n\nMeaning:\nA copy of the data had not been saved somewhere safe.\n\nPronunciation:\nbackup /ˈbæk.ʌp/\n\nExample:\nThe data had not been backed up, so the customer was worried about losing it.\n\nIELTS usage:\nUseful for technology, work, risk, and digital security questions.\n\nRelated words:\nsave a copy, data loss, storage\n\nRespond quickly\n\nMeaning:\nTo react or reply without unnecessary delay.\n\nPronunciation:\nrespond /rɪˈspɒnd/\n\nExample:\nCustomers expect service companies to respond quickly when a problem is urgent.\n\nIELTS usage:\nUseful for customer service, communication, public services, and business questions.\n\nRelated words:\nprompt response, react, reply\n\nCustomer service\n\nMeaning:\nThe help and support a company provides before, during, or after a purchase or service.\n\nPronunciation:\ncustomer /ˈkʌs.tə.mər/\n\nExample:\nGood customer service requires companies to respond quickly and solve problems clearly.\n\nIELTS usage:\nUseful for business, shopping, services, and workplace topics.\n\nRelated words:\nclient support, service quality, complaint handling\n\nGrammar Upgrade\n\nExpressing responsibility clearly\n\nOriginal:\nHe was told in charge.\n\nBetter:\nHe was put in charge of the situation.\n\nExplanation:\n中文说明：“be put in charge of”表示“被安排负责某事”。“be told in charge”不是自然搭配。\n\nPersonal Expression Bank\n\nA balanced judgment about responsibility\n\nExpression:\nHer anger was probably reasonable, but we cannot be certain that the delay was entirely the technician's fault.\n\nUsed for:\nCustomer Service, Workplace, Opinion Questions\n\nRelated:\nresponsibility, uncertainty, balanced judgment\n\nMini Speaking Responses\n\nReasonable customer anger\n\nResponse:\nThe woman was probably right to be upset because she was dealing with an urgent problem. The technician had been put in charge, and the data had not been backed up. However, the source does not prove that the delay was entirely his personal fault.\n\nUsed for:\nCustomer Service, Workplace, Technology, Opinion Questions\n\nStructure:\nposition -> source-based reasons -> uncertainty\n\nRelated:\nurgent problem, responsibility, data backup\n\nPersonal Stories\n\nConnected Experience\n\nStory:\nNo personal experience was added in this case.\n\nUsed for:\nCustomer Service, Workplace\n\nRelated:\nservice complaints, technical problems",
+      "question": "Do you think the woman's anger was reasonable? Why or why not?",
+      "final_position": "### Counterargument The claim that the problem had nothing to do with the technician was too strong. The source says that he had been put in charge, so he did have some professional responsibility. However, the source did not prove that he personally caused the delay. ### Final Position The woman's anger was probably reasonable because she was dealing with a",
+      "due_date": "2026-07-28",
+      "prompt": "开始今日复习\nCase ID: case_20260727_computer_repair_customer_service\nCase: Computer Repair Delay and Customer Service\nQuestion: Do you think the woman's anger was reasonable? Why or why not?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
+    },
+    {
+      "id": "session_20260727_computer_repair_delay_and_customer_service",
+      "type": "session",
+      "title": "Computer Repair Delay and Customer Service",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "urgent problem",
+        "responsibility",
+        "data backup",
+        "service delay",
+        "reasonable anger"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-08-03",
+        "interval_days": "7"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Daily_Sessions/2026-07-27_computer_repair_delay_and_customer_service.md",
+      "excerpt": "Speaking Case Source Material Source Fact A woman contacted a computer repair service because her computer problem was urgent and was getting worse. A technician was put in charge of the situation. The compu...",
+      "body": "Speaking Case\n\nSource Material\n\nSource Fact\n\nA woman contacted a computer repair service because her computer problem was urgent and was getting worse. A technician was put in charge of the situation. The computer data had not been backed up, so there was a risk of losing it. The source does not establish whether the delay was personally caused by the technician or whether the company had a broader service failure.\n\nMy Summary\n\nA woman wanted a technician to repair her computer. She was dissatisfied because the service had not responded quickly, the computer problem was serious, and the data had not been backed up. The technician had been put in charge of the case, although the source did not prove that the entire delay was his personal fault.\n\nIELTS Speaking Question\n\nDo you think the woman's anger was reasonable? Why or why not?\n\nMy Initial Position\n\nBoth sides were understandable. The woman had a real reason to worry because her computer was not working properly. At the same time, the technician was following the company's instructions, so the whole problem might not have been his personal responsibility.\n\nChallenge And Reasoning\n\nCounterargument\n\nThe claim that the problem had nothing to do with the technician was too strong. The source says that he had been put in charge, so he did have some professional responsibility. However, the source did not prove that he personally caused the delay.\n\nFinal Position\n\nThe woman's anger was probably reasonable because she was dealing with an urgent problem, the technician had been put in charge, and the data had not been backed up. However, it is uncertain whether her anger should have been directed entirely at that individual technician rather than at the company or its service process.\n\nSpeaking Answers\n\n30 Seconds\n\nThe woman was probably right to be upset. She was dealing with an urgent problem, and the technician had been put in charge of the situation. In addition, the computer data had not been backed up, so there was a real risk of losing important information. However, we cannot be certain that the delay was entirely the technician's fault.\n\n60 Seconds\n\nNot completed in this session.\n\n2 Minutes\n\nNot completed in this session.\n\nNew Vocabulary\n\nBe dealing with an urgent problem\n\nMeaning:\nTo be facing a problem that requires immediate attention.\n\nPronunciation:\nurgent /ˈɜː.dʒənt/\n\nExample:\nShe was dealing with an urgent problem, so a slow response made her more anxious.\n\nIELTS usage:\nUseful for customer service, work, emergencies, and problem-solving questions.\n\nRelated words:\npressing issue, immediate attention, emergency\n\nBe put in charge\n\nMeaning:\nTo be given responsibility for a person, task, or situation.\n\nPronunciation:\ncharge /tʃɑːdʒ/\n\nExample:\nThe technician had been put in charge of the situation.\n\nIELTS usage:\nUseful for work, leadership, responsibility, and service questions.\n\nRelated words:\nbe responsible for, manage, handle\n\nData had not been backed up\n\nMeaning:\nA copy of the data had not been saved somewhere safe.\n\nPronunciation:\nbackup /ˈbæk.ʌp/\n\nExample:\nThe data had not been backed up, so the customer was worried about losing it.\n\nIELTS usage:\nUseful for technology, work, risk, and digital security questions.\n\nRelated words:\nsave a copy, data loss, storage\n\nRespond quickly\n\nMeaning:\nTo react or reply without unnecessary delay.\n\nPronunciation:\nrespond /rɪˈspɒnd/\n\nExample:\nCustomers expect service companies to respond quickly when a problem is urgent.\n\nIELTS usage:\nUseful for customer service, communication, public services, and business questions.\n\nRelated words:\nprompt response, react, reply\n\nCustomer service\n\nMeaning:\nThe help and support a company provides before, during, or after a purchase or service.\n\nPronunciation:\ncustomer /ˈkʌs.tə.mər/\n\nExample:\nGood customer service requires companies to respond quickly and solve problems clearly.\n\nIELTS usage:\nUseful for business, shopping, services, and workplace topics.\n\nRelated words:\nclient support, service quality, complaint handling\n\nGrammar Upgrade\n\nExpressing responsibility clearly\n\nOriginal:\nHe was told in charge.\n\nBetter:\nHe was put in charge of the situation.\n\nExplanation:\n中文说明：“be put in charge of”表示“被安排负责某事”。“be told in charge”不是自然搭配。\n\nPersonal Expression Bank\n\nA balanced judgment about responsibility\n\nExpression:\nHer anger was probably reasonable, but we cannot be certain that the delay was entirely the technician's fault.\n\nUsed for:\nCustomer Service, Workplace, Opinion Questions\n\nRelated:\nresponsibility, uncertainty, balanced judgment\n\nMini Speaking Responses\n\nReasonable customer anger\n\nResponse:\nThe woman was probably right to be upset because she was dealing with an urgent problem. The technician had been put in charge, and the data had not been backed up. However, the source does not prove that the delay was entirely his personal fault.\n\nUsed for:\nCustomer Service, Workplace, Technology, Opinion Questions\n\nStructure:\nposition -> source-based reasons -> uncertainty\n\nRelated:\nurgent problem, responsibility, data backup\n\nPersonal Stories\n\nConnected Experience\n\nStory:\nNo personal experience was added in this case.\n\nUsed for:\nCustomer Service, Workplace\n\nRelated:\nservice complaints, technical problems",
+      "question": "Do you think the woman's anger was reasonable? Why or why not?",
+      "final_position": "### Counterargument The claim that the problem had nothing to do with the technician was too strong. The source says that he had been put in charge, so he did have some professional responsibility. However, the source did not prove that he personally caused the delay. ### Final Position The woman's anger was probably reasonable because she was dealing with a"
+    },
+    {
+      "id": "vocab_20260727_computer_repair_delay_and_customer_service_be_put_in_charge",
+      "type": "vocabulary",
+      "title": "Be put in charge",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "be responsible for",
+        "manage",
+        "handle"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_be_put_in_charge.md",
+      "excerpt": "Be put in charge Meaning: To be given responsibility for a person, task, or situation. Pronunciation: charge /tʃɑːdʒ/ Example: The technician had been put in charge of the situation. IELTS usage: Useful for...",
+      "body": "Be put in charge\n\nMeaning:\nTo be given responsibility for a person, task, or situation.\n\nPronunciation:\ncharge /tʃɑːdʒ/\n\nExample:\nThe technician had been put in charge of the situation.\n\nIELTS usage:\nUseful for work, leadership, responsibility, and service questions.\n\nRelated words:\nbe responsible for, manage, handle",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "vocab_20260727_computer_repair_delay_and_customer_service_be_dealing_with_an_urgent_problem",
+      "type": "vocabulary",
+      "title": "Be dealing with an urgent problem",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "pressing issue",
+        "immediate attention",
+        "emergency"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_be_dealing_with_an_urgent_problem.md",
+      "excerpt": "Be dealing with an urgent problem Meaning: To be facing a problem that requires immediate attention. Pronunciation: urgent /ˈɜː.dʒənt/ Example: She was dealing with an urgent problem, so a slow response made...",
+      "body": "Be dealing with an urgent problem\n\nMeaning:\nTo be facing a problem that requires immediate attention.\n\nPronunciation:\nurgent /ˈɜː.dʒənt/\n\nExample:\nShe was dealing with an urgent problem, so a slow response made her more anxious.\n\nIELTS usage:\nUseful for customer service, work, emergencies, and problem-solving questions.\n\nRelated words:\npressing issue, immediate attention, emergency",
+      "question": "",
+      "final_position": ""
+    },
+    {
+      "id": "expr_20260727_computer_repair_delay_and_customer_service_a_balanced_judgment_about_responsibility",
+      "type": "expression",
+      "title": "A balanced judgment about responsibility",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "responsibility",
+        "uncertainty",
+        "balanced judgment"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-28",
+        "interval_days": "1"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Expression_Bank/2026-07-27_computer_repair_delay_and_customer_service_a_balanced_judgment_about_responsibility.md",
+      "excerpt": "A balanced judgment about responsibility Expression: Her anger was probably reasonable, but we cannot be certain that the delay was entirely the technician's fault. Used for: Customer Service, Workplace, Opi...",
+      "body": "A balanced judgment about responsibility\n\nExpression:\nHer anger was probably reasonable, but we cannot be certain that the delay was entirely the technician's fault.\n\nUsed for:\nCustomer Service, Workplace, Opinion Questions\n\nRelated:\nresponsibility, uncertainty, balanced judgment",
+      "question": "",
+      "final_position": ""
+    },
     {
       "id": "grammar_20260716_herbicide_free_campus_article_practice_grammar_2",
       "type": "grammar_error",
@@ -410,46 +828,6 @@
       "final_position": ""
     },
     {
-      "id": "session_20260716_herbicide_free_campus_article_practice",
-      "type": "session",
-      "title": "Herbicide-Free Campus Article Practice",
-      "created": "2026-07-16",
-      "source_session": "session_20260716_herbicide_free_campus_article_practice",
-      "source_case": "case_20260716_herbicide_free_campus_article_practice",
-      "topics": [
-        "Environment",
-        "Education",
-        "Health",
-        "Climate Change",
-        "Opinion Questions"
-      ],
-      "skills": [
-        "Explain Reasons",
-        "Express Personal Opinions",
-        "Use Collocations"
-      ],
-      "related": [
-        "pesticides",
-        "climate anxiety",
-        "environmental responsibility",
-        "campus safety",
-        "technological development"
-      ],
-      "review": {
-        "status": "new",
-        "next_due": "2026-07-23",
-        "interval_days": "7"
-      },
-      "source_url": "",
-      "source_title": "",
-      "source_excerpt": "",
-      "path": "Daily_Sessions/2026-07-16_herbicide_free_campus_article_practice.md",
-      "excerpt": "Session Topic Herbicide-Free Campus, environmental risks, and active IELTS speaking practice 1. Band 7.5-8.0 Model Answer Whether harmful chemicals should be used on a university campus depends on their purp...",
-      "body": "Session Topic\n\nHerbicide-Free Campus, environmental risks, and active IELTS speaking practice\n\n1. Band 7.5-8.0 Model Answer\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n2. New Vocabulary\n\nTechnical vs Technological\n\nMeaning:\nTechnical relates to practical skills, specialist details, or the operation of something. Technological relates to technology and broader technological development.\n\nPronunciation:\ntechnical /ˈtek.nɪ.kəl/; technological /ˌtek.nəˈlɒdʒ.ɪ.kəl/\n\nExample:\nWe had a technical problem during the experiment, but technological progress has improved the equipment.\n\nIELTS usage:\nUse technical for problems, skills, details, and support. Use technological for progress, development, change, and innovation.\n\nRelated words:\ntechnology, technique, innovation, equipment\n\n3. Grammar Upgrade\n\nIt depends on the purpose\n\nOriginal:\nIt depends if this kind of material is safe.\n\nBetter:\nIt depends on the purpose. If this kind of material is safe, it might be acceptable.\n\nExplanation:\n“Depend”通常和介词“on”搭配。把条件拆成两个句子后，逻辑更清楚，也更像自然的雅思口语表达。\n\nAn outlet\n\nOriginal:\nThey need to find a outlet.\n\nBetter:\nThey need to find an outlet.\n\nExplanation:\n“Outlet”以元音音素开头，因此冠词用“an”，不是“a”。\n\nHarmful to\n\nOriginal:\nIf it is harmful for all human beings, we should stop it.\n\nBetter:\nIf it is harmful to people or the environment, the university should stop using it.\n\nExplanation:\n固定搭配是“be harmful to someone or something”。同时，“stop using it”比“stop it”更明确。\n\nStop someone from doing something\n\nOriginal:\nI will stop them doing these kinds of things.\n\nBetter:\nI will ask the university to stop using the chemicals, or stop people from using them irresponsibly.\n\nExplanation:\n“停止做某事”用“stop doing something”；“阻止某人做某事”用“stop someone from doing something”。\n\n4. Pronunciation Notes\n\nTechnological\n\nPronunciation:\n/ˌtek.nəˈlɒdʒ.ɪ.kəl/\n\nCommon mistake:\nDropping the first syllables and saying “logical development” instead of “technological development”.\n\nPractice sentence:\nTechnological development can come at a cost if environmental risks are ignored.\n\n5. Personal Expression Bank\n\nLearn of something\n\nExpression:\nLearn of something means to become aware of something or hear that it exists.\n\nUsed for:\nEducation, News, Environment\n\nRelated:\ndiscover, find out, become aware\n\nRid a place of something\n\nExpression:\nRid a place of something means to remove something unwanted or harmful from that place.\n\nUsed for:\nEnvironment, Public Health, Campus Life\n\nRelated:\nremove, eliminate, clear\n\nFind an outlet\n\nExpression:\nFind an outlet means to find a healthy way to express or release pressure, emotion, or energy.\n\nUsed for:\nMental Health, Study, Work, Personal Development\n\nRelated:\nrelease pressure, cope with stress, emotional expression\n\nFit into the larger picture\n\nExpression:\nFit into the larger picture means to form part of a broader goal, plan, or situation.\n\nUsed for:\nOpinion Questions, Career, Society, Environment\n\nRelated:\nbroader goal, long-term plan, overall system\n\nCome at a cost\n\nExpression:\nCome at a cost means to bring a benefit while also causing a disadvantage, sacrifice, or risk.\n\nUsed for:\nTechnology, Environment, Economy, Society\n\nRelated:\ntrade-off, consequence, sacrifice\n\nContribute to\n\nExpression:\nContribute to means to help cause a result or play a part in creating it.\n\nUsed for:\nEnvironment, Health, Society, Education\n\nRelated:\nlead to, result in, play a part in\n\nContaminate waterways\n\nExpression:\nContaminate waterways means to pollute rivers, lakes, streams, or other water systems.\n\nUsed for:\nEnvironment, Public Health, Agriculture\n\nRelated:\nwater pollution, toxic waste, environmental damage\n\nHamper the ability to\n\nExpression:\nHamper the ability to means to make it more difficult for someone or something to perform an action.\n\nUsed for:\nEducation, Environment, Personal Development, Work\n\nRelated:\nhinder, obstruct, limit\n\nRecover from\n\nExpression:\nRecover from means to return to a normal or healthy state after damage, illness, failure, or a difficult event.\n\nUsed for:\nHealth, Environment, Failure, Natural Disasters\n\nRelated:\nheal, rebuild, bounce back\n\nPlay a role in doing something\n\nExpression:\nPlay a role in doing something means to contribute to or participate in producing a result.\n\nUsed for:\nSociety, Environment, Education, Teamwork\n\nRelated:\ncontribute to, participate in, be responsible for\n\nBe in the present moment\n\nExpression:\nBe in the present moment means to focus attention on what is happening now rather than worrying about the past or future.\n\nUsed for:\nMental Health, Lifestyle, Personal Development\n\nRelated:\nmindfulness, focus, awareness\n\n6. Mini Speaking Responses\n\nBalanced view on chemical use\n\nResponse:\nIt depends on the purpose. If a chemical is essential for laboratory research and safety rules are followed, its use might be acceptable. However, if it harms people's health or the environment, the university should stop using it and find safer alternatives.\n\nUsed for:\nEnvironment, Education, Health, Opinion Questions\n\nStructure:\ncondition -> acceptable case -> harmful case -> recommendation\n\nRelated:\nsafety rules, laboratory research, safer alternatives\n\nEnvironmental responsibility\n\nResponse:\nTechnological development can come at a cost if environmental risks are ignored. Chemical waste can contaminate waterways, so governments, universities, companies, and ordinary people should all play a role in protecting the environment.\n\nUsed for:\nTechnology, Environment, Society, Opinion Questions\n\nStructure:\nwarning -> concrete consequence -> shared responsibility\n\nRelated:\ntechnological development, contaminated waterways, environmental responsibility\n\nFinding an outlet for pressure\n\nResponse:\nWhen people are under pressure from their studies or research, they need to find an outlet. Talking with friends, practising English, or following a workout routine can help them relax and improve their mood.\n\nUsed for:\nMental Health, Education, Lifestyle, Study\n\nStructure:\nproblem -> need -> examples -> benefit\n\nRelated:\npressure, anxiety, exercise, emotional outlet\n\n7. Learning Feedback\n\nStrengths\n\n- The learner could give a balanced answer instead of treating chemical use as simply good or bad.\n- New collocations were actively used in original sentences, especially “come at a cost”, “contaminate waterways”, and “play a role in”.\n- The learner could explain ideas at length and connect environmental issues with technology, health, and responsibility.\n\nAreas to Improve\n\n- Use articles carefully: “an outlet”, not “a outlet”.\n- Use natural prepositions: “harmful to”, “depend on”, and “pressure from studies”.\n- Avoid repeated fillers and long, unfinished sentence chains. State the main judgment first, then explain it.\n- Practise long words separately so the first syllables are not dropped, especially “technological” and “environmental”.\n\nFinal Active Output\n\nTechnological development can come at a cost if environmental risks are ignored. Chemical waste can contaminate waterways, so we should play a role in protecting the environment.\n\n8. Topic Links\n\n- Environment\n- Education\n- Health\n- Climate Change\n- Opinion Questions\n\n9. Skill Links\n\n- Explain Reasons\n- Express Personal Opinions\n- Use Collocations",
-      "question": "",
-      "final_position": ""
-    },
-    {
       "id": "case_20260716_herbicide_free_campus_article_practice",
       "type": "speaking_case",
       "title": "Herbicide-Free Campus Article Practice",
@@ -494,6 +872,46 @@
       "final_position": "### Counterargument Could a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative? ### Final Position Essential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.",
       "due_date": "2026-07-17",
       "prompt": "开始今日复习\nCase ID: case_20260716_herbicide_free_campus_article_practice\nCase: Herbicide-Free Campus Article Practice\nQuestion: Should universities use potentially harmful chemicals when they are useful for research?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
+    },
+    {
+      "id": "session_20260716_herbicide_free_campus_article_practice",
+      "type": "session",
+      "title": "Herbicide-Free Campus Article Practice",
+      "created": "2026-07-16",
+      "source_session": "session_20260716_herbicide_free_campus_article_practice",
+      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "topics": [
+        "Environment",
+        "Education",
+        "Health",
+        "Climate Change",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Explain Reasons",
+        "Express Personal Opinions",
+        "Use Collocations"
+      ],
+      "related": [
+        "pesticides",
+        "climate anxiety",
+        "environmental responsibility",
+        "campus safety",
+        "technological development"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-23",
+        "interval_days": "7"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Daily_Sessions/2026-07-16_herbicide_free_campus_article_practice.md",
+      "excerpt": "Session Topic Herbicide-Free Campus, environmental risks, and active IELTS speaking practice 1. Band 7.5-8.0 Model Answer Whether harmful chemicals should be used on a university campus depends on their purp...",
+      "body": "Session Topic\n\nHerbicide-Free Campus, environmental risks, and active IELTS speaking practice\n\n1. Band 7.5-8.0 Model Answer\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n2. New Vocabulary\n\nTechnical vs Technological\n\nMeaning:\nTechnical relates to practical skills, specialist details, or the operation of something. Technological relates to technology and broader technological development.\n\nPronunciation:\ntechnical /ˈtek.nɪ.kəl/; technological /ˌtek.nəˈlɒdʒ.ɪ.kəl/\n\nExample:\nWe had a technical problem during the experiment, but technological progress has improved the equipment.\n\nIELTS usage:\nUse technical for problems, skills, details, and support. Use technological for progress, development, change, and innovation.\n\nRelated words:\ntechnology, technique, innovation, equipment\n\n3. Grammar Upgrade\n\nIt depends on the purpose\n\nOriginal:\nIt depends if this kind of material is safe.\n\nBetter:\nIt depends on the purpose. If this kind of material is safe, it might be acceptable.\n\nExplanation:\n“Depend”通常和介词“on”搭配。把条件拆成两个句子后，逻辑更清楚，也更像自然的雅思口语表达。\n\nAn outlet\n\nOriginal:\nThey need to find a outlet.\n\nBetter:\nThey need to find an outlet.\n\nExplanation:\n“Outlet”以元音音素开头，因此冠词用“an”，不是“a”。\n\nHarmful to\n\nOriginal:\nIf it is harmful for all human beings, we should stop it.\n\nBetter:\nIf it is harmful to people or the environment, the university should stop using it.\n\nExplanation:\n固定搭配是“be harmful to someone or something”。同时，“stop using it”比“stop it”更明确。\n\nStop someone from doing something\n\nOriginal:\nI will stop them doing these kinds of things.\n\nBetter:\nI will ask the university to stop using the chemicals, or stop people from using them irresponsibly.\n\nExplanation:\n“停止做某事”用“stop doing something”；“阻止某人做某事”用“stop someone from doing something”。\n\n4. Pronunciation Notes\n\nTechnological\n\nPronunciation:\n/ˌtek.nəˈlɒdʒ.ɪ.kəl/\n\nCommon mistake:\nDropping the first syllables and saying “logical development” instead of “technological development”.\n\nPractice sentence:\nTechnological development can come at a cost if environmental risks are ignored.\n\n5. Personal Expression Bank\n\nLearn of something\n\nExpression:\nLearn of something means to become aware of something or hear that it exists.\n\nUsed for:\nEducation, News, Environment\n\nRelated:\ndiscover, find out, become aware\n\nRid a place of something\n\nExpression:\nRid a place of something means to remove something unwanted or harmful from that place.\n\nUsed for:\nEnvironment, Public Health, Campus Life\n\nRelated:\nremove, eliminate, clear\n\nFind an outlet\n\nExpression:\nFind an outlet means to find a healthy way to express or release pressure, emotion, or energy.\n\nUsed for:\nMental Health, Study, Work, Personal Development\n\nRelated:\nrelease pressure, cope with stress, emotional expression\n\nFit into the larger picture\n\nExpression:\nFit into the larger picture means to form part of a broader goal, plan, or situation.\n\nUsed for:\nOpinion Questions, Career, Society, Environment\n\nRelated:\nbroader goal, long-term plan, overall system\n\nCome at a cost\n\nExpression:\nCome at a cost means to bring a benefit while also causing a disadvantage, sacrifice, or risk.\n\nUsed for:\nTechnology, Environment, Economy, Society\n\nRelated:\ntrade-off, consequence, sacrifice\n\nContribute to\n\nExpression:\nContribute to means to help cause a result or play a part in creating it.\n\nUsed for:\nEnvironment, Health, Society, Education\n\nRelated:\nlead to, result in, play a part in\n\nContaminate waterways\n\nExpression:\nContaminate waterways means to pollute rivers, lakes, streams, or other water systems.\n\nUsed for:\nEnvironment, Public Health, Agriculture\n\nRelated:\nwater pollution, toxic waste, environmental damage\n\nHamper the ability to\n\nExpression:\nHamper the ability to means to make it more difficult for someone or something to perform an action.\n\nUsed for:\nEducation, Environment, Personal Development, Work\n\nRelated:\nhinder, obstruct, limit\n\nRecover from\n\nExpression:\nRecover from means to return to a normal or healthy state after damage, illness, failure, or a difficult event.\n\nUsed for:\nHealth, Environment, Failure, Natural Disasters\n\nRelated:\nheal, rebuild, bounce back\n\nPlay a role in doing something\n\nExpression:\nPlay a role in doing something means to contribute to or participate in producing a result.\n\nUsed for:\nSociety, Environment, Education, Teamwork\n\nRelated:\ncontribute to, participate in, be responsible for\n\nBe in the present moment\n\nExpression:\nBe in the present moment means to focus attention on what is happening now rather than worrying about the past or future.\n\nUsed for:\nMental Health, Lifestyle, Personal Development\n\nRelated:\nmindfulness, focus, awareness\n\n6. Mini Speaking Responses\n\nBalanced view on chemical use\n\nResponse:\nIt depends on the purpose. If a chemical is essential for laboratory research and safety rules are followed, its use might be acceptable. However, if it harms people's health or the environment, the university should stop using it and find safer alternatives.\n\nUsed for:\nEnvironment, Education, Health, Opinion Questions\n\nStructure:\ncondition -> acceptable case -> harmful case -> recommendation\n\nRelated:\nsafety rules, laboratory research, safer alternatives\n\nEnvironmental responsibility\n\nResponse:\nTechnological development can come at a cost if environmental risks are ignored. Chemical waste can contaminate waterways, so governments, universities, companies, and ordinary people should all play a role in protecting the environment.\n\nUsed for:\nTechnology, Environment, Society, Opinion Questions\n\nStructure:\nwarning -> concrete consequence -> shared responsibility\n\nRelated:\ntechnological development, contaminated waterways, environmental responsibility\n\nFinding an outlet for pressure\n\nResponse:\nWhen people are under pressure from their studies or research, they need to find an outlet. Talking with friends, practising English, or following a workout routine can help them relax and improve their mood.\n\nUsed for:\nMental Health, Education, Lifestyle, Study\n\nStructure:\nproblem -> need -> examples -> benefit\n\nRelated:\npressure, anxiety, exercise, emotional outlet\n\n7. Learning Feedback\n\nStrengths\n\n- The learner could give a balanced answer instead of treating chemical use as simply good or bad.\n- New collocations were actively used in original sentences, especially “come at a cost”, “contaminate waterways”, and “play a role in”.\n- The learner could explain ideas at length and connect environmental issues with technology, health, and responsibility.\n\nAreas to Improve\n\n- Use articles carefully: “an outlet”, not “a outlet”.\n- Use natural prepositions: “harmful to”, “depend on”, and “pressure from studies”.\n- Avoid repeated fillers and long, unfinished sentence chains. State the main judgment first, then explain it.\n- Practise long words separately so the first syllables are not dropped, especially “technological” and “environmental”.\n\nFinal Active Output\n\nTechnological development can come at a cost if environmental risks are ignored. Chemical waste can contaminate waterways, so we should play a role in protecting the environment.\n\n8. Topic Links\n\n- Environment\n- Education\n- Health\n- Climate Change\n- Opinion Questions\n\n9. Skill Links\n\n- Explain Reasons\n- Express Personal Opinions\n- Use Collocations",
+      "question": "",
+      "final_position": ""
     },
     {
       "id": "expr_20260716_herbicide_free_campus_article_practice_hamper_the_ability_to",
@@ -1945,42 +2363,6 @@
       "final_position": ""
     },
     {
-      "id": "session_20260712_ai_game_ideas",
-      "type": "session",
-      "title": "AI Game Ideas",
-      "created": "2026-07-12",
-      "source_session": "session_20260712_ai_game_ideas",
-      "source_case": "case_20260712_ai_game_ideas",
-      "topics": [
-        "Technology",
-        "Games",
-        "Environment"
-      ],
-      "skills": [
-        "Explain Reasons",
-        "Describe Systems",
-        "Express Personal Opinions"
-      ],
-      "related": [
-        "ecosystem",
-        "adaptation",
-        "survival"
-      ],
-      "review": {
-        "status": "new",
-        "next_due": "2026-07-19",
-        "interval_days": "7"
-      },
-      "source_url": "",
-      "source_title": "",
-      "source_excerpt": "",
-      "path": "Daily_Sessions/2026-07-12_ai_game_ideas.md",
-      "excerpt": "Session Topic AI Game Development 1. Band 7.5-8.0 Model Answer I would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creatur...",
-      "body": "Session Topic\n\nAI Game Development\n\n1. Band 7.5-8.0 Model Answer\n\nI would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creature needs to obtain resources in order to survive. Some of them may be herbivores that depend on plants, while others may develop different survival strategies over time.\n\nWhat interests me most is that the game would not simply have a fixed winner. Instead, the creatures that adapt best to the changing environment would be more likely to thrive. This makes the game feel more natural and meaningful, because it reflects how systems work in real life.\n\nI think this kind of game could also help players understand that everything has two sides. A creature that seems weak in one environment may become powerful in another. So the goal is not just to defeat others, but to understand relationships, resources, and long-term balance.\n\n2. New Vocabulary\n\nSpawn\n\nMeaning:\nGenerate something in a game world.\n\nPronunciation:\n/spɔːn/\n\nExample:\nPlayers can spawn different creatures in the ecosystem.\n\nIELTS usage:\nUseful for describing games, technology, simulations, and artificial systems.\n\nRelated words:\ngenerate, create, appear\n\nHerbivore\n\nMeaning:\nAn animal that eats plants.\n\nPronunciation:\n/ˈhɜːrbɪvɔːr/\n\nExample:\nThe first creature is a simple herbivore that survives by eating grass.\n\nIELTS usage:\nUseful for describing animals, ecosystems, biology, and the environment.\n\nRelated words:\necosystem, plant-eating animal, food chain\n\nAdapt\n\nMeaning:\nChange successfully according to a new situation.\n\nPronunciation:\n/əˈdæpt/\n\nExample:\nThe creatures that adapt best will survive.\n\nIELTS usage:\nUseful for education, technology, work, culture, and environmental questions.\n\nRelated words:\nadjust, evolve, respond\n\nThrive\n\nMeaning:\nGrow successfully and become strong.\n\nPronunciation:\n/θraɪv/\n\nExample:\nThe creatures that adapt best thrive in the ecosystem.\n\nIELTS usage:\nUseful for describing people, communities, businesses, and natural systems.\n\nRelated words:\nflourish, succeed, develop\n\n3. Grammar Upgrade\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。\n\n4. Pronunciation Notes\n\nCongested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour.\n\n5. Personal Expression Bank\n\nTwo-sided system view\n\nExpression:\nEverything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system.\n\nUsed for:\nCulture, Philosophy, Society, Opinion questions\n\nRelated:\nbalance, systems thinking, complexity\n\n6. Mini Speaking Responses\n\nSystem-thinking game answer\n\nResponse:\nI think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.\n\nUsed for:\nTechnology, Games, Environment, Opinion questions\n\nStructure:\nmain idea -> explanation -> contrast -> real-life connection\n\nRelated:\necosystem, balance, adaptation\n\n7. Personal Stories\n\nZhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth\n\n8. Topic Links\n\n- Technology\n- Games\n- Environment\n- Society\n\n9. Skill Links\n\n- Explain Reasons\n- Describe Systems\n- Express Personal Opinions",
-      "question": "",
-      "final_position": ""
-    },
-    {
       "id": "case_20260712_ai_game_ideas",
       "type": "speaking_case",
       "title": "AI Game Ideas",
@@ -2024,36 +2406,26 @@
       "prompt": "开始今日复习\nCase ID: case_20260712_ai_game_ideas\nCase: AI Game Ideas\nQuestion: What kind of game would you like to develop, and why would it be meaningful?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
     },
     {
-      "id": "session_20260712_ai_consciousness_and_evolution",
+      "id": "session_20260712_ai_game_ideas",
       "type": "session",
-      "title": "AI Consciousness and Evolution",
+      "title": "AI Game Ideas",
       "created": "2026-07-12",
-      "source_session": "session_20260712_ai_consciousness_and_evolution",
-      "source_case": "case_20260712_ai_consciousness_and_evolution",
+      "source_session": "session_20260712_ai_game_ideas",
+      "source_case": "case_20260712_ai_game_ideas",
       "topics": [
         "Technology",
-        "Artificial Intelligence",
-        "Game Development",
-        "Future Society",
-        "Philosophy",
-        "Opinion Questions",
-        "Culture"
+        "Games",
+        "Environment"
       ],
       "skills": [
-        "Describe Systems",
         "Explain Reasons",
+        "Describe Systems",
         "Express Personal Opinions"
       ],
       "related": [
-        "sandbox evolution",
-        "evolution",
+        "ecosystem",
         "adaptation",
-        "consciousness",
-        "artificial intelligence",
-        "future society",
-        "freedom",
-        "meaning of life",
-        "ethics"
+        "survival"
       ],
       "review": {
         "status": "new",
@@ -2063,9 +2435,9 @@
       "source_url": "",
       "source_title": "",
       "source_excerpt": "",
-      "path": "Daily_Sessions/2026-07-12_ai_consciousness_and_evolution.md",
-      "excerpt": "Session Topic AI, Consciousness and Sandbox Evolution 1. Session Summary This session connected sandbox evolution game design with personal philosophy, artificial intelligence, consciousness, freedom, and IE...",
-      "body": "Session Topic\n\nAI, Consciousness and Sandbox Evolution\n\n1. Session Summary\n\nThis session connected sandbox evolution game design with personal philosophy, artificial intelligence, consciousness, freedom, and IELTS Speaking improvement. The central idea was that a simulation can explore possibilities without forcing a fixed destination, just as people create meaning through their choices rather than discovering a predefined purpose.\n\n2. Band 7.5-8.0 Model Answer\n\nI'm developing a sandbox evolution game where simple life forms begin as bacteria and gradually evolve under different environmental conditions. Creatures compete for resources, adapt to harsh environments, and follow different evolutionary paths. Rather than completing fixed tasks, players mainly observe how life changes over time.\n\nThe project also reflects my personal philosophy. I don't think life necessarily has a predefined destination. Meaning is something we create through our choices, and although human beings cannot control everything, we can still take responsibility for ourselves. For this reason, I believe freedom is more valuable than absolute control.\n\nI currently see AI as a tool. However, if artificial intelligence ever developed genuine consciousness, I think it should be respected as another form of life and coexist peacefully with humans. In that case, rights should depend on consciousness and intrinsic value rather than biological identity alone. Both outcomes are plausible: AI may remain a powerful tool, or it may become another branch of evolution.\n\n3. New Vocabulary\n\nConsciousness\n\nMeaning:\nThe state of being aware of yourself and the world.\n\nPronunciation:\n/kawn-shuhs-nuhs/\n\nExample:\nWe still don't fully understand where consciousness comes from.\n\nIELTS usage:\nUseful for discussions about artificial intelligence, philosophy, psychology, ethics, and the future.\n\nRelated words:\nawareness, intelligence, mind\n\nCoexist peacefully\n\nMeaning:\nTo live together without conflict.\n\nPronunciation:\n/koh-ig-ZIST PEES-fuh-lee/\n\nExample:\nIf AI became conscious, it should coexist peacefully with humans.\n\nIELTS usage:\nUseful for discussing technology, international relations, culture, society, and environmental balance.\n\nRelated words:\ncooperation, harmony, mutual respect\n\nPlausible\n\nMeaning:\nReasonable or believable.\n\nPronunciation:\n/PLAW-zuh-buhl/\n\nExample:\nI think both possibilities are plausible.\n\nIELTS usage:\nUseful for balanced opinions, predictions, academic discussion, and evaluating explanations.\n\nRelated words:\nreasonable, believable, possible\n\nSandbox evolution\n\nMeaning:\nA simulation where life develops freely under simple rules.\n\nPronunciation:\n/SANDBOKS ev-uh-LOO-shuhn/\n\nExample:\nThe project is a sandbox evolution game rather than a task-based strategy game.\n\nIELTS usage:\nUseful for describing games, simulations, technology projects, and creative ideas.\n\nRelated words:\nsimulation, emergence, adaptation\n\nParameters\n\nMeaning:\nThe rules, limits, or conditions that shape a system or simulation.\n\nPronunciation:\n/puh-RAM-i-terz/\n\nExample:\nPlayers can adjust the environmental parameters and observe how life adapts.\n\nIELTS usage:\nUseful for describing experiments, technology, research methods, and systems.\n\nRelated words:\nconditions, variables, constraints\n\nHarsh environment\n\nMeaning:\nA difficult environment for survival.\n\nPronunciation:\n/harsh en-VY-ruhn-muhnt/\n\nExample:\nSome creatures may develop new abilities in a harsh environment.\n\nIELTS usage:\nUseful for environmental, biological, social, and survival-related topics.\n\nRelated words:\nextreme conditions, adversity, survival pressure\n\nIntrinsic value\n\nMeaning:\nValue that exists naturally, not because of usefulness.\n\nPronunciation:\n/in-TRIN-zik VAL-yoo/\n\nExample:\nA conscious form of life may have intrinsic value even if it was artificially created.\n\nIELTS usage:\nUseful for ethics, philosophy, animal rights, AI, culture, and environmental debates.\n\nRelated words:\ninherent worth, dignity, moral value\n\n4. Grammar Upgrades\n\nPresent simple for general facts\n\nOriginal:\nAI was just a tool.\n\nBetter:\nAI is just a tool.\n\nExplanation:\n描述当前的一般观点或普遍事实时使用一般现在时。若特指过去某个阶段，才使用 \"was\"。\n\nPresent perfect structure\n\nOriginal:\nThe God have gave us freedom.\n\nBetter:\nGod has given us freedom.\n\nExplanation:\n单数主语 \"God\" 搭配 \"has\"；现在完成时结构为 \"has/have + past participle\"，give 的过去分词是 \"given\"。\n\nNatural academic wording\n\nOriginal:\nBoth the conditions can be okay.\n\nBetter:\nBoth possibilities are plausible.\n\nExplanation:\n\"Both possibilities are plausible\" 更自然、准确，也更符合学术讨论和雅思口语中的平衡表达。\n\nNatural expression of uncertainty\n\nOriginal:\nWe don't clear where consciousness comes from.\n\nBetter:\nWe still don't fully understand where consciousness comes from.\n\nExplanation:\n英语中不能用 \"we don't clear\" 表示“不清楚”；用 \"do not fully understand\" 表达知识仍不完整更自然。\n\n5. Personal Expression Bank\n\nBalanced opinion framework\n\nExpression:\nAI has great potential, but its impact depends on how humans choose to use it.\n\nUsed for:\nArtificial Intelligence, Technology, Future Society, Opinion Questions\n\nRelated:\nbalanced opinion, human responsibility, technological impact\n\nMeaning through choice\n\nExpression:\nI believe meaning is something we create rather than something we discover.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Opinion Questions\n\nRelated:\npersonal choice, responsibility, freedom\n\n6. Mini Speaking Responses\n\nDescribe my sandbox evolution game\n\nResponse:\nI'm developing a sandbox evolution game where simple creatures evolve under different environmental conditions. The game begins with bacteria, and the creatures compete for resources, adapt to survival pressure, and gradually follow different evolutionary paths. Rather than completing fixed tasks, players observe how life changes over time.\n\nUsed for:\nGame Development, Technology, Creative Projects, Entrepreneurship\n\nStructure:\nproject introduction -> core mechanics -> contrast with conventional games -> purpose\n\nRelated:\nsandbox evolution, adaptation, emergence\n\nDiscuss AI consciousness\n\nResponse:\nAt the moment, I see AI as a tool created by humans. However, if it ever developed genuine consciousness, I think the ethical situation would change. A conscious AI should be respected as another form of life and should coexist peacefully with humans. In my view, rights should be connected with consciousness rather than biological identity alone.\n\nUsed for:\nArtificial Intelligence, Future Society, Ethics, Opinion Questions\n\nStructure:\ncurrent position -> hypothetical condition -> ethical consequence -> personal principle\n\nRelated:\nconsciousness, intrinsic value, AI rights\n\nExplain my philosophy of life\n\nResponse:\nI don't think life necessarily has a predefined destination. I believe meaning is something we create through our personal choices. Human beings cannot control everything, but we can control our own decisions and take responsibility for them. That is why I value freedom more than absolute control.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Personal Values\n\nStructure:\nbelief -> explanation -> limitation -> personal conclusion\n\nRelated:\nfreedom, personal choice, responsibility\n\n7. Personal Stories\n\nMy Sandbox Evolution Game\n\nStory:\nI am building a sandbox evolution simulation that begins with bacteria. Creatures compete for resources, and different environments lead to different evolutionary paths. The player observes the system instead of controlling every detail. The project reflects my belief that freedom creates possibilities and that life does not need a fixed destination to have meaning.\n\nUsed for:\nTechnology, Artificial Intelligence, Game Development, Philosophy, Entrepreneurship\n\nRelated:\nevolution, freedom, life, observation, systems thinking\n\n8. Knowledge Connections\n\nSandbox Evolution -> Evolution -> Adaptation -> Consciousness -> Artificial Intelligence -> Future Society\n\nFreedom -> Personal Choice -> Meaning of Life -> Responsibility -> Ethics\n\n9. Review Tasks\n\nReview Vocabulary\n\n- consciousness\n- plausible\n- coexist peacefully\n- intrinsic value\n- harsh environment\n- parameters\n- sandbox evolution\n\nReview Speaking\n\n- Describe your game.\n- Explain your philosophy.\n- Discuss AI consciousness.\n- Express a balanced opinion.",
+      "path": "Daily_Sessions/2026-07-12_ai_game_ideas.md",
+      "excerpt": "Session Topic AI Game Development 1. Band 7.5-8.0 Model Answer I would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creatur...",
+      "body": "Session Topic\n\nAI Game Development\n\n1. Band 7.5-8.0 Model Answer\n\nI would like to design a game based on a living ecosystem. In this game, different creatures can spawn in a shared environment, and each creature needs to obtain resources in order to survive. Some of them may be herbivores that depend on plants, while others may develop different survival strategies over time.\n\nWhat interests me most is that the game would not simply have a fixed winner. Instead, the creatures that adapt best to the changing environment would be more likely to thrive. This makes the game feel more natural and meaningful, because it reflects how systems work in real life.\n\nI think this kind of game could also help players understand that everything has two sides. A creature that seems weak in one environment may become powerful in another. So the goal is not just to defeat others, but to understand relationships, resources, and long-term balance.\n\n2. New Vocabulary\n\nSpawn\n\nMeaning:\nGenerate something in a game world.\n\nPronunciation:\n/spɔːn/\n\nExample:\nPlayers can spawn different creatures in the ecosystem.\n\nIELTS usage:\nUseful for describing games, technology, simulations, and artificial systems.\n\nRelated words:\ngenerate, create, appear\n\nHerbivore\n\nMeaning:\nAn animal that eats plants.\n\nPronunciation:\n/ˈhɜːrbɪvɔːr/\n\nExample:\nThe first creature is a simple herbivore that survives by eating grass.\n\nIELTS usage:\nUseful for describing animals, ecosystems, biology, and the environment.\n\nRelated words:\necosystem, plant-eating animal, food chain\n\nAdapt\n\nMeaning:\nChange successfully according to a new situation.\n\nPronunciation:\n/əˈdæpt/\n\nExample:\nThe creatures that adapt best will survive.\n\nIELTS usage:\nUseful for education, technology, work, culture, and environmental questions.\n\nRelated words:\nadjust, evolve, respond\n\nThrive\n\nMeaning:\nGrow successfully and become strong.\n\nPronunciation:\n/θraɪv/\n\nExample:\nThe creatures that adapt best thrive in the ecosystem.\n\nIELTS usage:\nUseful for describing people, communities, businesses, and natural systems.\n\nRelated words:\nflourish, succeed, develop\n\n3. Grammar Upgrade\n\nOriginal:\nThe winner can get the resource and survive.\n\nBetter:\nThe creatures that obtain enough resources are more likely to survive.\n\nExplanation:\n使用 relative clause 表达更清楚的逻辑关系；用 \"obtain enough resources\" 替代 \"get the resource\"，表达更准确；用 \"are more likely to\" 让语气更自然。\n\n4. Pronunciation Notes\n\nCongested\n\nPronunciation:\n/kənˈdʒestɪd/\n\nCommon mistake:\nwrong stress\n\nPractice sentence:\nThe roads are often congested during rush hour.\n\n5. Personal Expression Bank\n\nTwo-sided system view\n\nExpression:\nEverything has two sides, but they should not always be judged as simply good or bad. They are parts of a complete system.\n\nUsed for:\nCulture, Philosophy, Society, Opinion questions\n\nRelated:\nbalance, systems thinking, complexity\n\n6. Mini Speaking Responses\n\nSystem-thinking game answer\n\nResponse:\nI think a game based on an ecosystem would be more meaningful than a simple fighting game. In this kind of game, every creature has to survive by finding resources and adapting to the environment. Some creatures may look weak at first, but they could become successful if the conditions change. This makes the game more realistic, because real life is also shaped by balance, competition, and adaptation.\n\nUsed for:\nTechnology, Games, Environment, Opinion questions\n\nStructure:\nmain idea -> explanation -> contrast -> real-life connection\n\nRelated:\necosystem, balance, adaptation\n\n7. Personal Stories\n\nZhejiang travel experience\n\nStory:\nDuring my trip to Zhejiang, I realized that a single travel experience can be used to describe a person, a place, an unexpected event, and a personal change.\n\nUsed for:\nTravel, Places, People, Unexpected Experience\n\nRelated:\nflexible story bank, IELTS Part 2, personal growth\n\n8. Topic Links\n\n- Technology\n- Games\n- Environment\n- Society\n\n9. Skill Links\n\n- Explain Reasons\n- Describe Systems\n- Express Personal Opinions",
       "question": "",
       "final_position": ""
     },
@@ -2118,6 +2490,52 @@
       "final_position": "### Counterargument How could society distinguish genuine consciousness from convincing behaviour, and what practical rights would follow? ### Final Position If AI developed genuine consciousness, its moral status should depend on consciousness and intrinsic value rather than biological identity alone, while society would still need careful evidence and safe",
       "due_date": "2026-07-13",
       "prompt": "开始今日复习\nCase ID: case_20260712_ai_consciousness_and_evolution\nCase: AI Consciousness and Evolution\nQuestion: If artificial intelligence developed consciousness, should it have rights?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
+    },
+    {
+      "id": "session_20260712_ai_consciousness_and_evolution",
+      "type": "session",
+      "title": "AI Consciousness and Evolution",
+      "created": "2026-07-12",
+      "source_session": "session_20260712_ai_consciousness_and_evolution",
+      "source_case": "case_20260712_ai_consciousness_and_evolution",
+      "topics": [
+        "Technology",
+        "Artificial Intelligence",
+        "Game Development",
+        "Future Society",
+        "Philosophy",
+        "Opinion Questions",
+        "Culture"
+      ],
+      "skills": [
+        "Describe Systems",
+        "Explain Reasons",
+        "Express Personal Opinions"
+      ],
+      "related": [
+        "sandbox evolution",
+        "evolution",
+        "adaptation",
+        "consciousness",
+        "artificial intelligence",
+        "future society",
+        "freedom",
+        "meaning of life",
+        "ethics"
+      ],
+      "review": {
+        "status": "new",
+        "next_due": "2026-07-19",
+        "interval_days": "7"
+      },
+      "source_url": "",
+      "source_title": "",
+      "source_excerpt": "",
+      "path": "Daily_Sessions/2026-07-12_ai_consciousness_and_evolution.md",
+      "excerpt": "Session Topic AI, Consciousness and Sandbox Evolution 1. Session Summary This session connected sandbox evolution game design with personal philosophy, artificial intelligence, consciousness, freedom, and IE...",
+      "body": "Session Topic\n\nAI, Consciousness and Sandbox Evolution\n\n1. Session Summary\n\nThis session connected sandbox evolution game design with personal philosophy, artificial intelligence, consciousness, freedom, and IELTS Speaking improvement. The central idea was that a simulation can explore possibilities without forcing a fixed destination, just as people create meaning through their choices rather than discovering a predefined purpose.\n\n2. Band 7.5-8.0 Model Answer\n\nI'm developing a sandbox evolution game where simple life forms begin as bacteria and gradually evolve under different environmental conditions. Creatures compete for resources, adapt to harsh environments, and follow different evolutionary paths. Rather than completing fixed tasks, players mainly observe how life changes over time.\n\nThe project also reflects my personal philosophy. I don't think life necessarily has a predefined destination. Meaning is something we create through our choices, and although human beings cannot control everything, we can still take responsibility for ourselves. For this reason, I believe freedom is more valuable than absolute control.\n\nI currently see AI as a tool. However, if artificial intelligence ever developed genuine consciousness, I think it should be respected as another form of life and coexist peacefully with humans. In that case, rights should depend on consciousness and intrinsic value rather than biological identity alone. Both outcomes are plausible: AI may remain a powerful tool, or it may become another branch of evolution.\n\n3. New Vocabulary\n\nConsciousness\n\nMeaning:\nThe state of being aware of yourself and the world.\n\nPronunciation:\n/kawn-shuhs-nuhs/\n\nExample:\nWe still don't fully understand where consciousness comes from.\n\nIELTS usage:\nUseful for discussions about artificial intelligence, philosophy, psychology, ethics, and the future.\n\nRelated words:\nawareness, intelligence, mind\n\nCoexist peacefully\n\nMeaning:\nTo live together without conflict.\n\nPronunciation:\n/koh-ig-ZIST PEES-fuh-lee/\n\nExample:\nIf AI became conscious, it should coexist peacefully with humans.\n\nIELTS usage:\nUseful for discussing technology, international relations, culture, society, and environmental balance.\n\nRelated words:\ncooperation, harmony, mutual respect\n\nPlausible\n\nMeaning:\nReasonable or believable.\n\nPronunciation:\n/PLAW-zuh-buhl/\n\nExample:\nI think both possibilities are plausible.\n\nIELTS usage:\nUseful for balanced opinions, predictions, academic discussion, and evaluating explanations.\n\nRelated words:\nreasonable, believable, possible\n\nSandbox evolution\n\nMeaning:\nA simulation where life develops freely under simple rules.\n\nPronunciation:\n/SANDBOKS ev-uh-LOO-shuhn/\n\nExample:\nThe project is a sandbox evolution game rather than a task-based strategy game.\n\nIELTS usage:\nUseful for describing games, simulations, technology projects, and creative ideas.\n\nRelated words:\nsimulation, emergence, adaptation\n\nParameters\n\nMeaning:\nThe rules, limits, or conditions that shape a system or simulation.\n\nPronunciation:\n/puh-RAM-i-terz/\n\nExample:\nPlayers can adjust the environmental parameters and observe how life adapts.\n\nIELTS usage:\nUseful for describing experiments, technology, research methods, and systems.\n\nRelated words:\nconditions, variables, constraints\n\nHarsh environment\n\nMeaning:\nA difficult environment for survival.\n\nPronunciation:\n/harsh en-VY-ruhn-muhnt/\n\nExample:\nSome creatures may develop new abilities in a harsh environment.\n\nIELTS usage:\nUseful for environmental, biological, social, and survival-related topics.\n\nRelated words:\nextreme conditions, adversity, survival pressure\n\nIntrinsic value\n\nMeaning:\nValue that exists naturally, not because of usefulness.\n\nPronunciation:\n/in-TRIN-zik VAL-yoo/\n\nExample:\nA conscious form of life may have intrinsic value even if it was artificially created.\n\nIELTS usage:\nUseful for ethics, philosophy, animal rights, AI, culture, and environmental debates.\n\nRelated words:\ninherent worth, dignity, moral value\n\n4. Grammar Upgrades\n\nPresent simple for general facts\n\nOriginal:\nAI was just a tool.\n\nBetter:\nAI is just a tool.\n\nExplanation:\n描述当前的一般观点或普遍事实时使用一般现在时。若特指过去某个阶段，才使用 \"was\"。\n\nPresent perfect structure\n\nOriginal:\nThe God have gave us freedom.\n\nBetter:\nGod has given us freedom.\n\nExplanation:\n单数主语 \"God\" 搭配 \"has\"；现在完成时结构为 \"has/have + past participle\"，give 的过去分词是 \"given\"。\n\nNatural academic wording\n\nOriginal:\nBoth the conditions can be okay.\n\nBetter:\nBoth possibilities are plausible.\n\nExplanation:\n\"Both possibilities are plausible\" 更自然、准确，也更符合学术讨论和雅思口语中的平衡表达。\n\nNatural expression of uncertainty\n\nOriginal:\nWe don't clear where consciousness comes from.\n\nBetter:\nWe still don't fully understand where consciousness comes from.\n\nExplanation:\n英语中不能用 \"we don't clear\" 表示“不清楚”；用 \"do not fully understand\" 表达知识仍不完整更自然。\n\n5. Personal Expression Bank\n\nBalanced opinion framework\n\nExpression:\nAI has great potential, but its impact depends on how humans choose to use it.\n\nUsed for:\nArtificial Intelligence, Technology, Future Society, Opinion Questions\n\nRelated:\nbalanced opinion, human responsibility, technological impact\n\nMeaning through choice\n\nExpression:\nI believe meaning is something we create rather than something we discover.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Opinion Questions\n\nRelated:\npersonal choice, responsibility, freedom\n\n6. Mini Speaking Responses\n\nDescribe my sandbox evolution game\n\nResponse:\nI'm developing a sandbox evolution game where simple creatures evolve under different environmental conditions. The game begins with bacteria, and the creatures compete for resources, adapt to survival pressure, and gradually follow different evolutionary paths. Rather than completing fixed tasks, players observe how life changes over time.\n\nUsed for:\nGame Development, Technology, Creative Projects, Entrepreneurship\n\nStructure:\nproject introduction -> core mechanics -> contrast with conventional games -> purpose\n\nRelated:\nsandbox evolution, adaptation, emergence\n\nDiscuss AI consciousness\n\nResponse:\nAt the moment, I see AI as a tool created by humans. However, if it ever developed genuine consciousness, I think the ethical situation would change. A conscious AI should be respected as another form of life and should coexist peacefully with humans. In my view, rights should be connected with consciousness rather than biological identity alone.\n\nUsed for:\nArtificial Intelligence, Future Society, Ethics, Opinion Questions\n\nStructure:\ncurrent position -> hypothetical condition -> ethical consequence -> personal principle\n\nRelated:\nconsciousness, intrinsic value, AI rights\n\nExplain my philosophy of life\n\nResponse:\nI don't think life necessarily has a predefined destination. I believe meaning is something we create through our personal choices. Human beings cannot control everything, but we can control our own decisions and take responsibility for them. That is why I value freedom more than absolute control.\n\nUsed for:\nPhilosophy, Culture, Meaning of Life, Personal Values\n\nStructure:\nbelief -> explanation -> limitation -> personal conclusion\n\nRelated:\nfreedom, personal choice, responsibility\n\n7. Personal Stories\n\nMy Sandbox Evolution Game\n\nStory:\nI am building a sandbox evolution simulation that begins with bacteria. Creatures compete for resources, and different environments lead to different evolutionary paths. The player observes the system instead of controlling every detail. The project reflects my belief that freedom creates possibilities and that life does not need a fixed destination to have meaning.\n\nUsed for:\nTechnology, Artificial Intelligence, Game Development, Philosophy, Entrepreneurship\n\nRelated:\nevolution, freedom, life, observation, systems thinking\n\n8. Knowledge Connections\n\nSandbox Evolution -> Evolution -> Adaptation -> Consciousness -> Artificial Intelligence -> Future Society\n\nFreedom -> Personal Choice -> Meaning of Life -> Responsibility -> Ethics\n\n9. Review Tasks\n\nReview Vocabulary\n\n- consciousness\n- plausible\n- coexist peacefully\n- intrinsic value\n- harsh environment\n- parameters\n- sandbox evolution\n\nReview Speaking\n\n- Describe your game.\n- Explain your philosophy.\n- Discuss AI consciousness.\n- Express a balanced opinion.",
+      "question": "",
+      "final_position": ""
     }
   ],
   "due": [
@@ -2261,7 +2679,53 @@
       "prompt": "开始今日复习\nCase ID: case_20260716_herbicide_free_campus_article_practice\nCase: Herbicide-Free Campus Article Practice\nQuestion: Should universities use potentially harmful chemicals when they are useful for research?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
     }
   ],
-  "upcoming": [],
+  "upcoming": [
+    {
+      "id": "case_20260727_computer_repair_customer_service",
+      "type": "speaking_case",
+      "title": "Computer Repair Delay and Customer Service",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
+      "topics": [
+        "Customer Service",
+        "Workplace",
+        "Technology",
+        "Opinion Questions"
+      ],
+      "skills": [
+        "Express Personal Opinions",
+        "Explain Reasons",
+        "Separate Fact From Opinion"
+      ],
+      "related": [
+        "urgent problem",
+        "responsibility",
+        "data backup",
+        "service delay",
+        "reasonable anger"
+      ],
+      "review": {
+        "status": "active",
+        "stage": "0",
+        "next_due": "2026-07-28",
+        "interval_days": "1",
+        "completed_dates": [],
+        "last_feedback": "",
+        "next_focus": ""
+      },
+      "source_url": "uploaded-image-in-conversation",
+      "source_title": "Computer repair service dialogue",
+      "source_excerpt": "The data hadn't been backed up.",
+      "path": "Speaking_Cases/2026-07-27_computer_repair_delay_and_customer_service.md",
+      "excerpt": "Speaking Case Source Material Source Fact A woman contacted a computer repair service because her computer problem was urgent and was getting worse. A technician was put in charge of the situation. The compu...",
+      "body": "Speaking Case\n\nSource Material\n\nSource Fact\n\nA woman contacted a computer repair service because her computer problem was urgent and was getting worse. A technician was put in charge of the situation. The computer data had not been backed up, so there was a risk of losing it. The source does not establish whether the delay was personally caused by the technician or whether the company had a broader service failure.\n\nMy Summary\n\nA woman wanted a technician to repair her computer. She was dissatisfied because the service had not responded quickly, the computer problem was serious, and the data had not been backed up. The technician had been put in charge of the case, although the source did not prove that the entire delay was his personal fault.\n\nIELTS Speaking Question\n\nDo you think the woman's anger was reasonable? Why or why not?\n\nMy Initial Position\n\nBoth sides were understandable. The woman had a real reason to worry because her computer was not working properly. At the same time, the technician was following the company's instructions, so the whole problem might not have been his personal responsibility.\n\nChallenge And Reasoning\n\nCounterargument\n\nThe claim that the problem had nothing to do with the technician was too strong. The source says that he had been put in charge, so he did have some professional responsibility. However, the source did not prove that he personally caused the delay.\n\nFinal Position\n\nThe woman's anger was probably reasonable because she was dealing with an urgent problem, the technician had been put in charge, and the data had not been backed up. However, it is uncertain whether her anger should have been directed entirely at that individual technician rather than at the company or its service process.\n\nSpeaking Answers\n\n30 Seconds\n\nThe woman was probably right to be upset. She was dealing with an urgent problem, and the technician had been put in charge of the situation. In addition, the computer data had not been backed up, so there was a real risk of losing important information. However, we cannot be certain that the delay was entirely the technician's fault.\n\n60 Seconds\n\nNot completed in this session.\n\n2 Minutes\n\nNot completed in this session.\n\nNew Vocabulary\n\nBe dealing with an urgent problem\n\nMeaning:\nTo be facing a problem that requires immediate attention.\n\nPronunciation:\nurgent /ˈɜː.dʒənt/\n\nExample:\nShe was dealing with an urgent problem, so a slow response made her more anxious.\n\nIELTS usage:\nUseful for customer service, work, emergencies, and problem-solving questions.\n\nRelated words:\npressing issue, immediate attention, emergency\n\nBe put in charge\n\nMeaning:\nTo be given responsibility for a person, task, or situation.\n\nPronunciation:\ncharge /tʃɑːdʒ/\n\nExample:\nThe technician had been put in charge of the situation.\n\nIELTS usage:\nUseful for work, leadership, responsibility, and service questions.\n\nRelated words:\nbe responsible for, manage, handle\n\nData had not been backed up\n\nMeaning:\nA copy of the data had not been saved somewhere safe.\n\nPronunciation:\nbackup /ˈbæk.ʌp/\n\nExample:\nThe data had not been backed up, so the customer was worried about losing it.\n\nIELTS usage:\nUseful for technology, work, risk, and digital security questions.\n\nRelated words:\nsave a copy, data loss, storage\n\nRespond quickly\n\nMeaning:\nTo react or reply without unnecessary delay.\n\nPronunciation:\nrespond /rɪˈspɒnd/\n\nExample:\nCustomers expect service companies to respond quickly when a problem is urgent.\n\nIELTS usage:\nUseful for customer service, communication, public services, and business questions.\n\nRelated words:\nprompt response, react, reply\n\nCustomer service\n\nMeaning:\nThe help and support a company provides before, during, or after a purchase or service.\n\nPronunciation:\ncustomer /ˈkʌs.tə.mər/\n\nExample:\nGood customer service requires companies to respond quickly and solve problems clearly.\n\nIELTS usage:\nUseful for business, shopping, services, and workplace topics.\n\nRelated words:\nclient support, service quality, complaint handling\n\nGrammar Upgrade\n\nExpressing responsibility clearly\n\nOriginal:\nHe was told in charge.\n\nBetter:\nHe was put in charge of the situation.\n\nExplanation:\n中文说明：“be put in charge of”表示“被安排负责某事”。“be told in charge”不是自然搭配。\n\nPersonal Expression Bank\n\nA balanced judgment about responsibility\n\nExpression:\nHer anger was probably reasonable, but we cannot be certain that the delay was entirely the technician's fault.\n\nUsed for:\nCustomer Service, Workplace, Opinion Questions\n\nRelated:\nresponsibility, uncertainty, balanced judgment\n\nMini Speaking Responses\n\nReasonable customer anger\n\nResponse:\nThe woman was probably right to be upset because she was dealing with an urgent problem. The technician had been put in charge, and the data had not been backed up. However, the source does not prove that the delay was entirely his personal fault.\n\nUsed for:\nCustomer Service, Workplace, Technology, Opinion Questions\n\nStructure:\nposition -> source-based reasons -> uncertainty\n\nRelated:\nurgent problem, responsibility, data backup\n\nPersonal Stories\n\nConnected Experience\n\nStory:\nNo personal experience was added in this case.\n\nUsed for:\nCustomer Service, Workplace\n\nRelated:\nservice complaints, technical problems",
+      "question": "Do you think the woman's anger was reasonable? Why or why not?",
+      "final_position": "### Counterargument The claim that the problem had nothing to do with the technician was too strong. The source says that he had been put in charge, so he did have some professional responsibility. However, the source did not prove that he personally caused the delay. ### Final Position The woman's anger was probably reasonable because she was dealing with a",
+      "due_date": "2026-07-28",
+      "prompt": "开始今日复习\nCase ID: case_20260727_computer_repair_customer_service\nCase: Computer Repair Delay and Customer Service\nQuestion: Do you think the woman's anger was reasonable? Why or why not?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
+    }
+  ],
   "speak_tasks": [
     {
       "id": "case_20260712_ai_game_ideas",
@@ -2307,50 +2771,49 @@
       "prompt": "开始今日复习\nCase ID: case_20260712_ai_game_ideas\nCase: AI Game Ideas\nQuestion: What kind of game would you like to develop, and why would it be meaningful?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
     },
     {
-      "id": "case_20260716_herbicide_free_campus_article_practice",
+      "id": "case_20260727_computer_repair_customer_service",
       "type": "speaking_case",
-      "title": "Herbicide-Free Campus Article Practice",
-      "created": "2026-07-16",
-      "source_session": "session_20260716_herbicide_free_campus_article_practice",
-      "source_case": "case_20260716_herbicide_free_campus_article_practice",
+      "title": "Computer Repair Delay and Customer Service",
+      "created": "2026-07-27",
+      "source_session": "session_20260727_computer_repair_delay_and_customer_service",
+      "source_case": "case_20260727_computer_repair_customer_service",
       "topics": [
-        "Environment",
-        "Education",
-        "Health",
-        "Climate Change",
+        "Customer Service",
+        "Workplace",
+        "Technology",
         "Opinion Questions"
       ],
       "skills": [
-        "Explain Reasons",
         "Express Personal Opinions",
-        "Use Collocations"
+        "Explain Reasons",
+        "Separate Fact From Opinion"
       ],
       "related": [
-        "pesticides",
-        "climate anxiety",
-        "environmental responsibility",
-        "campus safety",
-        "technological development"
+        "urgent problem",
+        "responsibility",
+        "data backup",
+        "service delay",
+        "reasonable anger"
       ],
       "review": {
         "status": "active",
         "stage": "0",
-        "next_due": "2026-07-17",
+        "next_due": "2026-07-28",
         "interval_days": "1",
         "completed_dates": [],
         "last_feedback": "",
         "next_focus": ""
       },
-      "source_url": {},
-      "source_title": {},
-      "source_excerpt": {},
-      "path": "Speaking_Cases/2026-07-16_herbicide_free_campus_article_practice.md",
-      "excerpt": "Speaking Case Source Material Source Fact This is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position. My Summary...",
-      "body": "Speaking Case\n\nSource Material\n\nSource Fact\n\nThis is a migrated article-practice session. The original article link was not stored, so this case records only the user's summary and speaking position.\n\nMy Summary\n\nRecovered from a previous IELTS speaking session.\n\nIELTS Speaking Question\n\nShould universities use potentially harmful chemicals when they are useful for research?\n\nMy Initial Position\n\nI think it depends on the purpose and the level of risk.\n\nChallenge And Reasoning\n\nCounterargument\n\nCould a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative?\n\nFinal Position\n\nEssential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.\n\nSpeaking Answers\n\n30 Seconds\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n60 Seconds\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\n2 Minutes\n\nWhether harmful chemicals should be used on a university campus depends on their purpose and how strictly they are controlled. If a chemical is essential for laboratory research and safety rules are followed, its use may be acceptable. However, if it harms people's health or contaminates waterways, the university should stop using it and look for safer alternatives. Technological development can come at a cost when environmental risks are ignored, so universities, students, and researchers should all play a role in protecting the environment.\n\nLinked Legacy Session\n\nThe original session remains in Daily_Sessions and all existing knowledge nodes are preserved.",
-      "question": "Should universities use potentially harmful chemicals when they are useful for research?",
-      "final_position": "### Counterargument Could a strict safety rule make a harmful chemical acceptable, or should universities always choose the least harmful alternative? ### Final Position Essential research may justify controlled chemical use, but universities should stop using chemicals that harm people or contaminate waterways and should actively seek safer alternatives.",
-      "due_date": "2026-07-17",
-      "prompt": "开始今日复习\nCase ID: case_20260716_herbicide_free_campus_article_practice\nCase: Herbicide-Free Campus Article Practice\nQuestion: Should universities use potentially harmful chemicals when they are useful for research?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
+      "source_url": "uploaded-image-in-conversation",
+      "source_title": "Computer repair service dialogue",
+      "source_excerpt": "The data hadn't been backed up.",
+      "path": "Speaking_Cases/2026-07-27_computer_repair_delay_and_customer_service.md",
+      "excerpt": "Speaking Case Source Material Source Fact A woman contacted a computer repair service because her computer problem was urgent and was getting worse. A technician was put in charge of the situation. The compu...",
+      "body": "Speaking Case\n\nSource Material\n\nSource Fact\n\nA woman contacted a computer repair service because her computer problem was urgent and was getting worse. A technician was put in charge of the situation. The computer data had not been backed up, so there was a risk of losing it. The source does not establish whether the delay was personally caused by the technician or whether the company had a broader service failure.\n\nMy Summary\n\nA woman wanted a technician to repair her computer. She was dissatisfied because the service had not responded quickly, the computer problem was serious, and the data had not been backed up. The technician had been put in charge of the case, although the source did not prove that the entire delay was his personal fault.\n\nIELTS Speaking Question\n\nDo you think the woman's anger was reasonable? Why or why not?\n\nMy Initial Position\n\nBoth sides were understandable. The woman had a real reason to worry because her computer was not working properly. At the same time, the technician was following the company's instructions, so the whole problem might not have been his personal responsibility.\n\nChallenge And Reasoning\n\nCounterargument\n\nThe claim that the problem had nothing to do with the technician was too strong. The source says that he had been put in charge, so he did have some professional responsibility. However, the source did not prove that he personally caused the delay.\n\nFinal Position\n\nThe woman's anger was probably reasonable because she was dealing with an urgent problem, the technician had been put in charge, and the data had not been backed up. However, it is uncertain whether her anger should have been directed entirely at that individual technician rather than at the company or its service process.\n\nSpeaking Answers\n\n30 Seconds\n\nThe woman was probably right to be upset. She was dealing with an urgent problem, and the technician had been put in charge of the situation. In addition, the computer data had not been backed up, so there was a real risk of losing important information. However, we cannot be certain that the delay was entirely the technician's fault.\n\n60 Seconds\n\nNot completed in this session.\n\n2 Minutes\n\nNot completed in this session.\n\nNew Vocabulary\n\nBe dealing with an urgent problem\n\nMeaning:\nTo be facing a problem that requires immediate attention.\n\nPronunciation:\nurgent /ˈɜː.dʒənt/\n\nExample:\nShe was dealing with an urgent problem, so a slow response made her more anxious.\n\nIELTS usage:\nUseful for customer service, work, emergencies, and problem-solving questions.\n\nRelated words:\npressing issue, immediate attention, emergency\n\nBe put in charge\n\nMeaning:\nTo be given responsibility for a person, task, or situation.\n\nPronunciation:\ncharge /tʃɑːdʒ/\n\nExample:\nThe technician had been put in charge of the situation.\n\nIELTS usage:\nUseful for work, leadership, responsibility, and service questions.\n\nRelated words:\nbe responsible for, manage, handle\n\nData had not been backed up\n\nMeaning:\nA copy of the data had not been saved somewhere safe.\n\nPronunciation:\nbackup /ˈbæk.ʌp/\n\nExample:\nThe data had not been backed up, so the customer was worried about losing it.\n\nIELTS usage:\nUseful for technology, work, risk, and digital security questions.\n\nRelated words:\nsave a copy, data loss, storage\n\nRespond quickly\n\nMeaning:\nTo react or reply without unnecessary delay.\n\nPronunciation:\nrespond /rɪˈspɒnd/\n\nExample:\nCustomers expect service companies to respond quickly when a problem is urgent.\n\nIELTS usage:\nUseful for customer service, communication, public services, and business questions.\n\nRelated words:\nprompt response, react, reply\n\nCustomer service\n\nMeaning:\nThe help and support a company provides before, during, or after a purchase or service.\n\nPronunciation:\ncustomer /ˈkʌs.tə.mər/\n\nExample:\nGood customer service requires companies to respond quickly and solve problems clearly.\n\nIELTS usage:\nUseful for business, shopping, services, and workplace topics.\n\nRelated words:\nclient support, service quality, complaint handling\n\nGrammar Upgrade\n\nExpressing responsibility clearly\n\nOriginal:\nHe was told in charge.\n\nBetter:\nHe was put in charge of the situation.\n\nExplanation:\n中文说明：“be put in charge of”表示“被安排负责某事”。“be told in charge”不是自然搭配。\n\nPersonal Expression Bank\n\nA balanced judgment about responsibility\n\nExpression:\nHer anger was probably reasonable, but we cannot be certain that the delay was entirely the technician's fault.\n\nUsed for:\nCustomer Service, Workplace, Opinion Questions\n\nRelated:\nresponsibility, uncertainty, balanced judgment\n\nMini Speaking Responses\n\nReasonable customer anger\n\nResponse:\nThe woman was probably right to be upset because she was dealing with an urgent problem. The technician had been put in charge, and the data had not been backed up. However, the source does not prove that the delay was entirely his personal fault.\n\nUsed for:\nCustomer Service, Workplace, Technology, Opinion Questions\n\nStructure:\nposition -> source-based reasons -> uncertainty\n\nRelated:\nurgent problem, responsibility, data backup\n\nPersonal Stories\n\nConnected Experience\n\nStory:\nNo personal experience was added in this case.\n\nUsed for:\nCustomer Service, Workplace\n\nRelated:\nservice complaints, technical problems",
+      "question": "Do you think the woman's anger was reasonable? Why or why not?",
+      "final_position": "### Counterargument The claim that the problem had nothing to do with the technician was too strong. The source says that he had been put in charge, so he did have some professional responsibility. However, the source did not prove that he personally caused the delay. ### Final Position The woman's anger was probably reasonable because she was dealing with a",
+      "due_date": "2026-07-28",
+      "prompt": "开始今日复习\nCase ID: case_20260727_computer_repair_customer_service\nCase: Computer Repair Delay and Customer Service\nQuestion: Do you think the woman's anger was reasonable? Why or why not?\nPlease act as my objective IELTS Speaking coach. Ask me to answer for 60 seconds before showing any old answer or language notes.\nFocus for this attempt: Build a clear answer before using advanced language.\nAfter feedback, wait for me to say 完成复习 before writing a REVIEW_UPDATE."
     },
     {
       "id": "case_20260712_ai_consciousness_and_evolution",
@@ -2406,15 +2869,15 @@
   "topics": [
     {
       "name": "Opinion Questions",
-      "count": 42
+      "count": 53
+    },
+    {
+      "name": "Technology",
+      "count": 43
     },
     {
       "name": "Environment",
       "count": 33
-    },
-    {
-      "name": "Technology",
-      "count": 32
     },
     {
       "name": "Education",
@@ -2447,6 +2910,14 @@
     {
       "name": "Game Development",
       "count": 18
+    },
+    {
+      "name": "Customer Service",
+      "count": 11
+    },
+    {
+      "name": "Workplace",
+      "count": 11
     },
     {
       "name": "Games",
@@ -2555,12 +3026,12 @@
   ],
   "skills": [
     {
-      "name": "Explain Reasons",
-      "count": 52
+      "name": "Express Personal Opinions",
+      "count": 63
     },
     {
-      "name": "Express Personal Opinions",
-      "count": 52
+      "name": "Explain Reasons",
+      "count": 63
     },
     {
       "name": "Describe Systems",
@@ -2569,6 +3040,10 @@
     {
       "name": "Use Collocations",
       "count": 22
+    },
+    {
+      "name": "Separate Fact From Opinion",
+      "count": 11
     }
   ]
 }

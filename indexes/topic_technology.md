@@ -2,22 +2,27 @@
 
 - [AI Consciousness and Evolution](../Daily_Sessions/2026-07-12_ai_consciousness_and_evolution.md) - `session`
 - [AI Game Ideas](../Daily_Sessions/2026-07-12_ai_game_ideas.md) - `session`
+- [Computer Repair Delay and Customer Service](../Daily_Sessions/2026-07-27_computer_repair_delay_and_customer_service.md) - `session`
 - [Balanced opinion framework](../Expression_Bank/2026-07-12_ai_consciousness_and_evolution_balanced_opinion_framework.md) - `expression`
 - [Meaning through choice](../Expression_Bank/2026-07-12_ai_consciousness_and_evolution_meaning_through_choice.md) - `expression`
 - [Two-sided system view](../Expression_Bank/2026-07-12_ai_game_ideas_two_sided_system_view.md) - `expression`
 - [Come at a cost](../Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_come_at_a_cost.md) - `expression`
+- [A balanced judgment about responsibility](../Expression_Bank/2026-07-27_computer_repair_delay_and_customer_service_a_balanced_judgment_about_responsibility.md) - `expression`
 - [AI was just a tool.](../Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_1.md) - `grammar_error`
 - [The God have gave us freedom.](../Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_2.md) - `grammar_error`
 - [Both the conditions can be okay.](../Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_3.md) - `grammar_error`
 - [We don't clear where consciousness comes from.](../Mistake_Log/2026-07-12_ai_consciousness_and_evolution_grammar_4.md) - `grammar_error`
 - [The winner can get the resource and survive.](../Mistake_Log/2026-07-12_ai_game_ideas_grammar_1.md) - `grammar_error`
+- [He was told in charge.](../Mistake_Log/2026-07-27_computer_repair_delay_and_customer_service_grammar_1.md) - `grammar_error`
 - [My Sandbox Evolution Game](../Personal_Stories/2026-07-12_ai_consciousness_and_evolution_my_sandbox_evolution_game.md) - `personal_story`
 - [Zhejiang travel experience](../Personal_Stories/2026-07-12_ai_game_ideas_zhejiang_travel_experience.md) - `personal_story`
+- [Connected Experience](../Personal_Stories/2026-07-27_computer_repair_delay_and_customer_service_connected_experience.md) - `personal_story`
 - [Describe my sandbox evolution game](../Response_Bank/2026-07-12_ai_consciousness_and_evolution_describe_my_sandbox_evolution_game.md) - `mini_response`
 - [Discuss AI consciousness](../Response_Bank/2026-07-12_ai_consciousness_and_evolution_discuss_ai_consciousness.md) - `mini_response`
 - [Explain my philosophy of life](../Response_Bank/2026-07-12_ai_consciousness_and_evolution_explain_my_philosophy_of_life.md) - `mini_response`
 - [System-thinking game answer](../Response_Bank/2026-07-12_ai_game_ideas_system_thinking_game_answer.md) - `mini_response`
 - [Environmental responsibility](../Response_Bank/2026-07-16_herbicide_free_campus_article_practice_environmental_responsibility.md) - `mini_response`
+- [Reasonable customer anger](../Response_Bank/2026-07-27_computer_repair_delay_and_customer_service_reasonable_customer_anger.md) - `mini_response`
 - [Congested](../Skill_Tree/Pronunciation/2026-07-12_ai_game_ideas_congested.md) - `pronunciation`
 - [Coexist peacefully](../Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_coexist_peacefully.md) - `vocabulary`
 - [Consciousness](../Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_consciousness.md) - `vocabulary`
@@ -30,5 +35,11 @@
 - [Herbivore](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_herbivore.md) - `vocabulary`
 - [Spawn](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_spawn.md) - `vocabulary`
 - [Thrive](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_thrive.md) - `vocabulary`
+- [Be dealing with an urgent problem](../Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_be_dealing_with_an_urgent_problem.md) - `vocabulary`
+- [Be put in charge](../Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_be_put_in_charge.md) - `vocabulary`
+- [Customer service](../Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_customer_service.md) - `vocabulary`
+- [Data had not been backed up](../Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_data_had_not_been_backed_up.md) - `vocabulary`
+- [Respond quickly](../Skill_Tree/Vocabulary/2026-07-27_computer_repair_delay_and_customer_service_respond_quickly.md) - `vocabulary`
 - [AI Consciousness and Evolution](../Speaking_Cases/2026-07-12_ai_consciousness_and_evolution.md) - `speaking_case`
 - [AI Game Ideas](../Speaking_Cases/2026-07-12_ai_game_ideas.md) - `speaking_case`
+- [Computer Repair Delay and Customer Service](../Speaking_Cases/2026-07-27_computer_repair_delay_and_customer_service.md) - `speaking_case`

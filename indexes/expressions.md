@@ -14,3 +14,4 @@
 - [Play a role in doing something](../Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_play_a_role_in_doing_something.md) - `expression`
 - [Recover from](../Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_recover_from.md) - `expression`
 - [Rid a place of something](../Expression_Bank/2026-07-16_herbicide_free_campus_article_practice_rid_a_place_of_something.md) - `expression`
+- [A balanced judgment about responsibility](../Expression_Bank/2026-07-27_computer_repair_delay_and_customer_service_a_balanced_judgment_about_responsibility.md) - `expression`

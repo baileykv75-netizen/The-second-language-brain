@@ -68,7 +68,11 @@ def build(root: Path = ROOT, review_date: date | None = None) -> None:
     due_rows: list[str] = []
     upcoming_rows: list[str] = []
 
-    for path, meta in iter_nodes(root):
+    nodes = iter_nodes(root)
+    cases = [(path, meta) for path, meta in nodes if meta.get("type") == "speaking_case"]
+    review_nodes = cases or nodes
+
+    for path, meta in review_nodes:
         review = meta.get("review", {})
         if not isinstance(review, dict):
             continue
@@ -76,7 +80,9 @@ def build(root: Path = ROOT, review_date: date | None = None) -> None:
         if not raw_due:
             continue
         due_date = datetime.strptime(str(raw_due), "%Y-%m-%d").date()
-        row = f"- [{meta.get('title', path.stem)}](../../{rel(path, root)}) - `{meta.get('type')}` - due `{due_date.isoformat()}`"
+        focus = review.get("next_focus") if isinstance(review, dict) else ""
+        focus_text = f" - next focus: {focus}" if focus else ""
+        row = f"- [{meta.get('title', path.stem)}](../../{rel(path, root)}) - `{meta.get('type')}` - due `{due_date.isoformat()}`{focus_text}"
         if due_date <= review_date:
             due_rows.append(row)
         else:

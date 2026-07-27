@@ -107,9 +107,11 @@ def build(root: Path = ROOT, review_date: date | None = None) -> None:
     expression_count = sum(1 for _, meta in nodes if meta.get("type") == "expression")
     response_count = sum(1 for _, meta in nodes if meta.get("type") == "mini_response")
     story_count = sum(1 for _, meta in nodes if meta.get("type") == "personal_story")
+    case_count = sum(1 for _, meta in nodes if meta.get("type") == "speaking_case")
 
     today_review = rel(due_file) if due_file else "Review_System/due/"
     latest_sessions = collect_by_type(nodes, "session", 5)
+    latest_cases = collect_by_type(nodes, "speaking_case", 5)
     vocab_rows = collect_by_type(nodes, "vocabulary", 8)
     mistake_rows = collect_by_type(nodes, "grammar_error", 5)
     expression_rows = collect_by_type(nodes, "expression", 5)
@@ -121,7 +123,7 @@ def build(root: Path = ROOT, review_date: date | None = None) -> None:
     lines = [
         "# The Second Language Brain",
         "",
-        "A personal IELTS Speaking knowledge tree. Open this page like a learning app: review first, then browse topics, skills, vocabulary, mini responses, expressions, and sessions.",
+        "A speaking-first IELTS knowledge system. Start with a Speaking Case, form a defensible view, speak before reading notes, then use the linked language nodes as support.",
         "",
         "## Start Here",
         "",
@@ -130,11 +132,13 @@ def build(root: Path = ROOT, review_date: date | None = None) -> None:
         f"- Today's review: [{Path(today_review).stem if due_file else 'Review folder'}]({today_review})",
         "- Add a new structured session: [inbox/](inbox/)",
         "- Session template: [templates/session_template.md](templates/session_template.md)",
+        "- ChatGPT Project instructions: [prompts/chatgpt_project_instructions.md](prompts/chatgpt_project_instructions.md)",
         "- Full session history: [indexes/sessions.md](indexes/sessions.md)",
         "",
         "## Quick Stats",
         "",
         f"- Sessions: {session_count}",
+        f"- Speaking cases: {case_count}",
         f"- Vocabulary nodes: {vocab_count}",
         f"- Grammar mistakes: {mistake_count}",
         f"- Expressions: {expression_count}",
@@ -146,6 +150,7 @@ def build(root: Path = ROOT, review_date: date | None = None) -> None:
         "| Area | Open |",
         "| --- | --- |",
         f"| Review | {link(today_review, 'Due list')} |",
+        f"| Speak | {link('indexes/speaking_cases.md', 'Speaking cases')} |",
         f"| Topics | {link('IELTS_Topics/', 'Topic tree')} |",
         f"| Skills | {link('Skill_Tree/', 'Skill tree')} |",
         f"| Vocabulary | {link('indexes/vocabulary.md', 'Vocabulary index')} |",
@@ -157,6 +162,10 @@ def build(root: Path = ROOT, review_date: date | None = None) -> None:
         "## Latest Sessions",
         "",
         *(latest_sessions or ["- No sessions yet."]),
+        "",
+        "## Speaking Cases",
+        "",
+        *(latest_cases or ["- No speaking cases yet."]),
         "",
         "## Topic Tree",
         "",
@@ -188,11 +197,11 @@ def build(root: Path = ROOT, review_date: date | None = None) -> None:
         "",
         "## How To Update This Brain",
         "",
-        "For GPT/Codex web workflow, paste a structured IELTS session summary and ask Codex to update this repository:",
+        "For the normal GPT web workflow, use the Project instructions and save a completed speaking case to `inbox/`. GitHub Actions will run the pipeline automatically.",
         "",
         "```text",
-        "Use GitHub repo baileykv75-netizen/The-second-language-brain.",
-        "Please add this IELTS session to the knowledge tree, run the pipeline, commit, and push to main.",
+        "Read prompts/chatgpt_project_instructions.md, then create one SPEAKING_CASE_UPDATE in inbox/.",
+        "Do not rewrite existing case files directly.",
         "",
         "[paste structured session summary]",
         "```",

@@ -10,3 +10,4 @@
 - [Herbivore](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_herbivore.md) - `vocabulary`
 - [Spawn](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_spawn.md) - `vocabulary`
 - [Thrive](../Skill_Tree/Vocabulary/2026-07-12_ai_game_ideas_thrive.md) - `vocabulary`
+- [AI Game Ideas](../Speaking_Cases/2026-07-12_ai_game_ideas.md) - `speaking_case`

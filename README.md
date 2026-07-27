@@ -1,19 +1,21 @@
 # The Second Language Brain
 
-A personal IELTS Speaking knowledge tree. Open this page like a learning app: review first, then browse topics, skills, vocabulary, mini responses, expressions, and sessions.
+A speaking-first IELTS knowledge system. Start with a Speaking Case, form a defensible view, speak before reading notes, then use the linked language nodes as support.
 
 ## Start Here
 
 - Mobile app view: [GitHub Pages](https://baileykv75-netizen.github.io/The-second-language-brain/)
 - Project plan: [PROJECT_PLAN.md](PROJECT_PLAN.md)
-- Today's review: [2026-07-13](Review_System/due/2026-07-13.md)
+- Today's review: [2026-07-27](Review_System/due/2026-07-27.md)
 - Add a new structured session: [inbox/](inbox/)
 - Session template: [templates/session_template.md](templates/session_template.md)
+- ChatGPT Project instructions: [prompts/chatgpt_project_instructions.md](prompts/chatgpt_project_instructions.md)
 - Full session history: [indexes/sessions.md](indexes/sessions.md)
 
 ## Quick Stats
 
 - Sessions: 2
+- Speaking cases: 2
 - Vocabulary nodes: 11
 - Grammar mistakes: 5
 - Expressions: 3
@@ -24,7 +26,8 @@ A personal IELTS Speaking knowledge tree. Open this page like a learning app: re
 
 | Area | Open |
 | --- | --- |
-| Review | [Due list](Review_System/due/2026-07-13.md) |
+| Review | [Due list](Review_System/due/2026-07-27.md) |
+| Speak | [Speaking cases](indexes/speaking_cases.md) |
 | Topics | [Topic tree](IELTS_Topics/) |
 | Skills | [Skill tree](Skill_Tree/) |
 | Vocabulary | [Vocabulary index](indexes/vocabulary.md) |
@@ -37,6 +40,11 @@ A personal IELTS Speaking knowledge tree. Open this page like a learning app: re
 
 - [AI Consciousness and Evolution](Daily_Sessions/2026-07-12_ai_consciousness_and_evolution.md)
 - [AI Game Ideas](Daily_Sessions/2026-07-12_ai_game_ideas.md)
+
+## Speaking Cases
+
+- [AI Consciousness and Evolution](Speaking_Cases/2026-07-12_ai_consciousness_and_evolution.md)
+- [AI Game Ideas](Speaking_Cases/2026-07-12_ai_game_ideas.md)
 
 ## Topic Tree
 
@@ -98,11 +106,11 @@ A personal IELTS Speaking knowledge tree. Open this page like a learning app: re
 
 ## How To Update This Brain
 
-For GPT/Codex web workflow, paste a structured IELTS session summary and ask Codex to update this repository:
+For the normal GPT web workflow, use the Project instructions and save a completed speaking case to `inbox/`. GitHub Actions will run the pipeline automatically.
 
 ```text
-Use GitHub repo baileykv75-netizen/The-second-language-brain.
-Please add this IELTS session to the knowledge tree, run the pipeline, commit, and push to main.
+Read prompts/chatgpt_project_instructions.md, then create one SPEAKING_CASE_UPDATE in inbox/.
+Do not rewrite existing case files directly.
 
 [paste structured session summary]
 ```
@@ -123,4 +131,4 @@ Do not edit `docs/data.json` manually except for debugging. It is generated from
 - Chinese is used for grammar explanations, review notes, and learning guidance.
 - The scripts organize and link your material. They do not rewrite your personal ideas.
 
-_Dashboard last generated: 2026-07-13_
+_Dashboard last generated: 2026-07-27_

@@ -11,6 +11,7 @@ review:
   status: new
   next_due: 2026-07-13
   interval_days: 1
+source_case: case_20260712_ai_game_ideas
 ---
 
 # Two-sided system view

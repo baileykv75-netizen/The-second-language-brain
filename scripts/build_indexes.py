@@ -97,6 +97,7 @@ def build(root: Path = ROOT) -> None:
             by_skill[skill].append(link_row(path, meta, root))
 
     write_index(root / "indexes" / "sessions.md", "Sessions", by_type.get("session", []))
+    write_index(root / "indexes" / "speaking_cases.md", "Speaking Cases", by_type.get("speaking_case", []))
     write_index(root / "indexes" / "vocabulary.md", "Vocabulary Index", by_type.get("vocabulary", []))
     write_index(root / "indexes" / "mistakes.md", "Grammar Mistake Index", by_type.get("grammar_error", []))
     write_index(root / "indexes" / "expressions.md", "Expression Bank Index", by_type.get("expression", []))

@@ -11,6 +11,7 @@ review:
   status: new
   next_due: 2026-07-19
   interval_days: 7
+source_case: case_20260712_ai_game_ideas
 ---
 
 # Session Topic

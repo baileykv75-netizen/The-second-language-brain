@@ -18,3 +18,4 @@
 - [Parameters](../Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_parameters.md) - `vocabulary`
 - [Plausible](../Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_plausible.md) - `vocabulary`
 - [Sandbox evolution](../Skill_Tree/Vocabulary/2026-07-12_ai_consciousness_and_evolution_sandbox_evolution.md) - `vocabulary`
+- [AI Consciousness and Evolution](../Speaking_Cases/2026-07-12_ai_consciousness_and_evolution.md) - `speaking_case`

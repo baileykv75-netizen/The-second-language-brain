@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 NODE_DIRS = {
     "Daily_Sessions",
+    "Speaking_Cases",
     "Skill_Tree/Vocabulary",
     "Skill_Tree/Pronunciation",
     "Mistake_Log",
@@ -27,6 +28,7 @@ STAT_LABELS = {
     "Expressions": "expressions",
     "Mini responses": "responses",
     "Personal stories": "stories",
+    "Speaking cases": "speakingCases",
 }
 
 
@@ -98,6 +100,7 @@ def count_nodes(nodes: list[tuple[Path, dict]]) -> dict[str, int]:
         "expressions": sum(1 for _, meta in nodes if meta.get("type") == "expression"),
         "responses": sum(1 for _, meta in nodes if meta.get("type") == "mini_response"),
         "stories": sum(1 for _, meta in nodes if meta.get("type") == "personal_story"),
+        "speakingCases": sum(1 for _, meta in nodes if meta.get("type") == "speaking_case"),
     }
 
 
@@ -177,6 +180,7 @@ def validate(root: Path = ROOT) -> list[str]:
             errors.append(f"Duplicate node id: {node_id}")
 
     session_ids = {str(meta.get("id")) for _, meta in nodes if meta.get("type") == "session"}
+    case_ids = {str(meta.get("id")) for _, meta in nodes if meta.get("type") == "speaking_case"}
     for path, meta in nodes:
         source_session = str(meta.get("source_session", ""))
         if meta.get("type") == "session":
@@ -184,6 +188,9 @@ def validate(root: Path = ROOT) -> list[str]:
                 errors.append(f"{rel(path, root)} session source_session must equal id.")
         elif source_session not in session_ids:
             errors.append(f"{rel(path, root)} source_session does not point to a session: {source_session}")
+        source_case = str(meta.get("source_case", ""))
+        if source_case and source_case not in case_ids:
+            errors.append(f"{rel(path, root)} source_case does not point to a speaking case: {source_case}")
 
     validate_links(root, errors)
     counts = count_nodes(nodes)

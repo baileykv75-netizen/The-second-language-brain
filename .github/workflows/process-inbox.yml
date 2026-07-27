@@ -1,0 +1,63 @@
+name: Process English Brain Inbox
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "inbox/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: process-english-brain-inbox
+  cancel-in-progress: false
+
+jobs:
+  process:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Process changed inbox files
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            files=$(find inbox -maxdepth 1 -type f -name '*.md' ! -name 'README.md' | sort)
+          else
+            before="${{ github.event.before }}"
+            if [[ "$before" =~ ^0+$ ]]; then
+              files=$(git show --pretty='' --name-only "${{ github.sha }}" -- 'inbox/*.md' | grep -v '^inbox/README.md$' || true)
+            else
+              files=$(git diff --name-only "$before" "${{ github.sha }}" -- 'inbox/*.md' | grep -v '^inbox/README.md$' || true)
+            fi
+          fi
+          if [ -z "$files" ]; then
+            echo "No inbox update to process."
+            exit 0
+          fi
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            python scripts/run_pipeline.py "$file"
+          done <<< "$files"
+
+      - name: Commit generated knowledge tree
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Daily_Sessions Speaking_Cases Skill_Tree Mistake_Log Expression_Bank Response_Bank Personal_Stories Review_System indexes docs README.md
+          git commit -m "Process English brain inbox"
+          git push
